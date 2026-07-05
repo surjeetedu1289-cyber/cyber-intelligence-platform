@@ -1,0 +1,107 @@
+name: Daily Intelligence Update
+
+on:
+  schedule:
+    - cron: '0 19 * * *'
+    - cron: '0 20 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: daily-intelligence-update
+  cancel-in-progress: false
+
+jobs:
+  daily-update:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    env:
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      VITE_BASE_PATH: /${{ github.event.repository.name }}/
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Check Sydney 06:00 execution window
+        id: window
+        shell: bash
+        run: |
+          set -euo pipefail
+          SYDNEY_TIME="$(TZ=Australia/Sydney date +'%H:%M')"
+          echo "Current Sydney time: $SYDNEY_TIME"
+          if [[ "$SYDNEY_TIME" == "06:00" || "${{ github.event_name }}" == "workflow_dispatch" ]]; then
+            echo "should_run=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "should_run=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Set up Python
+        if: steps.window.outputs.should_run == 'true'
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Set up Node.js
+        if: steps.window.outputs.should_run == 'true'
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          cache-dependency-path: frontend/package-lock.json
+
+      - name: Install Python dependencies
+        if: steps.window.outputs.should_run == 'true'
+        run: pip install -r requirements.txt
+
+      - name: Install frontend dependencies
+        if: steps.window.outputs.should_run == 'true'
+        working-directory: ./frontend
+        run: npm ci
+
+      - name: Run ingestion and enrichment pipelines
+        if: steps.window.outputs.should_run == 'true'
+        run: |
+          python -m backend.intelligence.pipeline
+          python -m backend.pipeline.daily_pipeline
+          python -m backend.pipeline.export_static_dashboard
+
+      - name: Commit refreshed intelligence JSON
+        if: steps.window.outputs.should_run == 'true'
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/daily frontend/public/data
+          if git diff --cached --quiet; then
+            echo "No intelligence changes to commit"
+          else
+            git commit -m "chore: refresh daily intelligence data"
+            git push
+          fi
+
+      - name: Build frontend
+        if: steps.window.outputs.should_run == 'true'
+        working-directory: ./frontend
+        run: npm run build
+
+      - name: Configure GitHub Pages
+        if: steps.window.outputs.should_run == 'true'
+        uses: actions/configure-pages@v5
+
+      - name: Upload site artifact
+        if: steps.window.outputs.should_run == 'true'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: frontend/dist
+
+      - name: Deploy to GitHub Pages
+        if: steps.window.outputs.should_run == 'true'
+        id: deployment
+        uses: actions/deploy-pages@v4

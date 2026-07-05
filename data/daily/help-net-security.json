@@ -1,0 +1,102 @@
+[
+  {
+    "title": "Intezer helps SOC teams automate custom security tasks",
+    "author": "Unknown",
+    "published_at": "Fri, 03 Jul 2026 06:39:50 +0000",
+    "published_date": "Fri, 03 Jul 2026 06:39:50 +0000",
+    "url": "https://www.helpnetsecurity.com/2026/07/03/intezer-helps-soc-teams-automate-custom-security-tasks/",
+    "summary": "<p>Intezer has announced Custom Agents, a new capability that lets security teams build their own AI agents directly inside the Intezer platform. The launch builds on Intezer\u2019s core approach, that lets autonomous agents do the security work and humans supervise it. Security teams can no longer rely on manual alert handling or one-off automation to keep up with the volume and complexity of modern threats. Intezer\u2019s core platform already uses autonomous agents to triage, investigate, &#8230; <a href=\"https://www.helpnetsecurity.com/2026/07/03/intezer-helps-soc-teams-automate-custom-security-tasks/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/07/03/intezer-helps-soc-teams-automate-custom-security-tasks/\">Intezer helps SOC teams automate custom security tasks</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "category": "Threat",
+    "source": "Help Net Security"
+  },
+  {
+    "title": "Non-interactive SSH attacks dominate after login",
+    "author": "Unknown",
+    "published_at": "Fri, 03 Jul 2026 05:30:42 +0000",
+    "published_date": "Fri, 03 Jul 2026 05:30:42 +0000",
+    "url": "https://www.helpnetsecurity.com/2026/07/03/research-non-interactive-ssh-attacks/",
+    "summary": "<p>Anyone who runs a server with SSH exposed to the internet sees the same pattern in the logs. A steady stream of automated scanners tries to log in, hour after hour, from addresses all over the world. The common picture of what comes next has an attacker landing a shell, looking around the system, and typing commands. The reality recorded across eleven research honeypots looks almost nothing like that. Eleven SSH honeypots ran on cloud &#8230; <a href=\"https://www.helpnetsecurity.com/2026/07/03/research-non-interactive-ssh-attacks/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/07/03/research-non-interactive-ssh-attacks/\">Non-interactive SSH attacks dominate after login</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "category": "Threat",
+    "source": "Help Net Security"
+  },
+  {
+    "title": "Geopolitical cyber threats are turning HR into a security front line",
+    "author": "Unknown",
+    "published_at": "Fri, 03 Jul 2026 05:00:36 +0000",
+    "published_date": "Fri, 03 Jul 2026 05:00:36 +0000",
+    "url": "https://www.helpnetsecurity.com/2026/07/03/geopolitical-cyber-threats-video/",
+    "summary": "<p>In this Help Net Security video, Roman Sannikov, Global Research Coordinator at iCOUNTER, explains why geopolitics belongs in every security team&#8217;s threat model. With open and simmering conflicts around the world, attacks can come from actors that would never have targeted your company before. He walks through various cases. Many of these threats sit two or three steps beyond your usual list of adversaries. The lesson is to widen your scope. Watch traffic heading to &#8230; <a href=\"https://www.helpnetsecurity.com/2026/07/03/geopolitical-cyber-threats-video/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/07/03/geopolitical-cyber-threats-video/\">Geopolitical cyber threats are turning HR into a security front line</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "category": "Threat",
+    "source": "Help Net Security"
+  },
+  {
+    "title": "Organizations struggle to prioritize known cyber risks",
+    "author": "Unknown",
+    "published_at": "Fri, 03 Jul 2026 04:30:36 +0000",
+    "published_date": "Fri, 03 Jul 2026 04:30:36 +0000",
+    "url": "https://www.helpnetsecurity.com/2026/07/03/cyber-risk-exposure-report/",
+    "summary": "<p>Organizations collect more cyber risk data than ever, with many still struggling to build a unified view of their exposure. The latest State of Threat Management report from Filigran found that security teams continue to work across disconnected tools, leaving important context spread across multiple systems. Cloud infrastructure, on-premises environments, third-party services, vulnerability scanners, threat intelligence feeds, and attack surface management platforms all generate information about potential risk. 93% of organizations experience challenges maintaining an &#8230; <a href=\"https://www.helpnetsecurity.com/2026/07/03/cyber-risk-exposure-report/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/07/03/cyber-risk-exposure-report/\">Organizations struggle to prioritize known cyber risks</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "category": "Threat",
+    "source": "Help Net Security"
+  },
+  {
+    "title": "New infosec products of the week: July 3, 2026",
+    "author": "Unknown",
+    "published_at": "Fri, 03 Jul 2026 04:00:21 +0000",
+    "published_date": "Fri, 03 Jul 2026 04:00:21 +0000",
+    "url": "https://www.helpnetsecurity.com/2026/07/03/new-infosec-products-of-the-week-july-3-2026/",
+    "summary": "<p>Here\u2019s a look at the most interesting products from the past week, featuring releases from Digi International, iboss, Jamf, and Netzilo. Digi International\u2019s DANI automates network diagnostics and device management Digi International has announced the launch of DANI, the Digi Artificial Network Intelligence agent, a purpose-built AI network operations agent natively embedded in a networking device management platform, Digi Remote Manager (DRM). Embedded directly within DRM as a value-added service, DANI enables network operators and &#8230; <a href=\"https://www.helpnetsecurity.com/2026/07/03/new-infosec-products-of-the-week-july-3-2026/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/07/03/new-infosec-products-of-the-week-july-3-2026/\">New infosec products of the week: July 3, 2026</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "category": "Threat",
+    "source": "Help Net Security"
+  },
+  {
+    "title": "Scattered Spider suspect extradited over $8 million ransom scheme",
+    "author": "Unknown",
+    "published_at": "Thu, 02 Jul 2026 13:43:51 +0000",
+    "published_date": "Thu, 02 Jul 2026 13:43:51 +0000",
+    "url": "https://www.helpnetsecurity.com/2026/07/02/scattered-spider-criminal-group-suspect-extradited/",
+    "summary": "<p>A suspected Scattered Spider member has been extradited to the United States to face charges linked to cyberattacks against U.S. companies, including the breach of a luxury jewelry retailer that led to an $8 million cryptocurrency ransom demand after attackers stole company data. The retailer&#8217;s security team removed the attackers from its network before any ransom was paid. The company still incurred at least $2 million in losses from business disruption, incident response, and recovery &#8230; <a href=\"https://www.helpnetsecurity.com/2026/07/02/scattered-spider-criminal-group-suspect-extradited/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/07/02/scattered-spider-criminal-group-suspect-extradited/\">Scattered Spider suspect extradited over $8 million ransom scheme</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "category": "Threat",
+    "source": "Help Net Security"
+  },
+  {
+    "title": "New iboss platform gives organizations instant visibility into AI tools and usage",
+    "author": "Unknown",
+    "published_at": "Thu, 02 Jul 2026 12:52:57 +0000",
+    "published_date": "Thu, 02 Jul 2026 12:52:57 +0000",
+    "url": "https://www.helpnetsecurity.com/2026/07/02/iboss-ai-security-platform/",
+    "summary": "<p>iboss has launched the AI Security Platform, a new service that gives any organization visibility into the AI tools its people are using, free of charge. Signup is instant, deployment takes an afternoon, and a complete AI footprint appears within hours. Organizations that want to go beyond visibility can upgrade on the same platform to enforce AI policy, prevent data leaks, and govern AI agents. As AI adoption accelerates, security teams have struggled to keep &#8230; <a href=\"https://www.helpnetsecurity.com/2026/07/02/iboss-ai-security-platform/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/07/02/iboss-ai-security-platform/\">New iboss platform gives organizations instant visibility into AI tools and usage</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "category": "Threat",
+    "source": "Help Net Security"
+  },
+  {
+    "title": "Cloudflare changes AI crawler access rules",
+    "author": "Unknown",
+    "published_at": "Thu, 02 Jul 2026 12:21:19 +0000",
+    "published_date": "Thu, 02 Jul 2026 12:21:19 +0000",
+    "url": "https://www.helpnetsecurity.com/2026/07/02/cloudflare-ai-crawler-controls/",
+    "summary": "<p>Cloudflare introduced new controls that let website owners manage AI traffic across three categories: Search, Agent, and Training. The feature is available to all Cloudflare customers, including those on the Free plan, and gives website owners more control over how different types of AI crawlers access their content. &#8220;Content owners still want to be able to protect their content, and they should be compensated for the original content that they work hard to create, curate, &#8230; <a href=\"https://www.helpnetsecurity.com/2026/07/02/cloudflare-ai-crawler-controls/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/07/02/cloudflare-ai-crawler-controls/\">Cloudflare changes AI crawler access rules</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "category": "Threat",
+    "source": "Help Net Security"
+  },
+  {
+    "title": "Opera blocks ClickFix attacks with new clipboard protection feature",
+    "author": "Unknown",
+    "published_at": "Thu, 02 Jul 2026 08:00:01 +0000",
+    "published_date": "Thu, 02 Jul 2026 08:00:01 +0000",
+    "url": "https://www.helpnetsecurity.com/2026/07/02/opera-blocks-clickfix-attacks-with-new-clipboard-protection-feature/",
+    "summary": "<p>Opera has launched Paste Protect, a clipboard protection feature designed to prevent clipboard-based attacks such as hijacking and pastejacking. Paste Protect includes built-in protection and warnings against ClickFix-based cyberattacks, which accounted for more than half of malware-delivery attacks in 2025. The feature is built into Opera&#8217;s desktop browsers and is enabled by default, so users are protected automatically without any setup. A ClickFix-style attack usually starts with something small and ordinary: a video that won&#8217;t &#8230; <a href=\"https://www.helpnetsecurity.com/2026/07/02/opera-blocks-clickfix-attacks-with-new-clipboard-protection-feature/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/07/02/opera-blocks-clickfix-attacks-with-new-clipboard-protection-feature/\">Opera blocks ClickFix attacks with new clipboard protection feature</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "category": "Threat",
+    "source": "Help Net Security"
+  },
+  {
+    "title": "The endpoint recovery gap many teams discover during an incident",
+    "author": "Unknown",
+    "published_at": "Thu, 02 Jul 2026 06:00:32 +0000",
+    "published_date": "Thu, 02 Jul 2026 06:00:32 +0000",
+    "url": "https://www.helpnetsecurity.com/2026/07/02/matthias-haas-igel-endpoint-recovery-gap/",
+    "summary": "<p>In this interview with Help Net Security, IGEL CTO Matthias Haas explains why backups alone do not equal recovery. He makes the case that endpoint recovery is often overlooked, leaving organizations exposed when thousands of devices go down at once. Haas walks through what a well-planned recovery looks like, where the bottlenecks appear, and why restoring trusted user access matters more than counting blocked threats. He also shares how security leaders can convince a CFO &#8230; <a href=\"https://www.helpnetsecurity.com/2026/07/02/matthias-haas-igel-endpoint-recovery-gap/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/07/02/matthias-haas-igel-endpoint-recovery-gap/\">The endpoint recovery gap many teams discover during an incident</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "category": "Threat",
+    "source": "Help Net Security"
+  }
+]

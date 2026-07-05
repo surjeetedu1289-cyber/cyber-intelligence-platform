@@ -1,0 +1,11 @@
+{
+  "source_count": 8,
+  "attempted_sources": 8,
+  "successful_sources": 2,
+  "collected_items": 101,
+  "deduplicated_items": 101,
+  "inserted_records": 0,
+  "updated_records": 101,
+  "skipped_records": 0,
+  "generated_at": "2026-07-05T04:44:38.627669+00:00"
+}

@@ -1,0 +1,56 @@
+{
+  "generatedAt": "2026-07-05T04:59:16.924903+00:00",
+  "count": 1,
+  "items": [
+    {
+      "title": "CVE-2023-27351",
+      "summary": "PaperCut NG/MF contains an improper authentication vulnerability that could allow remote attackers to bypass authentication on affected installations via the SecurityRequestFilter class.",
+      "url": "https://www.cisa.gov",
+      "details_url": "https://www.cisa.gov",
+      "published": "2026-04-20",
+      "published_at": "2026-04-20",
+      "source": "CISA",
+      "vendor": "CISA",
+      "category": "Regulation",
+      "subcategory": "CISA",
+      "source_group": "Global Authorities",
+      "monitors": [
+        "Zero Trust guidance",
+        "Supply chain security",
+        "Cyber advisories"
+      ],
+      "official_url": "https://www.cisa.gov",
+      "severity": "medium",
+      "tags": [
+        "NIST CSF",
+        "MITRE ATT&CK"
+      ],
+      "executive_summary": "Regulation: PaperCut NG/MF contains an improper authentication vulnerability that could allow remote attackers to bypass authentication on affected installations via the SecurityRequestFilter class.",
+      "affected_industries": [
+        "General"
+      ],
+      "affected_iam_domains": [
+        "General"
+      ],
+      "control_mappings": [],
+      "recommended_actions": [
+        "Validate exposure and control coverage.",
+        "Prioritize remediation against business criticality.",
+        "Track completion and residual risk in governance forums."
+      ],
+      "board_impact": "Requires executive review for resilience, compliance, and operating risk impact.",
+      "ciso_action_items": [
+        "Assign owners and timelines for mitigations.",
+        "Validate detection and response readiness.",
+        "Brief executive stakeholders on residual risk."
+      ],
+      "rankings": {
+        "credibility": 0.99,
+        "executive_relevance": 0.85,
+        "business_impact": 0.5,
+        "regulatory_importance": 1.0,
+        "overall": 0.834
+      }
+    }
+  ]
+}

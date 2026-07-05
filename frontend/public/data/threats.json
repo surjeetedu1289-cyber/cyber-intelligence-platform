@@ -1,0 +1,306 @@
+{
+  "generatedAt": "2026-07-05T04:59:16.924903+00:00",
+  "count": 6,
+  "items": [
+    {
+      "title": "CVE-2023-36424",
+      "summary": "Microsoft Windows Common Log File System Driver contains an out-of-bounds read vulnerability that could allow a threat actor for privileges escalation",
+      "url": "https://www.cisa.gov",
+      "details_url": "https://www.cisa.gov",
+      "published": "2026-04-13",
+      "published_at": "2026-04-13",
+      "source": "CISA",
+      "vendor": "CISA",
+      "category": "Regulation",
+      "subcategory": "CISA",
+      "source_group": "Global Authorities",
+      "monitors": [
+        "Zero Trust guidance",
+        "Supply chain security",
+        "Cyber advisories"
+      ],
+      "official_url": "https://www.cisa.gov",
+      "severity": "medium",
+      "tags": [
+        "NIST CSF",
+        "MITRE ATT&CK"
+      ],
+      "executive_summary": "Regulation: Microsoft Windows Common Log File System Driver contains an out-of-bounds read vulnerability that could allow a threat actor for privileges escalation",
+      "affected_industries": [
+        "General"
+      ],
+      "affected_iam_domains": [
+        "General"
+      ],
+      "control_mappings": [],
+      "recommended_actions": [
+        "Validate exposure and control coverage.",
+        "Prioritize remediation against business criticality.",
+        "Track completion and residual risk in governance forums."
+      ],
+      "board_impact": "Requires executive review for resilience, compliance, and operating risk impact.",
+      "ciso_action_items": [
+        "Assign owners and timelines for mitigations.",
+        "Validate detection and response readiness.",
+        "Brief executive stakeholders on residual risk."
+      ],
+      "rankings": {
+        "credibility": 0.99,
+        "executive_relevance": 0.85,
+        "business_impact": 0.5,
+        "regulatory_importance": 1.0,
+        "overall": 0.834
+      }
+    },
+    {
+      "title": "CVE-2025-53521",
+      "summary": "F5 BIG-IP APM contains a stack-based buffer overflow vulnerability that could allow a threat actor to achieve remote code execution.",
+      "url": "https://www.cisa.gov",
+      "details_url": "https://www.cisa.gov",
+      "published": "2026-03-27",
+      "published_at": "2026-03-27",
+      "source": "CISA",
+      "vendor": "CISA",
+      "category": "Regulation",
+      "subcategory": "CISA",
+      "source_group": "Global Authorities",
+      "monitors": [
+        "Zero Trust guidance",
+        "Supply chain security",
+        "Cyber advisories"
+      ],
+      "official_url": "https://www.cisa.gov",
+      "severity": "medium",
+      "tags": [
+        "NIST CSF",
+        "MITRE ATT&CK"
+      ],
+      "executive_summary": "Regulation: F5 BIG-IP APM contains a stack-based buffer overflow vulnerability that could allow a threat actor to achieve remote code execution.",
+      "affected_industries": [
+        "General"
+      ],
+      "affected_iam_domains": [
+        "General"
+      ],
+      "control_mappings": [],
+      "recommended_actions": [
+        "Validate exposure and control coverage.",
+        "Prioritize remediation against business criticality.",
+        "Track completion and residual risk in governance forums."
+      ],
+      "board_impact": "Requires executive review for resilience, compliance, and operating risk impact.",
+      "ciso_action_items": [
+        "Assign owners and timelines for mitigations.",
+        "Validate detection and response readiness.",
+        "Brief executive stakeholders on residual risk."
+      ],
+      "rankings": {
+        "credibility": 0.99,
+        "executive_relevance": 0.85,
+        "business_impact": 0.5,
+        "regulatory_importance": 1.0,
+        "overall": 0.834
+      }
+    },
+    {
+      "title": "CVE-2026-10520",
+      "summary": "Ivanti Sentry (formerly known as MobileIron Sentry) contains an OS command injection vulnerability which could allow a remote unauthenticated user to achieve root-level remote code execution. This vulnerability can be successfully exploited in cases where the Sentry appliance is in an unmanaged state with its endpoints externally reachable. The use of mTLS with EPMM or restricted HTTPS access through Neurons for MDM makes interfaces inaccessible to external actors.",
+      "url": "https://www.cisa.gov",
+      "details_url": "https://www.cisa.gov",
+      "published": "2026-06-11",
+      "published_at": "2026-06-11",
+      "source": "CISA",
+      "vendor": "CISA",
+      "category": "Vulnerability",
+      "subcategory": "CISA",
+      "source_group": "Global Authorities",
+      "monitors": [
+        "Zero Trust guidance",
+        "Supply chain security",
+        "Cyber advisories"
+      ],
+      "official_url": "https://www.cisa.gov",
+      "severity": "medium",
+      "tags": [
+        "NIST CSF",
+        "MITRE ATT&CK"
+      ],
+      "executive_summary": "Vulnerability: Ivanti Sentry (formerly known as MobileIron Sentry) contains an OS command injection vulnerability which could allow a remote unauthenticated user to achieve root-level remote code execution. This vulnerability can be successfully exploited in cases where the Sentry appliance is ",
+      "affected_industries": [
+        "General"
+      ],
+      "affected_iam_domains": [
+        "General"
+      ],
+      "control_mappings": [],
+      "recommended_actions": [
+        "Validate exposure and control coverage.",
+        "Prioritize remediation against business criticality.",
+        "Track completion and residual risk in governance forums."
+      ],
+      "board_impact": "Requires executive review for resilience, compliance, and operating risk impact.",
+      "ciso_action_items": [
+        "Assign owners and timelines for mitigations.",
+        "Validate detection and response readiness.",
+        "Brief executive stakeholders on residual risk."
+      ],
+      "rankings": {
+        "credibility": 0.99,
+        "executive_relevance": 0.7,
+        "business_impact": 0.5,
+        "regulatory_importance": 0.55,
+        "overall": 0.729
+      }
+    },
+    {
+      "title": "CVE-2024-57728",
+      "summary": "SimpleHelp contains a path traversal vulnerability that allows admin users to upload arbitrary files anywhere on the file system by uploading a crafted zip file (i.e. zip slip). This can be exploited to execute arbitrary code on the host in the context of the SimpleHelp server user.",
+      "url": "https://www.cisa.gov",
+      "details_url": "https://www.cisa.gov",
+      "published": "2026-04-24",
+      "published_at": "2026-04-24",
+      "source": "CISA",
+      "vendor": "CISA",
+      "category": "Vulnerability",
+      "subcategory": "CISA",
+      "source_group": "Global Authorities",
+      "monitors": [
+        "Zero Trust guidance",
+        "Supply chain security",
+        "Cyber advisories"
+      ],
+      "official_url": "https://www.cisa.gov",
+      "severity": "medium",
+      "tags": [
+        "NIST CSF",
+        "MITRE ATT&CK"
+      ],
+      "executive_summary": "Vulnerability: SimpleHelp contains a path traversal vulnerability that allows admin users to upload arbitrary files anywhere on the file system by uploading a crafted zip file (i.e. zip slip). This can be exploited to execute arbitrary code on the host in the context of the SimpleHelp server us",
+      "affected_industries": [
+        "General"
+      ],
+      "affected_iam_domains": [
+        "General"
+      ],
+      "control_mappings": [],
+      "recommended_actions": [
+        "Validate exposure and control coverage.",
+        "Prioritize remediation against business criticality.",
+        "Track completion and residual risk in governance forums."
+      ],
+      "board_impact": "Requires executive review for resilience, compliance, and operating risk impact.",
+      "ciso_action_items": [
+        "Assign owners and timelines for mitigations.",
+        "Validate detection and response readiness.",
+        "Brief executive stakeholders on residual risk."
+      ],
+      "rankings": {
+        "credibility": 0.99,
+        "executive_relevance": 0.7,
+        "business_impact": 0.5,
+        "regulatory_importance": 0.55,
+        "overall": 0.729
+      }
+    },
+    {
+      "title": "CVE-2026-20122",
+      "summary": "Cisco Catalyst SD-WAN Manager contains an incorrect use of privileged APIs vulnerability due to improper file handling on the API interface of an affected system. An attacker could exploit this vulnerability by uploading a malicious file on the local file system. A successful exploit could allow the attacker to overwrite arbitrary files on the affected system and gain vmanage user privileges.",
+      "url": "https://www.cisa.gov",
+      "details_url": "https://www.cisa.gov",
+      "published": "2026-04-20",
+      "published_at": "2026-04-20",
+      "source": "CISA",
+      "vendor": "CISA",
+      "category": "Vulnerability",
+      "subcategory": "CISA",
+      "source_group": "Global Authorities",
+      "monitors": [
+        "Zero Trust guidance",
+        "Supply chain security",
+        "Cyber advisories"
+      ],
+      "official_url": "https://www.cisa.gov",
+      "severity": "medium",
+      "tags": [
+        "NIST CSF",
+        "MITRE ATT&CK"
+      ],
+      "executive_summary": "Vulnerability: Cisco Catalyst SD-WAN Manager contains an incorrect use of privileged APIs vulnerability due to improper file handling on the API interface of an affected system. An attacker could exploit this vulnerability by uploading a malicious file on the local file system. A successful exp",
+      "affected_industries": [
+        "General"
+      ],
+      "affected_iam_domains": [
+        "General"
+      ],
+      "control_mappings": [],
+      "recommended_actions": [
+        "Validate exposure and control coverage.",
+        "Prioritize remediation against business criticality.",
+        "Track completion and residual risk in governance forums."
+      ],
+      "board_impact": "Requires executive review for resilience, compliance, and operating risk impact.",
+      "ciso_action_items": [
+        "Assign owners and timelines for mitigations.",
+        "Validate detection and response readiness.",
+        "Brief executive stakeholders on residual risk."
+      ],
+      "rankings": {
+        "credibility": 0.99,
+        "executive_relevance": 0.7,
+        "business_impact": 0.5,
+        "regulatory_importance": 0.55,
+        "overall": 0.729
+      }
+    },
+    {
+      "title": "CVE-2021-22681",
+      "summary": "Multiple Rockwell products contain an insufficient protected credentials vulnerability. Studio 5000 Logix Designer software may allow a key to be discovered. This key is used to verify Logix controllers are communicating with Rockwell Automation design software. If successfully exploited, this vulnerability could allow an unauthorized application to connect with Logix controllers. To leverage this vulnerability, an unauthorized user would require network access to the controller.",
+      "url": "https://www.cisa.gov",
+      "details_url": "https://www.cisa.gov",
+      "published": "2026-03-05",
+      "published_at": "2026-03-05",
+      "source": "CISA",
+      "vendor": "CISA",
+      "category": "Vulnerability",
+      "subcategory": "CISA",
+      "source_group": "Global Authorities",
+      "monitors": [
+        "Zero Trust guidance",
+        "Supply chain security",
+        "Cyber advisories"
+      ],
+      "official_url": "https://www.cisa.gov",
+      "severity": "medium",
+      "tags": [
+        "NIST CSF",
+        "MITRE ATT&CK"
+      ],
+      "executive_summary": "Vulnerability: Multiple Rockwell products contain an insufficient protected credentials vulnerability. Studio 5000 Logix Designer software may allow a key to be discovered. This key is used to verify Logix controllers are communicating with Rockwell Automation design software. If successfully e",
+      "affected_industries": [
+        "General"
+      ],
+      "affected_iam_domains": [
+        "General"
+      ],
+      "control_mappings": [],
+      "recommended_actions": [
+        "Validate exposure and control coverage.",
+        "Prioritize remediation against business criticality.",
+        "Track completion and residual risk in governance forums."
+      ],
+      "board_impact": "Requires executive review for resilience, compliance, and operating risk impact.",
+      "ciso_action_items": [
+        "Assign owners and timelines for mitigations.",
+        "Validate detection and response readiness.",
+        "Brief executive stakeholders on residual risk."
+      ],
+      "rankings": {
+        "credibility": 0.99,
+        "executive_relevance": 0.7,
+        "business_impact": 0.5,
+        "regulatory_importance": 0.55,
+        "overall": 0.729
+      }
+    }
+  ]
+}

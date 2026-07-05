@@ -1,0 +1,1785 @@
+{
+  "reportType": "monthly",
+  "generatedAt": "2026-07-05T04:44:38.622073+00:00",
+  "summary": {
+    "totalArticles": 101,
+    "highRisk": 5,
+    "financialServicesRelevant": 101,
+    "identityRelevant": 18,
+    "aiRelevant": 100
+  },
+  "topItems": [
+    {
+      "title": "CVE-2026-48558",
+      "author": "Unknown",
+      "publishedDate": "2026-06-29",
+      "source": "CISA",
+      "category": "Global Authorities",
+      "subcategory": "General",
+      "country": "Global",
+      "industry": [
+        "Financial Services"
+      ],
+      "framework": [
+        "NIST CSF",
+        "MITRE ATT&CK"
+      ],
+      "technology": [
+        "Identity",
+        "AI",
+        "Threat Intelligence"
+      ],
+      "threatActor": "Unknown",
+      "product": "Unknown",
+      "cve": [
+        "CVE-2026-48558"
+      ],
+      "mitreTechnique": [
+        "THEIR",
+        "TOKEN",
+        "TOKENS"
+      ],
+      "mitreTactic": [],
+      "summary": "SimpleHelp contains an authentication bypass vulnerability in the OIDC authentication flow. When OIDC authentication is configured, identity tokens submitted during login are accepted without verifying their cryptographic signature. In a vulnerable configuration, a remote, unauthenticated attacker can submit a forged token containing arbitrary identity claims to obtain a fully authenticated technician session. In some configurations, this may also allow bypass of multi-factor authentication.",
+      "executiveSummary": "CVE-2026-48558 has potential strategic risk and control implications.",
+      "technicalSummary": "SimpleHelp contains an authentication bypass vulnerability in the OIDC authentication flow. When OIDC authentication is configured, identity tokens submitted during login are accepted without verifying their cryptographic signature. In a vulnerable configuration, a remote, unauthenticated attacker can submit a forged token containing arbitrary identity claims to obtain a fully authenticated technician session. In some configurations, this may also allow bypass of multi-factor authentication.",
+      "businessImpact": "Potential impact on compliance posture and operational resilience.",
+      "operationalImpact": "Potential changes required to operating controls, runbooks, and assurance cadence.",
+      "recommendedActions": [
+        "Assess internal control coverage against this update.",
+        "Assign control owners and remediation dates.",
+        "Escalate high-risk findings to executive governance forums."
+      ],
+      "riskRating": "low",
+      "confidenceScore": 0.9,
+      "tags": [
+        "NIST CSF",
+        "MITRE ATT&CK"
+      ],
+      "frameworkMappings": [
+        "NIST CSF",
+        "MITRE ATT&CK"
+      ],
+      "qualityScoring": {
+        "authority": 0.99,
+        "timeliness": 0.38,
+        "businessImpact": 0.96,
+        "executiveRelevance": 0.97,
+        "australianRelevance": 0.45,
+        "identityRelevance": 1.0,
+        "aiRelevance": 1.0,
+        "financialServicesRelevance": 0.5,
+        "threatIntelligenceValue": 1.0,
+        "technicalAccuracy": 0.9,
+        "overall": 0.837
+      },
+      "whyThisMatters": {
+        "ciso": "Control gaps and threat exposure can materially impact cyber resilience and regulatory assurance.",
+        "cio": "Technology roadmaps, third-party services, and resilience investments may need reprioritization.",
+        "cto": "Architecture and platform controls may require rapid uplift to maintain operational resilience.",
+        "iamLeader": "Identity, PAM, machine identity, and access governance controls should be validated for coverage.",
+        "affectsFinancialServices": true,
+        "affectsSuperannuation": false,
+        "affectsBanking": false,
+        "controlsImpacted": [
+          "Identity",
+          "AI",
+          "Threat Intelligence"
+        ],
+        "policiesToReview": [
+          "Information Security Policy",
+          "Operational Resilience Policy",
+          "Identity and Access Management Policy",
+          "Third Party Risk Policy"
+        ],
+        "standardsToReview": [
+          "NIST CSF",
+          "MITRE ATT&CK"
+        ],
+        "escalateToBoard": false,
+        "escalateToRiskCommittee": true,
+        "triggerControlAssessment": true
+      },
+      "url": "https://www.cisa.gov"
+    },
+    {
+      "title": "CVE-2026-45321",
+      "author": "Unknown",
+      "publishedDate": "2026-05-27",
+      "source": "CISA",
+      "category": "Global Authorities",
+      "subcategory": "General",
+      "country": "Global",
+      "industry": [
+        "Financial Services"
+      ],
+      "framework": [
+        "NIST CSF",
+        "MITRE ATT&CK"
+      ],
+      "technology": [
+        "Identity",
+        "AI",
+        "Threat Intelligence"
+      ],
+      "threatActor": "Unknown",
+      "product": "Unknown",
+      "cve": [
+        "CVE-2026-45321"
+      ],
+      "mitreTechnique": [],
+      "mitreTactic": [
+        "Credential Access"
+      ],
+      "summary": "TanStack contains an unspecified vulnerability that allowed malicious versions of the product to be published to the npm registry to publish credential-stealing malware under a trusted identity.",
+      "executiveSummary": "CVE-2026-45321 has potential strategic risk and control implications.",
+      "technicalSummary": "TanStack contains an unspecified vulnerability that allowed malicious versions of the product to be published to the npm registry to publish credential-stealing malware under a trusted identity.",
+      "businessImpact": "Potential impact on compliance posture and operational resilience.",
+      "operationalImpact": "Potential changes required to operating controls, runbooks, and assurance cadence.",
+      "recommendedActions": [
+        "Assess internal control coverage against this update.",
+        "Assign control owners and remediation dates.",
+        "Escalate high-risk findings to executive governance forums."
+      ],
+      "riskRating": "low",
+      "confidenceScore": 0.9,
+      "tags": [
+        "NIST CSF",
+        "MITRE ATT&CK"
+      ],
+      "frameworkMappings": [
+        "NIST CSF",
+        "MITRE ATT&CK"
+      ],
+      "qualityScoring": {
+        "authority": 0.99,
+        "timeliness": 0.2,
+        "businessImpact": 0.96,
+        "executiveRelevance": 0.97,
+        "australianRelevance": 0.45,
+        "identityRelevance": 1.0,
+        "aiRelevance": 1.0,
+        "financialServicesRelevance": 0.5,
+        "threatIntelligenceValue": 1.0,
+        "technicalAccuracy": 0.9,
+        "overall": 0.819
+      },
+      "whyThisMatters": {
+        "ciso": "Control gaps and threat exposure can materially impact cyber resilience and regulatory assurance.",
+        "cio": "Technology roadmaps, third-party services, and resilience investments may need reprioritization.",
+        "cto": "Architecture and platform controls may require rapid uplift to maintain operational resilience.",
+        "iamLeader": "Identity, PAM, machine identity, and access governance controls should be validated for coverage.",
+        "affectsFinancialServices": true,
+        "affectsSuperannuation": false,
+        "affectsBanking": false,
+        "controlsImpacted": [
+          "Identity",
+          "AI",
+          "Threat Intelligence"
+        ],
+        "policiesToReview": [
+          "Information Security Policy",
+          "Operational Resilience Policy",
+          "Identity and Access Management Policy",
+          "Third Party Risk Policy"
+        ],
+        "standardsToReview": [
+          "NIST CSF",
+          "MITRE ATT&CK"
+        ],
+        "escalateToBoard": false,
+        "escalateToRiskCommittee": true,
+        "triggerControlAssessment": true
+      },
+      "url": "https://www.cisa.gov"
+    },
+    {
+      "title": "CVE-2021-22054",
+      "author": "Unknown",
+      "publishedDate": "2026-03-09",
+      "source": "CISA",
+      "category": "Global Authorities",
+      "subcategory": "General",
+      "country": "Global",
+      "industry": [
+        "Financial Services"
+      ],
+      "framework": [
+        "NIST CSF",
+        "MITRE ATT&CK"
+      ],
+      "technology": [
+        "Identity",
+        "AI",
+        "Threat Intelligence"
+      ],
+      "threatActor": "Unknown",
+      "product": "Unknown",
+      "cve": [
+        "CVE-2021-22054"
+      ],
+      "mitreTechnique": [
+        "THEIR"
+      ],
+      "mitreTactic": [],
+      "summary": "Omnissa Workspace One UEM formerly known as VMware Workspace One UEM contains a server-side request forgery (SSRF) vulnerability that could allow a malicious actor with network access to UEM to send their requests without authentication and to gain access to sensitive information.",
+      "executiveSummary": "CVE-2021-22054 has potential strategic risk and control implications.",
+      "technicalSummary": "Omnissa Workspace One UEM formerly known as VMware Workspace One UEM contains a server-side request forgery (SSRF) vulnerability that could allow a malicious actor with network access to UEM to send their requests without authentication and to gain access to sensitive information.",
+      "businessImpact": "Potential impact on compliance posture and operational resilience.",
+      "operationalImpact": "Potential changes required to operating controls, runbooks, and assurance cadence.",
+      "recommendedActions": [
+        "Assess internal control coverage against this update.",
+        "Assign control owners and remediation dates.",
+        "Escalate high-risk findings to executive governance forums."
+      ],
+      "riskRating": "low",
+      "confidenceScore": 0.9,
+      "tags": [
+        "NIST CSF",
+        "MITRE ATT&CK"
+      ],
+      "frameworkMappings": [
+        "NIST CSF",
+        "MITRE ATT&CK"
+      ],
+      "qualityScoring": {
+        "authority": 0.99,
+        "timeliness": 0.2,
+        "businessImpact": 0.96,
+        "executiveRelevance": 0.97,
+        "australianRelevance": 0.45,
+        "identityRelevance": 1.0,
+        "aiRelevance": 1.0,
+        "financialServicesRelevance": 0.5,
+        "threatIntelligenceValue": 1.0,
+        "technicalAccuracy": 0.9,
+        "overall": 0.819
+      },
+      "whyThisMatters": {
+        "ciso": "Control gaps and threat exposure can materially impact cyber resilience and regulatory assurance.",
+        "cio": "Technology roadmaps, third-party services, and resilience investments may need reprioritization.",
+        "cto": "Architecture and platform controls may require rapid uplift to maintain operational resilience.",
+        "iamLeader": "Identity, PAM, machine identity, and access governance controls should be validated for coverage.",
+        "affectsFinancialServices": true,
+        "affectsSuperannuation": false,
+        "affectsBanking": false,
+        "controlsImpacted": [
+          "Identity",
+          "AI",
+          "Threat Intelligence"
+        ],
+        "policiesToReview": [
+          "Information Security Policy",
+          "Operational Resilience Policy",
+          "Identity and Access Management Policy",
+          "Third Party Risk Policy"
+        ],
+        "standardsToReview": [
+          "NIST CSF",
+          "MITRE ATT&CK"
+        ],
+        "escalateToBoard": false,
+        "escalateToRiskCommittee": true,
+        "triggerControlAssessment": true
+      },
+      "url": "https://www.cisa.gov"
+    },
+    {
+      "title": "CVE-2026-20253",
+      "author": "Unknown",
+      "publishedDate": "2026-06-18",
+      "source": "CISA",
+      "category": "Global Authorities",
+      "subcategory": "General",
+      "country": "Global",
+      "industry": [
+        "Financial Services"
+      ],
+      "framework": [
+        "NIST CSF",
+        "MITRE ATT&CK"
+      ],
+      "technology": [
+        "Identity",
+        "AI"
+      ],
+      "threatActor": "Unknown",
+      "product": "Unknown",
+      "cve": [
+        "CVE-2026-20253"
+      ],
+      "mitreTechnique": [],
+      "mitreTactic": [],
+      "summary": "Splunk Enterprise contains a missing authentication for critical function vulnerability which could allow an unauthenticated user to create or truncate arbitrary files through a PostgreSQL sidecar service endpoint.",
+      "executiveSummary": "CVE-2026-20253 has potential strategic risk and control implications.",
+      "technicalSummary": "Splunk Enterprise contains a missing authentication for critical function vulnerability which could allow an unauthenticated user to create or truncate arbitrary files through a PostgreSQL sidecar service endpoint.",
+      "businessImpact": "Potential impact on compliance posture and operational resilience.",
+      "operationalImpact": "Potential changes required to operating controls, runbooks, and assurance cadence.",
+      "recommendedActions": [
+        "Assess internal control coverage against this update.",
+        "Assign control owners and remediation dates.",
+        "Escalate high-risk findings to executive governance forums."
+      ],
+      "riskRating": "critical",
+      "confidenceScore": 0.9,
+      "tags": [
+        "NIST CSF",
+        "MITRE ATT&CK"
+      ],
+      "frameworkMappings": [
+        "NIST CSF",
+        "MITRE ATT&CK"
+      ],
+      "qualityScoring": {
+        "authority": 0.99,
+        "timeliness": 0.2,
+        "businessImpact": 0.91,
+        "executiveRelevance": 0.97,
+        "australianRelevance": 0.45,
+        "identityRelevance": 1.0,
+        "aiRelevance": 1.0,
+        "financialServicesRelevance": 0.5,
+        "threatIntelligenceValue": 0.45,
+        "technicalAccuracy": 0.9,
+        "overall": 0.778
+      },
+      "whyThisMatters": {
+        "ciso": "Control gaps and threat exposure can materially impact cyber resilience and regulatory assurance.",
+        "cio": "Technology roadmaps, third-party services, and resilience investments may need reprioritization.",
+        "cto": "Architecture and platform controls may require rapid uplift to maintain operational resilience.",
+        "iamLeader": "Identity, PAM, machine identity, and access governance controls should be validated for coverage.",
+        "affectsFinancialServices": true,
+        "affectsSuperannuation": false,
+        "affectsBanking": false,
+        "controlsImpacted": [
+          "Identity",
+          "AI"
+        ],
+        "policiesToReview": [
+          "Information Security Policy",
+          "Operational Resilience Policy",
+          "Identity and Access Management Policy",
+          "Third Party Risk Policy"
+        ],
+        "standardsToReview": [
+          "NIST CSF",
+          "MITRE ATT&CK"
+        ],
+        "escalateToBoard": true,
+        "escalateToRiskCommittee": true,
+        "triggerControlAssessment": true
+      },
+      "url": "https://www.cisa.gov"
+    },
+    {
+      "title": "CVE-2026-35273",
+      "author": "Unknown",
+      "publishedDate": "2026-06-12",
+      "source": "CISA",
+      "category": "Global Authorities",
+      "subcategory": "General",
+      "country": "Global",
+      "industry": [
+        "Financial Services"
+      ],
+      "framework": [
+        "NIST CSF",
+        "MITRE ATT&CK"
+      ],
+      "technology": [
+        "Identity",
+        "AI"
+      ],
+      "threatActor": "Unknown",
+      "product": "Unknown",
+      "cve": [
+        "CVE-2026-35273"
+      ],
+      "mitreTechnique": [],
+      "mitreTactic": [],
+      "summary": "Oracle PeopleSoft Enterprise PeopleTools contains a missing authentication for critical function vulnerability which could allow an unauthenticated attacker to obtain takeover of PeopleSoft Enterprise PeopleTools.",
+      "executiveSummary": "CVE-2026-35273 has potential strategic risk and control implications.",
+      "technicalSummary": "Oracle PeopleSoft Enterprise PeopleTools contains a missing authentication for critical function vulnerability which could allow an unauthenticated attacker to obtain takeover of PeopleSoft Enterprise PeopleTools.",
+      "businessImpact": "Potential impact on compliance posture and operational resilience.",
+      "operationalImpact": "Potential changes required to operating controls, runbooks, and assurance cadence.",
+      "recommendedActions": [
+        "Assess internal control coverage against this update.",
+        "Assign control owners and remediation dates.",
+        "Escalate high-risk findings to executive governance forums."
+      ],
+      "riskRating": "critical",
+      "confidenceScore": 0.9,
+      "tags": [
+        "NIST CSF",
+        "MITRE ATT&CK"
+      ],
+      "frameworkMappings": [
+        "NIST CSF",
+        "MITRE ATT&CK"
+      ],
+      "qualityScoring": {
+        "authority": 0.99,
+        "timeliness": 0.2,
+        "businessImpact": 0.91,
+        "executiveRelevance": 0.97,
+        "australianRelevance": 0.45,
+        "identityRelevance": 1.0,
+        "aiRelevance": 1.0,
+        "financialServicesRelevance": 0.5,
+        "threatIntelligenceValue": 0.45,
+        "technicalAccuracy": 0.9,
+        "overall": 0.778
+      },
+      "whyThisMatters": {
+        "ciso": "Control gaps and threat exposure can materially impact cyber resilience and regulatory assurance.",
+        "cio": "Technology roadmaps, third-party services, and resilience investments may need reprioritization.",
+        "cto": "Architecture and platform controls may require rapid uplift to maintain operational resilience.",
+        "iamLeader": "Identity, PAM, machine identity, and access governance controls should be validated for coverage.",
+        "affectsFinancialServices": true,
+        "affectsSuperannuation": false,
+        "affectsBanking": false,
+        "controlsImpacted": [
+          "Identity",
+          "AI"
+        ],
+        "policiesToReview": [
+          "Information Security Policy",
+          "Operational Resilience Policy",
+          "Identity and Access Management Policy",
+          "Third Party Risk Policy"
+        ],
+        "standardsToReview": [
+          "NIST CSF",
+          "MITRE ATT&CK"
+        ],
+        "escalateToBoard": true,
+        "escalateToRiskCommittee": true,
+        "triggerControlAssessment": true
+      },
+      "url": "https://www.cisa.gov"
+    },
+    {
+      "title": "CVE-2026-50751",
+      "author": "Unknown",
+      "publishedDate": "2026-06-08",
+      "source": "CISA",
+      "category": "Global Authorities",
+      "subcategory": "General",
+      "country": "Global",
+      "industry": [
+        "Financial Services"
+      ],
+      "framework": [
+        "NIST CSF",
+        "MITRE ATT&CK"
+      ],
+      "technology": [
+        "Identity",
+        "AI"
+      ],
+      "threatActor": "Unknown",
+      "product": "Unknown",
+      "cve": [
+        "CVE-2026-50751"
+      ],
+      "mitreTechnique": [],
+      "mitreTactic": [],
+      "summary": "Check Point Security Gateway contains an improper authentication vulnerability in IKEv1 key exchange that could allow an unauthenticated remote attacker to bypass user authentication and establish a remote access VPN connection without a valid user password.",
+      "executiveSummary": "CVE-2026-50751 has potential strategic risk and control implications.",
+      "technicalSummary": "Check Point Security Gateway contains an improper authentication vulnerability in IKEv1 key exchange that could allow an unauthenticated remote attacker to bypass user authentication and establish a remote access VPN connection without a valid user password.",
+      "businessImpact": "Potential impact on compliance posture and operational resilience.",
+      "operationalImpact": "Potential changes required to operating controls, runbooks, and assurance cadence.",
+      "recommendedActions": [
+        "Assess internal control coverage against this update.",
+        "Assign control owners and remediation dates.",
+        "Escalate high-risk findings to executive governance forums."
+      ],
+      "riskRating": "low",
+      "confidenceScore": 0.9,
+      "tags": [
+        "NIST CSF",
+        "MITRE ATT&CK"
+      ],
+      "frameworkMappings": [
+        "NIST CSF",
+        "MITRE ATT&CK"
+      ],
+      "qualityScoring": {
+        "authority": 0.99,
+        "timeliness": 0.2,
+        "businessImpact": 0.91,
+        "executiveRelevance": 0.97,
+        "australianRelevance": 0.45,
+        "identityRelevance": 1.0,
+        "aiRelevance": 1.0,
+        "financialServicesRelevance": 0.5,
+        "threatIntelligenceValue": 0.45,
+        "technicalAccuracy": 0.9,
+        "overall": 0.778
+      },
+      "whyThisMatters": {
+        "ciso": "Control gaps and threat exposure can materially impact cyber resilience and regulatory assurance.",
+        "cio": "Technology roadmaps, third-party services, and resilience investments may need reprioritization.",
+        "cto": "Architecture and platform controls may require rapid uplift to maintain operational resilience.",
+        "iamLeader": "Identity, PAM, machine identity, and access governance controls should be validated for coverage.",
+        "affectsFinancialServices": true,
+        "affectsSuperannuation": false,
+        "affectsBanking": false,
+        "controlsImpacted": [
+          "Identity",
+          "AI"
+        ],
+        "policiesToReview": [
+          "Information Security Policy",
+          "Operational Resilience Policy",
+          "Identity and Access Management Policy",
+          "Third Party Risk Policy"
+        ],
+        "standardsToReview": [
+          "NIST CSF",
+          "MITRE ATT&CK"
+        ],
+        "escalateToBoard": false,
+        "escalateToRiskCommittee": true,
+        "triggerControlAssessment": true
+      },
+      "url": "https://www.cisa.gov"
+    },
+    {
+      "title": "CVE-2026-28318",
+      "author": "Unknown",
+      "publishedDate": "2026-06-05",
+      "source": "CISA",
+      "category": "Global Authorities",
+      "subcategory": "General",
+      "country": "Global",
+      "industry": [
+        "Financial Services"
+      ],
+      "framework": [
+        "NIST CSF",
+        "MITRE ATT&CK"
+      ],
+      "technology": [
+        "Identity",
+        "AI"
+      ],
+      "threatActor": "Unknown",
+      "product": "Unknown",
+      "cve": [
+        "CVE-2026-28318"
+      ],
+      "mitreTechnique": [],
+      "mitreTactic": [],
+      "summary": "SolarWinds Serv-U contains an uncontrolled resource consumption vulnerability that allows specially crafted POST requests using the Content-Encoding: deflate header to crash the Serv-U service without authentication.",
+      "executiveSummary": "CVE-2026-28318 has potential strategic risk and control implications.",
+      "technicalSummary": "SolarWinds Serv-U contains an uncontrolled resource consumption vulnerability that allows specially crafted POST requests using the Content-Encoding: deflate header to crash the Serv-U service without authentication.",
+      "businessImpact": "Potential impact on compliance posture and operational resilience.",
+      "operationalImpact": "Potential changes required to operating controls, runbooks, and assurance cadence.",
+      "recommendedActions": [
+        "Assess internal control coverage against this update.",
+        "Assign control owners and remediation dates.",
+        "Escalate high-risk findings to executive governance forums."
+      ],
+      "riskRating": "low",
+      "confidenceScore": 0.9,
+      "tags": [
+        "NIST CSF",
+        "MITRE ATT&CK"
+      ],
+      "frameworkMappings": [
+        "NIST CSF",
+        "MITRE ATT&CK"
+      ],
+      "qualityScoring": {
+        "authority": 0.99,
+        "timeliness": 0.2,
+        "businessImpact": 0.91,
+        "executiveRelevance": 0.97,
+        "australianRelevance": 0.45,
+        "identityRelevance": 1.0,
+        "aiRelevance": 1.0,
+        "financialServicesRelevance": 0.5,
+        "threatIntelligenceValue": 0.45,
+        "technicalAccuracy": 0.9,
+        "overall": 0.778
+      },
+      "whyThisMatters": {
+        "ciso": "Control gaps and threat exposure can materially impact cyber resilience and regulatory assurance.",
+        "cio": "Technology roadmaps, third-party services, and resilience investments may need reprioritization.",
+        "cto": "Architecture and platform controls may require rapid uplift to maintain operational resilience.",
+        "iamLeader": "Identity, PAM, machine identity, and access governance controls should be validated for coverage.",
+        "affectsFinancialServices": true,
+        "affectsSuperannuation": false,
+        "affectsBanking": false,
+        "controlsImpacted": [
+          "Identity",
+          "AI"
+        ],
+        "policiesToReview": [
+          "Information Security Policy",
+          "Operational Resilience Policy",
+          "Identity and Access Management Policy",
+          "Third Party Risk Policy"
+        ],
+        "standardsToReview": [
+          "NIST CSF",
+          "MITRE ATT&CK"
+        ],
+        "escalateToBoard": false,
+        "escalateToRiskCommittee": true,
+        "triggerControlAssessment": true
+      },
+      "url": "https://www.cisa.gov"
+    },
+    {
+      "title": "CVE-2022-0492",
+      "author": "Unknown",
+      "publishedDate": "2026-06-02",
+      "source": "CISA",
+      "category": "Global Authorities",
+      "subcategory": "General",
+      "country": "Global",
+      "industry": [
+        "Financial Services"
+      ],
+      "framework": [
+        "NIST CSF",
+        "MITRE ATT&CK"
+      ],
+      "technology": [
+        "Identity",
+        "AI"
+      ],
+      "threatActor": "Unknown",
+      "product": "Unknown",
+      "cve": [
+        "CVE-2022-0492"
+      ],
+      "mitreTechnique": [],
+      "mitreTactic": [
+        "Privilege Escalation"
+      ],
+      "summary": "Linux Kernel contains an improper authentication vulnerability which could allow for privilege escalation via the cgroups v1 release_agent feature.",
+      "executiveSummary": "CVE-2022-0492 has potential strategic risk and control implications.",
+      "technicalSummary": "Linux Kernel contains an improper authentication vulnerability which could allow for privilege escalation via the cgroups v1 release_agent feature.",
+      "businessImpact": "Potential impact on compliance posture and operational resilience.",
+      "operationalImpact": "Potential changes required to operating controls, runbooks, and assurance cadence.",
+      "recommendedActions": [
+        "Assess internal control coverage against this update.",
+        "Assign control owners and remediation dates.",
+        "Escalate high-risk findings to executive governance forums."
+      ],
+      "riskRating": "low",
+      "confidenceScore": 0.9,
+      "tags": [
+        "NIST CSF",
+        "MITRE ATT&CK"
+      ],
+      "frameworkMappings": [
+        "NIST CSF",
+        "MITRE ATT&CK"
+      ],
+      "qualityScoring": {
+        "authority": 0.99,
+        "timeliness": 0.2,
+        "businessImpact": 0.91,
+        "executiveRelevance": 0.97,
+        "australianRelevance": 0.45,
+        "identityRelevance": 1.0,
+        "aiRelevance": 1.0,
+        "financialServicesRelevance": 0.5,
+        "threatIntelligenceValue": 0.45,
+        "technicalAccuracy": 0.9,
+        "overall": 0.778
+      },
+      "whyThisMatters": {
+        "ciso": "Control gaps and threat exposure can materially impact cyber resilience and regulatory assurance.",
+        "cio": "Technology roadmaps, third-party services, and resilience investments may need reprioritization.",
+        "cto": "Architecture and platform controls may require rapid uplift to maintain operational resilience.",
+        "iamLeader": "Identity, PAM, machine identity, and access governance controls should be validated for coverage.",
+        "affectsFinancialServices": true,
+        "affectsSuperannuation": false,
+        "affectsBanking": false,
+        "controlsImpacted": [
+          "Identity",
+          "AI"
+        ],
+        "policiesToReview": [
+          "Information Security Policy",
+          "Operational Resilience Policy",
+          "Identity and Access Management Policy",
+          "Third Party Risk Policy"
+        ],
+        "standardsToReview": [
+          "NIST CSF",
+          "MITRE ATT&CK"
+        ],
+        "escalateToBoard": false,
+        "escalateToRiskCommittee": true,
+        "triggerControlAssessment": true
+      },
+      "url": "https://www.cisa.gov"
+    },
+    {
+      "title": "CVE-2026-0257",
+      "author": "Unknown",
+      "publishedDate": "2026-05-29",
+      "source": "CISA",
+      "category": "Global Authorities",
+      "subcategory": "General",
+      "country": "Global",
+      "industry": [
+        "Financial Services"
+      ],
+      "framework": [
+        "NIST CSF",
+        "MITRE ATT&CK"
+      ],
+      "technology": [
+        "Identity",
+        "AI"
+      ],
+      "threatActor": "Unknown",
+      "product": "Unknown",
+      "cve": [
+        "CVE-2026-0257"
+      ],
+      "mitreTechnique": [],
+      "mitreTactic": [],
+      "summary": "Palo Alto Networks PAN-OS contains an authentication bypass vulnerability that allows attackers to bypass security restrictions and establish an unauthorized VPN connection.",
+      "executiveSummary": "CVE-2026-0257 has potential strategic risk and control implications.",
+      "technicalSummary": "Palo Alto Networks PAN-OS contains an authentication bypass vulnerability that allows attackers to bypass security restrictions and establish an unauthorized VPN connection.",
+      "businessImpact": "Potential impact on compliance posture and operational resilience.",
+      "operationalImpact": "Potential changes required to operating controls, runbooks, and assurance cadence.",
+      "recommendedActions": [
+        "Assess internal control coverage against this update.",
+        "Assign control owners and remediation dates.",
+        "Escalate high-risk findings to executive governance forums."
+      ],
+      "riskRating": "low",
+      "confidenceScore": 0.9,
+      "tags": [
+        "NIST CSF",
+        "MITRE ATT&CK"
+      ],
+      "frameworkMappings": [
+        "NIST CSF",
+        "MITRE ATT&CK"
+      ],
+      "qualityScoring": {
+        "authority": 0.99,
+        "timeliness": 0.2,
+        "businessImpact": 0.91,
+        "executiveRelevance": 0.97,
+        "australianRelevance": 0.45,
+        "identityRelevance": 1.0,
+        "aiRelevance": 1.0,
+        "financialServicesRelevance": 0.5,
+        "threatIntelligenceValue": 0.45,
+        "technicalAccuracy": 0.9,
+        "overall": 0.778
+      },
+      "whyThisMatters": {
+        "ciso": "Control gaps and threat exposure can materially impact cyber resilience and regulatory assurance.",
+        "cio": "Technology roadmaps, third-party services, and resilience investments may need reprioritization.",
+        "cto": "Architecture and platform controls may require rapid uplift to maintain operational resilience.",
+        "iamLeader": "Identity, PAM, machine identity, and access governance controls should be validated for coverage.",
+        "affectsFinancialServices": true,
+        "affectsSuperannuation": false,
+        "affectsBanking": false,
+        "controlsImpacted": [
+          "Identity",
+          "AI"
+        ],
+        "policiesToReview": [
+          "Information Security Policy",
+          "Operational Resilience Policy",
+          "Identity and Access Management Policy",
+          "Third Party Risk Policy"
+        ],
+        "standardsToReview": [
+          "NIST CSF",
+          "MITRE ATT&CK"
+        ],
+        "escalateToBoard": false,
+        "escalateToRiskCommittee": true,
+        "triggerControlAssessment": true
+      },
+      "url": "https://www.cisa.gov"
+    },
+    {
+      "title": "CVE-2026-20182",
+      "author": "Unknown",
+      "publishedDate": "2026-05-14",
+      "source": "CISA",
+      "category": "Global Authorities",
+      "subcategory": "General",
+      "country": "Global",
+      "industry": [
+        "Financial Services"
+      ],
+      "framework": [
+        "NIST CSF",
+        "MITRE ATT&CK"
+      ],
+      "technology": [
+        "Identity",
+        "AI"
+      ],
+      "threatActor": "Unknown",
+      "product": "Unknown",
+      "cve": [
+        "CVE-2026-20182"
+      ],
+      "mitreTechnique": [],
+      "mitreTactic": [],
+      "summary": "Cisco Catalyst SD-WAN Controller & Manager contain an authentication bypass vulnerability that allows an unauthenticated, remote attacker to bypass authentication and obtain administrative privileges on an affected system.",
+      "executiveSummary": "CVE-2026-20182 has potential strategic risk and control implications.",
+      "technicalSummary": "Cisco Catalyst SD-WAN Controller & Manager contain an authentication bypass vulnerability that allows an unauthenticated, remote attacker to bypass authentication and obtain administrative privileges on an affected system.",
+      "businessImpact": "Potential impact on compliance posture and operational resilience.",
+      "operationalImpact": "Potential changes required to operating controls, runbooks, and assurance cadence.",
+      "recommendedActions": [
+        "Assess internal control coverage against this update.",
+        "Assign control owners and remediation dates.",
+        "Escalate high-risk findings to executive governance forums."
+      ],
+      "riskRating": "low",
+      "confidenceScore": 0.9,
+      "tags": [
+        "NIST CSF",
+        "MITRE ATT&CK"
+      ],
+      "frameworkMappings": [
+        "NIST CSF",
+        "MITRE ATT&CK"
+      ],
+      "qualityScoring": {
+        "authority": 0.99,
+        "timeliness": 0.2,
+        "businessImpact": 0.91,
+        "executiveRelevance": 0.97,
+        "australianRelevance": 0.45,
+        "identityRelevance": 1.0,
+        "aiRelevance": 1.0,
+        "financialServicesRelevance": 0.5,
+        "threatIntelligenceValue": 0.45,
+        "technicalAccuracy": 0.9,
+        "overall": 0.778
+      },
+      "whyThisMatters": {
+        "ciso": "Control gaps and threat exposure can materially impact cyber resilience and regulatory assurance.",
+        "cio": "Technology roadmaps, third-party services, and resilience investments may need reprioritization.",
+        "cto": "Architecture and platform controls may require rapid uplift to maintain operational resilience.",
+        "iamLeader": "Identity, PAM, machine identity, and access governance controls should be validated for coverage.",
+        "affectsFinancialServices": true,
+        "affectsSuperannuation": false,
+        "affectsBanking": false,
+        "controlsImpacted": [
+          "Identity",
+          "AI"
+        ],
+        "policiesToReview": [
+          "Information Security Policy",
+          "Operational Resilience Policy",
+          "Identity and Access Management Policy",
+          "Third Party Risk Policy"
+        ],
+        "standardsToReview": [
+          "NIST CSF",
+          "MITRE ATT&CK"
+        ],
+        "escalateToBoard": false,
+        "escalateToRiskCommittee": true,
+        "triggerControlAssessment": true
+      },
+      "url": "https://www.cisa.gov"
+    },
+    {
+      "title": "CVE-2026-0300",
+      "author": "Unknown",
+      "publishedDate": "2026-05-06",
+      "source": "CISA",
+      "category": "Global Authorities",
+      "subcategory": "General",
+      "country": "Global",
+      "industry": [
+        "Financial Services"
+      ],
+      "framework": [
+        "NIST CSF",
+        "MITRE ATT&CK"
+      ],
+      "technology": [
+        "Identity",
+        "AI"
+      ],
+      "threatActor": "Unknown",
+      "product": "Unknown",
+      "cve": [
+        "CVE-2026-0300"
+      ],
+      "mitreTechnique": [],
+      "mitreTactic": [],
+      "summary": "Palo Alto Networks PAN-OS contains an out-of-bounds write vulnerability in the User-ID Authentication Portal (aka Captive Portal) service that can allow an unauthenticated attacker to execute arbitrary code with root privileges on the PA-Series and VM-Series firewalls by sending specially crafted packets.",
+      "executiveSummary": "CVE-2026-0300 has potential strategic risk and control implications.",
+      "technicalSummary": "Palo Alto Networks PAN-OS contains an out-of-bounds write vulnerability in the User-ID Authentication Portal (aka Captive Portal) service that can allow an unauthenticated attacker to execute arbitrary code with root privileges on the PA-Series and VM-Series firewalls by sending specially crafted packets.",
+      "businessImpact": "Potential impact on compliance posture and operational resilience.",
+      "operationalImpact": "Potential changes required to operating controls, runbooks, and assurance cadence.",
+      "recommendedActions": [
+        "Assess internal control coverage against this update.",
+        "Assign control owners and remediation dates.",
+        "Escalate high-risk findings to executive governance forums."
+      ],
+      "riskRating": "low",
+      "confidenceScore": 0.9,
+      "tags": [
+        "NIST CSF",
+        "MITRE ATT&CK"
+      ],
+      "frameworkMappings": [
+        "NIST CSF",
+        "MITRE ATT&CK"
+      ],
+      "qualityScoring": {
+        "authority": 0.99,
+        "timeliness": 0.2,
+        "businessImpact": 0.91,
+        "executiveRelevance": 0.97,
+        "australianRelevance": 0.45,
+        "identityRelevance": 1.0,
+        "aiRelevance": 1.0,
+        "financialServicesRelevance": 0.5,
+        "threatIntelligenceValue": 0.45,
+        "technicalAccuracy": 0.9,
+        "overall": 0.778
+      },
+      "whyThisMatters": {
+        "ciso": "Control gaps and threat exposure can materially impact cyber resilience and regulatory assurance.",
+        "cio": "Technology roadmaps, third-party services, and resilience investments may need reprioritization.",
+        "cto": "Architecture and platform controls may require rapid uplift to maintain operational resilience.",
+        "iamLeader": "Identity, PAM, machine identity, and access governance controls should be validated for coverage.",
+        "affectsFinancialServices": true,
+        "affectsSuperannuation": false,
+        "affectsBanking": false,
+        "controlsImpacted": [
+          "Identity",
+          "AI"
+        ],
+        "policiesToReview": [
+          "Information Security Policy",
+          "Operational Resilience Policy",
+          "Identity and Access Management Policy",
+          "Third Party Risk Policy"
+        ],
+        "standardsToReview": [
+          "NIST CSF",
+          "MITRE ATT&CK"
+        ],
+        "escalateToBoard": false,
+        "escalateToRiskCommittee": true,
+        "triggerControlAssessment": true
+      },
+      "url": "https://www.cisa.gov"
+    },
+    {
+      "title": "CVE-2026-41940",
+      "author": "Unknown",
+      "publishedDate": "2026-04-30",
+      "source": "CISA",
+      "category": "Global Authorities",
+      "subcategory": "General",
+      "country": "Global",
+      "industry": [
+        "Financial Services"
+      ],
+      "framework": [
+        "NIST CSF",
+        "MITRE ATT&CK"
+      ],
+      "technology": [
+        "Identity",
+        "AI"
+      ],
+      "threatActor": "Unknown",
+      "product": "Unknown",
+      "cve": [
+        "CVE-2026-41940"
+      ],
+      "mitreTechnique": [],
+      "mitreTactic": [],
+      "summary": "WebPros cPanel & WHM (WebHost Manager) and WP2 (WordPress Squared) contain an authentication bypass vulnerability in the login flow that allows unauthenticated remote attackers to gain unauthorized access to the control panel.",
+      "executiveSummary": "CVE-2026-41940 has potential strategic risk and control implications.",
+      "technicalSummary": "WebPros cPanel & WHM (WebHost Manager) and WP2 (WordPress Squared) contain an authentication bypass vulnerability in the login flow that allows unauthenticated remote attackers to gain unauthorized access to the control panel.",
+      "businessImpact": "Potential impact on compliance posture and operational resilience.",
+      "operationalImpact": "Potential changes required to operating controls, runbooks, and assurance cadence.",
+      "recommendedActions": [
+        "Assess internal control coverage against this update.",
+        "Assign control owners and remediation dates.",
+        "Escalate high-risk findings to executive governance forums."
+      ],
+      "riskRating": "low",
+      "confidenceScore": 0.9,
+      "tags": [
+        "NIST CSF",
+        "MITRE ATT&CK"
+      ],
+      "frameworkMappings": [
+        "NIST CSF",
+        "MITRE ATT&CK"
+      ],
+      "qualityScoring": {
+        "authority": 0.99,
+        "timeliness": 0.2,
+        "businessImpact": 0.91,
+        "executiveRelevance": 0.97,
+        "australianRelevance": 0.45,
+        "identityRelevance": 1.0,
+        "aiRelevance": 1.0,
+        "financialServicesRelevance": 0.5,
+        "threatIntelligenceValue": 0.45,
+        "technicalAccuracy": 0.9,
+        "overall": 0.778
+      },
+      "whyThisMatters": {
+        "ciso": "Control gaps and threat exposure can materially impact cyber resilience and regulatory assurance.",
+        "cio": "Technology roadmaps, third-party services, and resilience investments may need reprioritization.",
+        "cto": "Architecture and platform controls may require rapid uplift to maintain operational resilience.",
+        "iamLeader": "Identity, PAM, machine identity, and access governance controls should be validated for coverage.",
+        "affectsFinancialServices": true,
+        "affectsSuperannuation": false,
+        "affectsBanking": false,
+        "controlsImpacted": [
+          "Identity",
+          "AI"
+        ],
+        "policiesToReview": [
+          "Information Security Policy",
+          "Operational Resilience Policy",
+          "Identity and Access Management Policy",
+          "Third Party Risk Policy"
+        ],
+        "standardsToReview": [
+          "NIST CSF",
+          "MITRE ATT&CK"
+        ],
+        "escalateToBoard": false,
+        "escalateToRiskCommittee": true,
+        "triggerControlAssessment": true
+      },
+      "url": "https://www.cisa.gov"
+    },
+    {
+      "title": "CVE-2023-27351",
+      "author": "Unknown",
+      "publishedDate": "2026-04-20",
+      "source": "CISA",
+      "category": "Global Authorities",
+      "subcategory": "General",
+      "country": "Global",
+      "industry": [
+        "Financial Services"
+      ],
+      "framework": [
+        "NIST CSF",
+        "MITRE ATT&CK"
+      ],
+      "technology": [
+        "Identity",
+        "AI"
+      ],
+      "threatActor": "Unknown",
+      "product": "Unknown",
+      "cve": [
+        "CVE-2023-27351"
+      ],
+      "mitreTechnique": [],
+      "mitreTactic": [],
+      "summary": "PaperCut NG/MF contains an improper authentication vulnerability that could allow remote attackers to bypass authentication on affected installations via the SecurityRequestFilter class.",
+      "executiveSummary": "CVE-2023-27351 has potential strategic risk and control implications.",
+      "technicalSummary": "PaperCut NG/MF contains an improper authentication vulnerability that could allow remote attackers to bypass authentication on affected installations via the SecurityRequestFilter class.",
+      "businessImpact": "Potential impact on compliance posture and operational resilience.",
+      "operationalImpact": "Potential changes required to operating controls, runbooks, and assurance cadence.",
+      "recommendedActions": [
+        "Assess internal control coverage against this update.",
+        "Assign control owners and remediation dates.",
+        "Escalate high-risk findings to executive governance forums."
+      ],
+      "riskRating": "low",
+      "confidenceScore": 0.9,
+      "tags": [
+        "NIST CSF",
+        "MITRE ATT&CK"
+      ],
+      "frameworkMappings": [
+        "NIST CSF",
+        "MITRE ATT&CK"
+      ],
+      "qualityScoring": {
+        "authority": 0.99,
+        "timeliness": 0.2,
+        "businessImpact": 0.91,
+        "executiveRelevance": 0.97,
+        "australianRelevance": 0.45,
+        "identityRelevance": 1.0,
+        "aiRelevance": 1.0,
+        "financialServicesRelevance": 0.5,
+        "threatIntelligenceValue": 0.45,
+        "technicalAccuracy": 0.9,
+        "overall": 0.778
+      },
+      "whyThisMatters": {
+        "ciso": "Control gaps and threat exposure can materially impact cyber resilience and regulatory assurance.",
+        "cio": "Technology roadmaps, third-party services, and resilience investments may need reprioritization.",
+        "cto": "Architecture and platform controls may require rapid uplift to maintain operational resilience.",
+        "iamLeader": "Identity, PAM, machine identity, and access governance controls should be validated for coverage.",
+        "affectsFinancialServices": true,
+        "affectsSuperannuation": false,
+        "affectsBanking": false,
+        "controlsImpacted": [
+          "Identity",
+          "AI"
+        ],
+        "policiesToReview": [
+          "Information Security Policy",
+          "Operational Resilience Policy",
+          "Identity and Access Management Policy",
+          "Third Party Risk Policy"
+        ],
+        "standardsToReview": [
+          "NIST CSF",
+          "MITRE ATT&CK"
+        ],
+        "escalateToBoard": false,
+        "escalateToRiskCommittee": true,
+        "triggerControlAssessment": true
+      },
+      "url": "https://www.cisa.gov"
+    },
+    {
+      "title": "CVE-2025-32975",
+      "author": "Unknown",
+      "publishedDate": "2026-04-20",
+      "source": "CISA",
+      "category": "Global Authorities",
+      "subcategory": "General",
+      "country": "Global",
+      "industry": [
+        "Financial Services"
+      ],
+      "framework": [
+        "NIST CSF",
+        "MITRE ATT&CK"
+      ],
+      "technology": [
+        "Identity",
+        "AI"
+      ],
+      "threatActor": "Unknown",
+      "product": "Unknown",
+      "cve": [
+        "CVE-2025-32975"
+      ],
+      "mitreTechnique": [],
+      "mitreTactic": [
+        "Credential Access"
+      ],
+      "summary": "Quest KACE Systems Management Appliance (SMA) contains an improper authentication vulnerability that could allow attackers to impersonate legitimate users without valid credentials.",
+      "executiveSummary": "CVE-2025-32975 has potential strategic risk and control implications.",
+      "technicalSummary": "Quest KACE Systems Management Appliance (SMA) contains an improper authentication vulnerability that could allow attackers to impersonate legitimate users without valid credentials.",
+      "businessImpact": "Potential impact on compliance posture and operational resilience.",
+      "operationalImpact": "Potential changes required to operating controls, runbooks, and assurance cadence.",
+      "recommendedActions": [
+        "Assess internal control coverage against this update.",
+        "Assign control owners and remediation dates.",
+        "Escalate high-risk findings to executive governance forums."
+      ],
+      "riskRating": "low",
+      "confidenceScore": 0.9,
+      "tags": [
+        "NIST CSF",
+        "MITRE ATT&CK"
+      ],
+      "frameworkMappings": [
+        "NIST CSF",
+        "MITRE ATT&CK"
+      ],
+      "qualityScoring": {
+        "authority": 0.99,
+        "timeliness": 0.2,
+        "businessImpact": 0.91,
+        "executiveRelevance": 0.97,
+        "australianRelevance": 0.45,
+        "identityRelevance": 1.0,
+        "aiRelevance": 1.0,
+        "financialServicesRelevance": 0.5,
+        "threatIntelligenceValue": 0.45,
+        "technicalAccuracy": 0.9,
+        "overall": 0.778
+      },
+      "whyThisMatters": {
+        "ciso": "Control gaps and threat exposure can materially impact cyber resilience and regulatory assurance.",
+        "cio": "Technology roadmaps, third-party services, and resilience investments may need reprioritization.",
+        "cto": "Architecture and platform controls may require rapid uplift to maintain operational resilience.",
+        "iamLeader": "Identity, PAM, machine identity, and access governance controls should be validated for coverage.",
+        "affectsFinancialServices": true,
+        "affectsSuperannuation": false,
+        "affectsBanking": false,
+        "controlsImpacted": [
+          "Identity",
+          "AI"
+        ],
+        "policiesToReview": [
+          "Information Security Policy",
+          "Operational Resilience Policy",
+          "Identity and Access Management Policy",
+          "Third Party Risk Policy"
+        ],
+        "standardsToReview": [
+          "NIST CSF",
+          "MITRE ATT&CK"
+        ],
+        "escalateToBoard": false,
+        "escalateToRiskCommittee": true,
+        "triggerControlAssessment": true
+      },
+      "url": "https://www.cisa.gov"
+    },
+    {
+      "title": "CVE-2026-3055",
+      "author": "Unknown",
+      "publishedDate": "2026-03-30",
+      "source": "CISA",
+      "category": "Global Authorities",
+      "subcategory": "General",
+      "country": "Global",
+      "industry": [
+        "Financial Services"
+      ],
+      "framework": [
+        "NIST CSF",
+        "MITRE ATT&CK"
+      ],
+      "technology": [
+        "Identity",
+        "AI"
+      ],
+      "threatActor": "Unknown",
+      "product": "Unknown",
+      "cve": [
+        "CVE-2026-3055"
+      ],
+      "mitreTechnique": [],
+      "mitreTactic": [],
+      "summary": "Citrix NetScaler ADC (formerly Citrix ADC), NetScaler Gateway (formerly Citrix Gateway) and NetScaler ADC FIPS and NDcPP contain an out-of-bounds reads vulnerability when configured as a SAML IDP leading to memory overread.",
+      "executiveSummary": "CVE-2026-3055 has potential strategic risk and control implications.",
+      "technicalSummary": "Citrix NetScaler ADC (formerly Citrix ADC), NetScaler Gateway (formerly Citrix Gateway) and NetScaler ADC FIPS and NDcPP contain an out-of-bounds reads vulnerability when configured as a SAML IDP leading to memory overread.",
+      "businessImpact": "Potential impact on compliance posture and operational resilience.",
+      "operationalImpact": "Potential changes required to operating controls, runbooks, and assurance cadence.",
+      "recommendedActions": [
+        "Assess internal control coverage against this update.",
+        "Assign control owners and remediation dates.",
+        "Escalate high-risk findings to executive governance forums."
+      ],
+      "riskRating": "medium",
+      "confidenceScore": 0.9,
+      "tags": [
+        "NIST CSF",
+        "MITRE ATT&CK"
+      ],
+      "frameworkMappings": [
+        "NIST CSF",
+        "MITRE ATT&CK"
+      ],
+      "qualityScoring": {
+        "authority": 0.99,
+        "timeliness": 0.2,
+        "businessImpact": 0.91,
+        "executiveRelevance": 0.97,
+        "australianRelevance": 0.45,
+        "identityRelevance": 1.0,
+        "aiRelevance": 1.0,
+        "financialServicesRelevance": 0.5,
+        "threatIntelligenceValue": 0.45,
+        "technicalAccuracy": 0.9,
+        "overall": 0.778
+      },
+      "whyThisMatters": {
+        "ciso": "Control gaps and threat exposure can materially impact cyber resilience and regulatory assurance.",
+        "cio": "Technology roadmaps, third-party services, and resilience investments may need reprioritization.",
+        "cto": "Architecture and platform controls may require rapid uplift to maintain operational resilience.",
+        "iamLeader": "Identity, PAM, machine identity, and access governance controls should be validated for coverage.",
+        "affectsFinancialServices": true,
+        "affectsSuperannuation": false,
+        "affectsBanking": false,
+        "controlsImpacted": [
+          "Identity",
+          "AI"
+        ],
+        "policiesToReview": [
+          "Information Security Policy",
+          "Operational Resilience Policy",
+          "Identity and Access Management Policy",
+          "Third Party Risk Policy"
+        ],
+        "standardsToReview": [
+          "NIST CSF",
+          "MITRE ATT&CK"
+        ],
+        "escalateToBoard": false,
+        "escalateToRiskCommittee": true,
+        "triggerControlAssessment": true
+      },
+      "url": "https://www.cisa.gov"
+    },
+    {
+      "title": "CVE-2026-33017",
+      "author": "Unknown",
+      "publishedDate": "2026-03-25",
+      "source": "CISA",
+      "category": "Global Authorities",
+      "subcategory": "General",
+      "country": "Global",
+      "industry": [
+        "Financial Services"
+      ],
+      "framework": [
+        "NIST CSF",
+        "MITRE ATT&CK"
+      ],
+      "technology": [
+        "Identity",
+        "AI"
+      ],
+      "threatActor": "Unknown",
+      "product": "Unknown",
+      "cve": [
+        "CVE-2026-33017"
+      ],
+      "mitreTechnique": [],
+      "mitreTactic": [],
+      "summary": "Langflow contains a code injection vulnerability that could allow building public flows without requiring authentication.",
+      "executiveSummary": "CVE-2026-33017 has potential strategic risk and control implications.",
+      "technicalSummary": "Langflow contains a code injection vulnerability that could allow building public flows without requiring authentication.",
+      "businessImpact": "Potential impact on compliance posture and operational resilience.",
+      "operationalImpact": "Potential changes required to operating controls, runbooks, and assurance cadence.",
+      "recommendedActions": [
+        "Assess internal control coverage against this update.",
+        "Assign control owners and remediation dates.",
+        "Escalate high-risk findings to executive governance forums."
+      ],
+      "riskRating": "low",
+      "confidenceScore": 0.9,
+      "tags": [
+        "NIST CSF",
+        "MITRE ATT&CK"
+      ],
+      "frameworkMappings": [
+        "NIST CSF",
+        "MITRE ATT&CK"
+      ],
+      "qualityScoring": {
+        "authority": 0.99,
+        "timeliness": 0.2,
+        "businessImpact": 0.91,
+        "executiveRelevance": 0.97,
+        "australianRelevance": 0.45,
+        "identityRelevance": 1.0,
+        "aiRelevance": 1.0,
+        "financialServicesRelevance": 0.5,
+        "threatIntelligenceValue": 0.45,
+        "technicalAccuracy": 0.9,
+        "overall": 0.778
+      },
+      "whyThisMatters": {
+        "ciso": "Control gaps and threat exposure can materially impact cyber resilience and regulatory assurance.",
+        "cio": "Technology roadmaps, third-party services, and resilience investments may need reprioritization.",
+        "cto": "Architecture and platform controls may require rapid uplift to maintain operational resilience.",
+        "iamLeader": "Identity, PAM, machine identity, and access governance controls should be validated for coverage.",
+        "affectsFinancialServices": true,
+        "affectsSuperannuation": false,
+        "affectsBanking": false,
+        "controlsImpacted": [
+          "Identity",
+          "AI"
+        ],
+        "policiesToReview": [
+          "Information Security Policy",
+          "Operational Resilience Policy",
+          "Identity and Access Management Policy",
+          "Third Party Risk Policy"
+        ],
+        "standardsToReview": [
+          "NIST CSF",
+          "MITRE ATT&CK"
+        ],
+        "escalateToBoard": false,
+        "escalateToRiskCommittee": true,
+        "triggerControlAssessment": true
+      },
+      "url": "https://www.cisa.gov"
+    },
+    {
+      "title": "CVE-2026-1603",
+      "author": "Unknown",
+      "publishedDate": "2026-03-09",
+      "source": "CISA",
+      "category": "Global Authorities",
+      "subcategory": "General",
+      "country": "Global",
+      "industry": [
+        "Financial Services"
+      ],
+      "framework": [
+        "NIST CSF",
+        "MITRE ATT&CK"
+      ],
+      "technology": [
+        "Identity",
+        "AI"
+      ],
+      "threatActor": "Unknown",
+      "product": "Unknown",
+      "cve": [
+        "CVE-2026-1603"
+      ],
+      "mitreTechnique": [],
+      "mitreTactic": [
+        "Credential Access"
+      ],
+      "summary": "Ivanti Endpoint Manager (EPM) contains an authentication bypass using an alternate path or channel vulnerability that could allow a remote unauthenticated attacker to leak specific stored credential data.",
+      "executiveSummary": "CVE-2026-1603 has potential strategic risk and control implications.",
+      "technicalSummary": "Ivanti Endpoint Manager (EPM) contains an authentication bypass using an alternate path or channel vulnerability that could allow a remote unauthenticated attacker to leak specific stored credential data.",
+      "businessImpact": "Potential impact on compliance posture and operational resilience.",
+      "operationalImpact": "Potential changes required to operating controls, runbooks, and assurance cadence.",
+      "recommendedActions": [
+        "Assess internal control coverage against this update.",
+        "Assign control owners and remediation dates.",
+        "Escalate high-risk findings to executive governance forums."
+      ],
+      "riskRating": "low",
+      "confidenceScore": 0.9,
+      "tags": [
+        "NIST CSF",
+        "MITRE ATT&CK"
+      ],
+      "frameworkMappings": [
+        "NIST CSF",
+        "MITRE ATT&CK"
+      ],
+      "qualityScoring": {
+        "authority": 0.99,
+        "timeliness": 0.2,
+        "businessImpact": 0.91,
+        "executiveRelevance": 0.97,
+        "australianRelevance": 0.45,
+        "identityRelevance": 1.0,
+        "aiRelevance": 1.0,
+        "financialServicesRelevance": 0.5,
+        "threatIntelligenceValue": 0.45,
+        "technicalAccuracy": 0.9,
+        "overall": 0.778
+      },
+      "whyThisMatters": {
+        "ciso": "Control gaps and threat exposure can materially impact cyber resilience and regulatory assurance.",
+        "cio": "Technology roadmaps, third-party services, and resilience investments may need reprioritization.",
+        "cto": "Architecture and platform controls may require rapid uplift to maintain operational resilience.",
+        "iamLeader": "Identity, PAM, machine identity, and access governance controls should be validated for coverage.",
+        "affectsFinancialServices": true,
+        "affectsSuperannuation": false,
+        "affectsBanking": false,
+        "controlsImpacted": [
+          "Identity",
+          "AI"
+        ],
+        "policiesToReview": [
+          "Information Security Policy",
+          "Operational Resilience Policy",
+          "Identity and Access Management Policy",
+          "Third Party Risk Policy"
+        ],
+        "standardsToReview": [
+          "NIST CSF",
+          "MITRE ATT&CK"
+        ],
+        "escalateToBoard": false,
+        "escalateToRiskCommittee": true,
+        "triggerControlAssessment": true
+      },
+      "url": "https://www.cisa.gov"
+    },
+    {
+      "title": "CVE-2017-7921",
+      "author": "Unknown",
+      "publishedDate": "2026-03-05",
+      "source": "CISA",
+      "category": "Global Authorities",
+      "subcategory": "General",
+      "country": "Global",
+      "industry": [
+        "Financial Services"
+      ],
+      "framework": [
+        "NIST CSF",
+        "MITRE ATT&CK"
+      ],
+      "technology": [
+        "Identity",
+        "AI"
+      ],
+      "threatActor": "Unknown",
+      "product": "Unknown",
+      "cve": [
+        "CVE-2017-7921"
+      ],
+      "mitreTechnique": [],
+      "mitreTactic": [],
+      "summary": "Multiple Hikvision products contain an improper authentication vulnerability that could allow a malicious user to escalate privileges on the system and gain access to sensitive information.",
+      "executiveSummary": "CVE-2017-7921 has potential strategic risk and control implications.",
+      "technicalSummary": "Multiple Hikvision products contain an improper authentication vulnerability that could allow a malicious user to escalate privileges on the system and gain access to sensitive information.",
+      "businessImpact": "Potential impact on compliance posture and operational resilience.",
+      "operationalImpact": "Potential changes required to operating controls, runbooks, and assurance cadence.",
+      "recommendedActions": [
+        "Assess internal control coverage against this update.",
+        "Assign control owners and remediation dates.",
+        "Escalate high-risk findings to executive governance forums."
+      ],
+      "riskRating": "low",
+      "confidenceScore": 0.9,
+      "tags": [
+        "NIST CSF",
+        "MITRE ATT&CK"
+      ],
+      "frameworkMappings": [
+        "NIST CSF",
+        "MITRE ATT&CK"
+      ],
+      "qualityScoring": {
+        "authority": 0.99,
+        "timeliness": 0.2,
+        "businessImpact": 0.91,
+        "executiveRelevance": 0.97,
+        "australianRelevance": 0.45,
+        "identityRelevance": 1.0,
+        "aiRelevance": 1.0,
+        "financialServicesRelevance": 0.5,
+        "threatIntelligenceValue": 0.45,
+        "technicalAccuracy": 0.9,
+        "overall": 0.778
+      },
+      "whyThisMatters": {
+        "ciso": "Control gaps and threat exposure can materially impact cyber resilience and regulatory assurance.",
+        "cio": "Technology roadmaps, third-party services, and resilience investments may need reprioritization.",
+        "cto": "Architecture and platform controls may require rapid uplift to maintain operational resilience.",
+        "iamLeader": "Identity, PAM, machine identity, and access governance controls should be validated for coverage.",
+        "affectsFinancialServices": true,
+        "affectsSuperannuation": false,
+        "affectsBanking": false,
+        "controlsImpacted": [
+          "Identity",
+          "AI"
+        ],
+        "policiesToReview": [
+          "Information Security Policy",
+          "Operational Resilience Policy",
+          "Identity and Access Management Policy",
+          "Third Party Risk Policy"
+        ],
+        "standardsToReview": [
+          "NIST CSF",
+          "MITRE ATT&CK"
+        ],
+        "escalateToBoard": false,
+        "escalateToRiskCommittee": true,
+        "triggerControlAssessment": true
+      },
+      "url": "https://www.cisa.gov"
+    },
+    {
+      "title": "CVE-2012-1854",
+      "author": "Unknown",
+      "publishedDate": "2026-04-13",
+      "source": "CISA",
+      "category": "Global Authorities",
+      "subcategory": "General",
+      "country": "Australia",
+      "industry": [
+        "Financial Services"
+      ],
+      "framework": [
+        "NIST CSF",
+        "MITRE ATT&CK"
+      ],
+      "technology": [
+        "AI"
+      ],
+      "threatActor": "Unknown",
+      "product": "Unknown",
+      "cve": [
+        "CVE-2012-1854"
+      ],
+      "mitreTechnique": [],
+      "mitreTactic": [
+        "Execution"
+      ],
+      "summary": "Microsoft Visual Basic for Applications (VBA) contains an insecure library loading vulnerability that could allow for remote code execution.",
+      "executiveSummary": "CVE-2012-1854 has potential strategic risk and control implications.",
+      "technicalSummary": "Microsoft Visual Basic for Applications (VBA) contains an insecure library loading vulnerability that could allow for remote code execution.",
+      "businessImpact": "Potential impact on compliance posture and operational resilience.",
+      "operationalImpact": "Potential changes required to operating controls, runbooks, and assurance cadence.",
+      "recommendedActions": [
+        "Assess internal control coverage against this update.",
+        "Assign control owners and remediation dates.",
+        "Escalate high-risk findings to executive governance forums."
+      ],
+      "riskRating": "low",
+      "confidenceScore": 0.9,
+      "tags": [
+        "NIST CSF",
+        "MITRE ATT&CK"
+      ],
+      "frameworkMappings": [
+        "NIST CSF",
+        "MITRE ATT&CK"
+      ],
+      "qualityScoring": {
+        "authority": 0.99,
+        "timeliness": 0.2,
+        "businessImpact": 0.86,
+        "executiveRelevance": 0.97,
+        "australianRelevance": 1.0,
+        "identityRelevance": 0.4,
+        "aiRelevance": 1.0,
+        "financialServicesRelevance": 0.5,
+        "threatIntelligenceValue": 0.45,
+        "technicalAccuracy": 0.9,
+        "overall": 0.766
+      },
+      "whyThisMatters": {
+        "ciso": "Control gaps and threat exposure can materially impact cyber resilience and regulatory assurance.",
+        "cio": "Technology roadmaps, third-party services, and resilience investments may need reprioritization.",
+        "cto": "Architecture and platform controls may require rapid uplift to maintain operational resilience.",
+        "iamLeader": "Identity, PAM, machine identity, and access governance controls should be validated for coverage.",
+        "affectsFinancialServices": true,
+        "affectsSuperannuation": false,
+        "affectsBanking": false,
+        "controlsImpacted": [
+          "AI"
+        ],
+        "policiesToReview": [
+          "Information Security Policy",
+          "Operational Resilience Policy",
+          "Identity and Access Management Policy",
+          "Third Party Risk Policy"
+        ],
+        "standardsToReview": [
+          "NIST CSF",
+          "MITRE ATT&CK"
+        ],
+        "escalateToBoard": false,
+        "escalateToRiskCommittee": true,
+        "triggerControlAssessment": true
+      },
+      "url": "https://www.cisa.gov"
+    },
+    {
+      "title": "CVE-2026-34910",
+      "author": "Unknown",
+      "publishedDate": "2026-06-23",
+      "source": "CISA",
+      "category": "Global Authorities",
+      "subcategory": "General",
+      "country": "Global",
+      "industry": [
+        "Financial Services"
+      ],
+      "framework": [
+        "NIST CSF",
+        "MITRE ATT&CK"
+      ],
+      "technology": [
+        "AI",
+        "Threat Intelligence"
+      ],
+      "threatActor": "Unknown",
+      "product": "Unknown",
+      "cve": [
+        "CVE-2026-34910"
+      ],
+      "mitreTechnique": [],
+      "mitreTactic": [],
+      "summary": "Ubiquiti UniFi OS contains an improper input validation vulnerability which could allow a malicious actor with access to the network to conduct command injection.",
+      "executiveSummary": "CVE-2026-34910 has potential strategic risk and control implications.",
+      "technicalSummary": "Ubiquiti UniFi OS contains an improper input validation vulnerability which could allow a malicious actor with access to the network to conduct command injection.",
+      "businessImpact": "Potential impact on compliance posture and operational resilience.",
+      "operationalImpact": "Potential changes required to operating controls, runbooks, and assurance cadence.",
+      "recommendedActions": [
+        "Assess internal control coverage against this update.",
+        "Assign control owners and remediation dates.",
+        "Escalate high-risk findings to executive governance forums."
+      ],
+      "riskRating": "low",
+      "confidenceScore": 0.9,
+      "tags": [
+        "NIST CSF",
+        "MITRE ATT&CK"
+      ],
+      "frameworkMappings": [
+        "NIST CSF",
+        "MITRE ATT&CK"
+      ],
+      "qualityScoring": {
+        "authority": 0.99,
+        "timeliness": 0.2,
+        "businessImpact": 0.91,
+        "executiveRelevance": 0.97,
+        "australianRelevance": 0.45,
+        "identityRelevance": 0.4,
+        "aiRelevance": 1.0,
+        "financialServicesRelevance": 0.5,
+        "threatIntelligenceValue": 1.0,
+        "technicalAccuracy": 0.9,
+        "overall": 0.763
+      },
+      "whyThisMatters": {
+        "ciso": "Control gaps and threat exposure can materially impact cyber resilience and regulatory assurance.",
+        "cio": "Technology roadmaps, third-party services, and resilience investments may need reprioritization.",
+        "cto": "Architecture and platform controls may require rapid uplift to maintain operational resilience.",
+        "iamLeader": "Identity, PAM, machine identity, and access governance controls should be validated for coverage.",
+        "affectsFinancialServices": true,
+        "affectsSuperannuation": false,
+        "affectsBanking": false,
+        "controlsImpacted": [
+          "AI",
+          "Threat Intelligence"
+        ],
+        "policiesToReview": [
+          "Information Security Policy",
+          "Operational Resilience Policy",
+          "Identity and Access Management Policy",
+          "Third Party Risk Policy"
+        ],
+        "standardsToReview": [
+          "NIST CSF",
+          "MITRE ATT&CK"
+        ],
+        "escalateToBoard": false,
+        "escalateToRiskCommittee": true,
+        "triggerControlAssessment": true
+      },
+      "url": "https://www.cisa.gov"
+    }
+  ],
+  "boardRecommendations": [
+    "Approve prioritized remediation for high-risk control gaps.",
+    "Increase oversight cadence for regulatory and AI governance updates.",
+    "Fund resilience improvements for critical business services."
+  ],
+  "exportFormats": [
+    "json",
+    "pdf",
+    "pptx",
+    "email",
+    "teams"
+  ]
+}

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-label="Cyber Executive Intelligence Platform">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#020617" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22d3ee" />
+      <stop offset="100%" stop-color="#10b981" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)" />
+  <circle cx="1005" cy="118" r="166" fill="#0ea5e9" opacity="0.15" />
+  <circle cx="166" cy="520" r="214" fill="#22d3ee" opacity="0.12" />
+  <text x="86" y="216" fill="#22d3ee" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="30" letter-spacing="6">CYBER EXECUTIVE</text>
+  <text x="86" y="306" fill="#e2e8f0" font-family="ui-sans-serif, Segoe UI, Arial, sans-serif" font-size="74" font-weight="700">Intelligence Platform</text>
+  <text x="86" y="366" fill="#cbd5e1" font-family="ui-sans-serif, Segoe UI, Arial, sans-serif" font-size="34">Daily strategic cyber, threat, and compliance intelligence</text>
+  <rect x="86" y="428" width="1028" height="4" fill="url(#line)" opacity="0.9" />
+</svg>

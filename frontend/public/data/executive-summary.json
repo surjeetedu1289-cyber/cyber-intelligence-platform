@@ -1,0 +1,11 @@
+{
+  "headline": "Daily cyber intelligence summary",
+  "summary": "Cybersecurity analysis generated from 42 articles.",
+  "key_risks": [],
+  "top_priorities": [
+    "Validate exposure in your environment.",
+    "Prioritize remediation for high-risk findings.",
+    "Track actions in the risk register."
+  ],
+  "confidence": "medium"
+}

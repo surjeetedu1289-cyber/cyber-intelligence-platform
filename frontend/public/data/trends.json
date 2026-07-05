@@ -1,0 +1,23 @@
+{
+  "generatedAt": "2026-07-05T04:59:16.924903+00:00",
+  "trendData": [
+    {
+      "name": "Regulation",
+      "value": 83
+    },
+    {
+      "name": "Vulnerability",
+      "value": 17
+    },
+    {
+      "name": "Global Authorities",
+      "value": 1
+    }
+  ],
+  "sourceGroups": [
+    {
+      "name": "Global Authorities",
+      "count": 101
+    }
+  ]
+}

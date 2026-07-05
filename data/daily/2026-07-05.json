@@ -1,0 +1,151 @@
+{
+  "date": "2026-07-05",
+  "generated_at": "2026-07-05T00:19:31.709994+00:00",
+  "article_count": 1070,
+  "agents": [
+    {
+      "agent": "Cybersecurity",
+      "article_count": 42,
+      "executive_summary": "Cybersecurity analysis generated from 42 articles.",
+      "business_impact": "Potential operational and governance impact should be reviewed by leadership.",
+      "iam_impact": "Validate authentication, authorization, and privileged access controls for affected systems.",
+      "risk_level": "critical",
+      "recommended_actions": [
+        "Validate exposure in your environment.",
+        "Prioritize remediation for high-risk findings.",
+        "Track actions in the risk register."
+      ],
+      "confidence_score": 0.55,
+      "tags": [
+        "cybersecurity",
+        "fallback"
+      ]
+    },
+    {
+      "agent": "IAM",
+      "article_count": 990,
+      "executive_summary": "IAM analysis generated from 990 articles.",
+      "business_impact": "Potential operational and governance impact should be reviewed by leadership.",
+      "iam_impact": "Validate authentication, authorization, and privileged access controls for affected systems.",
+      "risk_level": "critical",
+      "recommended_actions": [
+        "Validate exposure in your environment.",
+        "Prioritize remediation for high-risk findings.",
+        "Track actions in the risk register."
+      ],
+      "confidence_score": 0.55,
+      "tags": [
+        "iam",
+        "fallback"
+      ]
+    },
+    {
+      "agent": "Agentic AI",
+      "article_count": 24,
+      "executive_summary": "Agentic AI analysis generated from 24 articles.",
+      "business_impact": "Potential operational and governance impact should be reviewed by leadership.",
+      "iam_impact": "Validate authentication, authorization, and privileged access controls for affected systems.",
+      "risk_level": "critical",
+      "recommended_actions": [
+        "Validate exposure in your environment.",
+        "Prioritize remediation for high-risk findings.",
+        "Track actions in the risk register."
+      ],
+      "confidence_score": 0.55,
+      "tags": [
+        "agentic-ai",
+        "fallback"
+      ]
+    },
+    {
+      "agent": "Machine Identity",
+      "article_count": 12,
+      "executive_summary": "Machine Identity analysis generated from 12 articles.",
+      "business_impact": "Potential operational and governance impact should be reviewed by leadership.",
+      "iam_impact": "Validate authentication, authorization, and privileged access controls for affected systems.",
+      "risk_level": "medium",
+      "recommended_actions": [
+        "Validate exposure in your environment.",
+        "Prioritize remediation for high-risk findings.",
+        "Track actions in the risk register."
+      ],
+      "confidence_score": 0.55,
+      "tags": [
+        "machine-identity",
+        "fallback"
+      ]
+    },
+    {
+      "agent": "Regulations",
+      "article_count": 2,
+      "executive_summary": "Regulations analysis generated from 2 articles.",
+      "business_impact": "Potential operational and governance impact should be reviewed by leadership.",
+      "iam_impact": "Validate authentication, authorization, and privileged access controls for affected systems.",
+      "risk_level": "medium",
+      "recommended_actions": [
+        "Validate exposure in your environment.",
+        "Prioritize remediation for high-risk findings.",
+        "Track actions in the risk register."
+      ],
+      "confidence_score": 0.55,
+      "tags": [
+        "regulations",
+        "fallback"
+      ]
+    },
+    {
+      "agent": "Vendor Intelligence",
+      "article_count": 20,
+      "executive_summary": "Vendor Intelligence analysis generated from 20 articles.",
+      "business_impact": "Potential operational and governance impact should be reviewed by leadership.",
+      "iam_impact": "Validate authentication, authorization, and privileged access controls for affected systems.",
+      "risk_level": "medium",
+      "recommended_actions": [
+        "Validate exposure in your environment.",
+        "Prioritize remediation for high-risk findings.",
+        "Track actions in the risk register."
+      ],
+      "confidence_score": 0.55,
+      "tags": [
+        "vendor-intelligence",
+        "fallback"
+      ]
+    },
+    {
+      "agent": "Research Papers",
+      "article_count": 20,
+      "executive_summary": "Research Papers analysis generated from 20 articles.",
+      "business_impact": "Potential operational and governance impact should be reviewed by leadership.",
+      "iam_impact": "Validate authentication, authorization, and privileged access controls for affected systems.",
+      "risk_level": "medium",
+      "recommended_actions": [
+        "Validate exposure in your environment.",
+        "Prioritize remediation for high-risk findings.",
+        "Track actions in the risk register."
+      ],
+      "confidence_score": 0.55,
+      "tags": [
+        "research-papers",
+        "fallback"
+      ]
+    },
+    {
+      "agent": "Threat Intelligence",
+      "article_count": 42,
+      "executive_summary": "Threat Intelligence analysis generated from 42 articles.",
+      "business_impact": "Potential operational and governance impact should be reviewed by leadership.",
+      "iam_impact": "Validate authentication, authorization, and privileged access controls for affected systems.",
+      "risk_level": "critical",
+      "recommended_actions": [
+        "Validate exposure in your environment.",
+        "Prioritize remediation for high-risk findings.",
+        "Track actions in the risk register."
+      ],
+      "confidence_score": 0.55,
+      "tags": [
+        "threat-intelligence",
+        "fallback"
+      ]
+    }
+  ]
+}
