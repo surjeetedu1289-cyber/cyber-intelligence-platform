@@ -1,0 +1,62 @@
+[
+  {
+    "id": 2,
+    "title": "CISA warns of active exploitation against enterprise VPN appliances",
+    "category": "AI Agents",
+    "source": "CISA"
+  },
+  {
+    "id": 3,
+    "title": "New NIST guidance strengthens identity governance controls",
+    "category": "Identity",
+    "source": "NIST"
+  },
+  {
+    "id": 4,
+    "title": "AI agents expand into privileged workflow automation",
+    "category": "AI Agents",
+    "source": "Vendor News"
+  },
+  {
+    "id": 5,
+    "title": "Vendor advisory: critical patch released for remote access gateway",
+    "category": "Vendor",
+    "source": "Vendor Advisory"
+  },
+  {
+    "id": 6,
+    "title": "EU proposes new incident reporting obligations for critical infrastructure",
+    "category": "Regulation",
+    "source": "EU"
+  },
+  {
+    "id": 7,
+    "title": "Research paper examines resilient machine identity controls in cloud environments",
+    "category": "Machine Identity",
+    "source": "Research"
+  },
+  {
+    "id": 8,
+    "title": "Threat actor uses stolen OAuth tokens to access cloud workloads",
+    "category": "Threat",
+    "source": "Threat Intel"
+  },
+  {
+    "id": 9,
+    "title": "Identity news: passwordless phishing resistance improves MFA adoption",
+    "category": "Identity",
+    "source": "Identity News"
+  },
+  {
+    "id": 10,
+    "title": "Machine identity: certificate lifecycle automation reduces outages",
+    "category": "Machine Identity",
+    "source": "Machine Identity"
+  },
+  {
+    "id": 11,
+    "title": "AI agents raise new concerns around autonomous privilege escalation",
+    "category": "AI Agents",
+    "source": "AI Research"
+  }
+]

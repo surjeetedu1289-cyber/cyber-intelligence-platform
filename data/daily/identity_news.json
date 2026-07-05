@@ -1,0 +1,1079 @@
+[
+  {
+    "id": 3,
+    "title": "New NIST guidance strengthens identity governance controls",
+    "category": "Identity",
+    "source": "NIST"
+  },
+  {
+    "id": 9,
+    "title": "Identity news: passwordless phishing resistance improves MFA adoption",
+    "category": "Identity",
+    "source": "Identity News"
+  },
+  {
+    "title": "Investigating suspicious AI workflows in Microsoft Entra Agent ID: Assistive agents",
+    "author": "Unknown",
+    "published_at": "Mon, 08 Jun 2026 15:37:01 +0000",
+    "published_date": "Mon, 08 Jun 2026 15:37:01 +0000",
+    "published": "Mon, 08 Jun 2026 15:37:01 +0000",
+    "url": "https://redcanary.com/blog/threat-detection/entra-id-ai-workflows-assistive-agents/",
+    "details_url": "https://redcanary.com/blog/threat-detection/entra-id-ai-workflows-assistive-agents/",
+    "summary": "Assistive AI agents aren't always helpful\u2014it all depends on who they're working on behalf of.",
+    "category": "Identity",
+    "subcategory": "Threat Intel",
+    "source": "Red Canary",
+    "vendor": "Red Canary",
+    "source_group": "Threat Intelligence",
+    "monitors": [
+      "Detection engineering",
+      "Threat trends"
+    ],
+    "official_url": "https://redcanary.com",
+    "severity": "medium",
+    "tags": [],
+    "executive_summary": "Identity: Assistive AI agents aren't always helpful\u2014it all depends on who they're working on behalf of.",
+    "affected_industries": [
+      "Technology"
+    ],
+    "affected_iam_domains": [
+      "Identity Governance"
+    ],
+    "control_mappings": [
+      "General"
+    ],
+    "recommended_actions": [
+      "Review IAM control effectiveness for privileged and non-human identities.",
+      "Assess enterprise exposure and affected business processes.",
+      "Update risk register and assign accountable owner.",
+      "Track remediation completion against policy deadlines."
+    ],
+    "board_impact": "Identity control weakness could increase enterprise-wide breach and fraud exposure.",
+    "ciso_action_items": [
+      "Confirm detection, response, and reporting ownership.",
+      "Validate compensating controls and policy exceptions.",
+      "Publish an executive status update with next milestones."
+    ],
+    "rankings": {
+      "credibility": 0.93,
+      "executive_relevance": 0.85,
+      "business_impact": 0.5,
+      "regulatory_importance": 0.4,
+      "overall": 0.723
+    }
+  },
+  {
+    "title": "Investigating suspicious AI workflows in Microsoft Entra Agent ID: Agent\u2019s user account",
+    "author": "Unknown",
+    "published_at": "Mon, 01 Jun 2026 13:04:01 +0000",
+    "published_date": "Mon, 01 Jun 2026 13:04:01 +0000",
+    "published": "Mon, 01 Jun 2026 13:04:01 +0000",
+    "url": "https://redcanary.com/blog/threat-detection/entra-id-ai-workflows-teams/",
+    "details_url": "https://redcanary.com/blog/threat-detection/entra-id-ai-workflows-teams/",
+    "summary": "Entra ID agent users can send malicious content to human users via Microsoft Teams. Here\u2019s what to look out for.",
+    "category": "Identity",
+    "subcategory": "Threat Intel",
+    "source": "Red Canary",
+    "vendor": "Red Canary",
+    "source_group": "Threat Intelligence",
+    "monitors": [
+      "Detection engineering",
+      "Threat trends"
+    ],
+    "official_url": "https://redcanary.com",
+    "severity": "medium",
+    "tags": [],
+    "executive_summary": "Identity: Entra ID agent users can send malicious content to human users via Microsoft Teams. Here\u2019s what to look out for.",
+    "affected_industries": [
+      "General"
+    ],
+    "affected_iam_domains": [
+      "Identity Governance"
+    ],
+    "control_mappings": [
+      "General"
+    ],
+    "recommended_actions": [
+      "Review IAM control effectiveness for privileged and non-human identities.",
+      "Assess enterprise exposure and affected business processes.",
+      "Update risk register and assign accountable owner.",
+      "Track remediation completion against policy deadlines."
+    ],
+    "board_impact": "Identity control weakness could increase enterprise-wide breach and fraud exposure.",
+    "ciso_action_items": [
+      "Confirm detection, response, and reporting ownership.",
+      "Validate compensating controls and policy exceptions.",
+      "Publish an executive status update with next milestones."
+    ],
+    "rankings": {
+      "credibility": 0.93,
+      "executive_relevance": 0.85,
+      "business_impact": 0.5,
+      "regulatory_importance": 0.4,
+      "overall": 0.723
+    }
+  },
+  {
+    "title": "Investigating suspicious AI workflows in Microsoft Entra Agent ID: Autonomous agents",
+    "author": "Unknown",
+    "published_at": "Wed, 27 May 2026 12:58:44 +0000",
+    "published_date": "Wed, 27 May 2026 12:58:44 +0000",
+    "published": "Wed, 27 May 2026 12:58:44 +0000",
+    "url": "https://redcanary.com/blog/threat-detection/entra-id-ai-workflows/",
+    "details_url": "https://redcanary.com/blog/threat-detection/entra-id-ai-workflows/",
+    "summary": "Read our primer on how to detect and respond to an autonomous agent escalating privileges and persisting in your Entra ID tenant",
+    "category": "Identity",
+    "subcategory": "Threat Intel",
+    "source": "Red Canary",
+    "vendor": "Red Canary",
+    "source_group": "Threat Intelligence",
+    "monitors": [
+      "Detection engineering",
+      "Threat trends"
+    ],
+    "official_url": "https://redcanary.com",
+    "severity": "medium",
+    "tags": [],
+    "executive_summary": "Identity: Read our primer on how to detect and respond to an autonomous agent escalating privileges and persisting in your Entra ID tenant",
+    "affected_industries": [
+      "General"
+    ],
+    "affected_iam_domains": [
+      "Identity Governance"
+    ],
+    "control_mappings": [
+      "General"
+    ],
+    "recommended_actions": [
+      "Review IAM control effectiveness for privileged and non-human identities.",
+      "Assess enterprise exposure and affected business processes.",
+      "Update risk register and assign accountable owner.",
+      "Track remediation completion against policy deadlines."
+    ],
+    "board_impact": "Identity control weakness could increase enterprise-wide breach and fraud exposure.",
+    "ciso_action_items": [
+      "Confirm detection, response, and reporting ownership.",
+      "Validate compensating controls and policy exceptions.",
+      "Publish an executive status update with next milestones."
+    ],
+    "rankings": {
+      "credibility": 0.93,
+      "executive_relevance": 0.85,
+      "business_impact": 0.5,
+      "regulatory_importance": 0.4,
+      "overall": 0.723
+    }
+  },
+  {
+    "title": "Announcing the new Digital Credentials Harmonized Presentation Working Group",
+    "author": "Unknown",
+    "published_at": "Mon, 15 Jun 2026 11:54:53 +0000",
+    "published_date": "Mon, 15 Jun 2026 11:54:53 +0000",
+    "published": "Mon, 15 Jun 2026 11:54:53 +0000",
+    "url": "https://openid.net/announcing-the-new-digital-credentials-harmonized-presentation-working-group/",
+    "details_url": "https://openid.net/announcing-the-new-digital-credentials-harmonized-presentation-working-group/",
+    "summary": "<p>The OpenID Foundation has launched a new working group &#8211; the Digital Credentials Harmonized Presentation Working Group (DCHP WG). The new DCHP WG supports a joint initiative between experts of ISO/IEC JTC1/SC 17 (ISO) WG10 and WG4 and the OpenID Foundation\u2019s Digital Credentials Protocols Working Group (DCP WG) to harmonize their credential presentation protocols.\u00a0 Today, [&#8230;]</p>\n<p>The post <a href=\"https://openid.net/announcing-the-new-digital-credentials-harmonized-presentation-working-group/\">Announcing the new Digital Credentials Harmonized Presentation Working Group</a> first appeared on <a href=\"https://openid.net\">OpenID Foundation</a>.</p>",
+    "category": "Identity",
+    "subcategory": "OAuth/OIDC",
+    "source": "OpenID Foundation",
+    "vendor": "OpenID Foundation",
+    "source_group": "Identity Security",
+    "monitors": [
+      "OAuth",
+      "OIDC",
+      "SCIM",
+      "Identity Fabric"
+    ],
+    "official_url": "https://openid.net",
+    "severity": "medium",
+    "tags": [],
+    "executive_summary": "Identity: <p>The OpenID Foundation has launched a new working group &#8211; the Digital Credentials Harmonized Presentation Working Group (DCHP WG). The new DCHP WG supports a joint initiative between experts of ISO/IEC JTC1/SC 17 (ISO) WG10 and WG4 and the OpenID Foundation\u2019s Digital Cred",
+    "affected_industries": [
+      "Technology"
+    ],
+    "affected_iam_domains": [
+      "General"
+    ],
+    "control_mappings": [
+      "MITRE ATT&CK",
+      "ISO 27001"
+    ],
+    "recommended_actions": [
+      "Review IAM control effectiveness for privileged and non-human identities.",
+      "Assess enterprise exposure and affected business processes.",
+      "Update risk register and assign accountable owner.",
+      "Track remediation completion against policy deadlines."
+    ],
+    "board_impact": "Identity control weakness could increase enterprise-wide breach and fraud exposure.",
+    "ciso_action_items": [
+      "Confirm detection, response, and reporting ownership.",
+      "Validate compensating controls and policy exceptions.",
+      "Publish an executive status update with next milestones."
+    ],
+    "rankings": {
+      "credibility": 0.95,
+      "executive_relevance": 0.85,
+      "business_impact": 0.5,
+      "regulatory_importance": 0.4,
+      "overall": 0.73
+    }
+  },
+  {
+    "title": "OpenID Foundation advances authorization for the agent era with new AuthZEN Working Group Drafts",
+    "author": "Unknown",
+    "published_at": "Mon, 15 Jun 2026 10:39:35 +0000",
+    "published_date": "Mon, 15 Jun 2026 10:39:35 +0000",
+    "published": "Mon, 15 Jun 2026 10:39:35 +0000",
+    "url": "https://openid.net/openid-foundation-advances-authorization-for-the-agent-era-with-new-authzen-working-group-drafts/",
+    "details_url": "https://openid.net/openid-foundation-advances-authorization-for-the-agent-era-with-new-authzen-working-group-drafts/",
+    "summary": "<p>As the identity community gathers at Identiverse 2026, authorization is emerging as one of the defining challenges of the agent era. The OpenID Foundation is pleased to share a significant step forward.\u00a0 The AuthZEN Working Group has approved the AuthZEN Access Request and Approval Profile (AARP) and AuthZEN Profile for Model Context Protocol Tool Authorization [&#8230;]</p>\n<p>The post <a href=\"https://openid.net/openid-foundation-advances-authorization-for-the-agent-era-with-new-authzen-working-group-drafts/\">OpenID Foundation advances authorization for the agent era with new AuthZEN Working Group Drafts</a> first appeared on <a href=\"https://openid.net\">OpenID Foundation</a>.</p>",
+    "category": "Identity",
+    "subcategory": "OAuth/OIDC",
+    "source": "OpenID Foundation",
+    "vendor": "OpenID Foundation",
+    "source_group": "Identity Security",
+    "monitors": [
+      "OAuth",
+      "OIDC",
+      "SCIM",
+      "Identity Fabric"
+    ],
+    "official_url": "https://openid.net",
+    "severity": "medium",
+    "tags": [],
+    "executive_summary": "Identity: <p>As the identity community gathers at Identiverse 2026, authorization is emerging as one of the defining challenges of the agent era. The OpenID Foundation is pleased to share a significant step forward.\u00a0 The AuthZEN Working Group has approved the AuthZEN Access Request and App",
+    "affected_industries": [
+      "Technology"
+    ],
+    "affected_iam_domains": [
+      "Authorization"
+    ],
+    "control_mappings": [
+      "MITRE ATT&CK"
+    ],
+    "recommended_actions": [
+      "Review IAM control effectiveness for privileged and non-human identities.",
+      "Assess enterprise exposure and affected business processes.",
+      "Update risk register and assign accountable owner.",
+      "Track remediation completion against policy deadlines."
+    ],
+    "board_impact": "Identity control weakness could increase enterprise-wide breach and fraud exposure.",
+    "ciso_action_items": [
+      "Confirm detection, response, and reporting ownership.",
+      "Validate compensating controls and policy exceptions.",
+      "Publish an executive status update with next milestones."
+    ],
+    "rankings": {
+      "credibility": 0.95,
+      "executive_relevance": 0.85,
+      "business_impact": 0.5,
+      "regulatory_importance": 0.4,
+      "overall": 0.73
+    }
+  },
+  {
+    "title": "OIDF conformance tests deliver results in La Ciotat",
+    "author": "Unknown",
+    "published_at": "Thu, 11 Jun 2026 19:18:30 +0000",
+    "published_date": "Thu, 11 Jun 2026 19:18:30 +0000",
+    "published": "Thu, 11 Jun 2026 19:18:30 +0000",
+    "url": "https://openid.net/oidf-conformance-tests-deliver-results-in-la-ciotat/",
+    "details_url": "https://openid.net/oidf-conformance-tests-deliver-results-in-la-ciotat/",
+    "summary": "<p>The OpenID Foundation joined participants from across the industry at the 13th ISO mDL interoperability test event in La Ciotat, France last week, taking its conformance test suite to one of the most significant gatherings of digital identity implementers in the international standards calendar. The two-day event, held 28\u201329 May, focused on interoperability testing against [&#8230;]</p>\n<p>The post <a href=\"https://openid.net/oidf-conformance-tests-deliver-results-in-la-ciotat/\">OIDF conformance tests deliver results in La Ciotat</a> first appeared on <a href=\"https://openid.net\">OpenID Foundation</a>.</p>",
+    "category": "Identity",
+    "subcategory": "OAuth/OIDC",
+    "source": "OpenID Foundation",
+    "vendor": "OpenID Foundation",
+    "source_group": "Identity Security",
+    "monitors": [
+      "OAuth",
+      "OIDC",
+      "SCIM",
+      "Identity Fabric"
+    ],
+    "official_url": "https://openid.net",
+    "severity": "medium",
+    "tags": [],
+    "executive_summary": "Identity: <p>The OpenID Foundation joined participants from across the industry at the 13th ISO mDL interoperability test event in La Ciotat, France last week, taking its conformance test suite to one of the most significant gatherings of digital identity implementers in the international",
+    "affected_industries": [
+      "Technology"
+    ],
+    "affected_iam_domains": [
+      "General"
+    ],
+    "control_mappings": [
+      "MITRE ATT&CK",
+      "ISO 27001"
+    ],
+    "recommended_actions": [
+      "Review IAM control effectiveness for privileged and non-human identities.",
+      "Assess enterprise exposure and affected business processes.",
+      "Update risk register and assign accountable owner.",
+      "Track remediation completion against policy deadlines."
+    ],
+    "board_impact": "Identity control weakness could increase enterprise-wide breach and fraud exposure.",
+    "ciso_action_items": [
+      "Confirm detection, response, and reporting ownership.",
+      "Validate compensating controls and policy exceptions.",
+      "Publish an executive status update with next milestones."
+    ],
+    "rankings": {
+      "credibility": 0.95,
+      "executive_relevance": 0.85,
+      "business_impact": 0.5,
+      "regulatory_importance": 0.4,
+      "overall": 0.73
+    }
+  },
+  {
+    "title": "Four OpenID Foundation voices at ID4Africa 2026 in Abidjan",
+    "author": "Unknown",
+    "published_at": "Thu, 11 Jun 2026 14:02:01 +0000",
+    "published_date": "Thu, 11 Jun 2026 14:02:01 +0000",
+    "published": "Thu, 11 Jun 2026 14:02:01 +0000",
+    "url": "https://openid.net/four-openid-foundation-voices-at-id4africa-2026-in-abidjan/",
+    "details_url": "https://openid.net/four-openid-foundation-voices-at-id4africa-2026-in-abidjan/",
+    "summary": "<p>The OpenID Foundation was proud to join the recent ID4Africa 2026 Annual General Meeting in Abidjan, C\u00f4te d&#8217;Ivoire.\u00a0 ID4Africa is the only pan-African movement dedicated to helping African nations build robust and responsible identity ecosystems, bringing together 48 member governments, international development agencies, and the private sector. This year&#8217;s theme, Digital Identity: From DPI to [&#8230;]</p>\n<p>The post <a href=\"https://openid.net/four-openid-foundation-voices-at-id4africa-2026-in-abidjan/\">Four OpenID Foundation voices at ID4Africa 2026 in Abidjan</a> first appeared on <a href=\"https://openid.net\">OpenID Foundation</a>.</p>",
+    "category": "Identity",
+    "subcategory": "OAuth/OIDC",
+    "source": "OpenID Foundation",
+    "vendor": "OpenID Foundation",
+    "source_group": "Identity Security",
+    "monitors": [
+      "OAuth",
+      "OIDC",
+      "SCIM",
+      "Identity Fabric"
+    ],
+    "official_url": "https://openid.net",
+    "severity": "medium",
+    "tags": [],
+    "executive_summary": "Identity: <p>The OpenID Foundation was proud to join the recent ID4Africa 2026 Annual General Meeting in Abidjan, C\u00f4te d&#8217;Ivoire.\u00a0 ID4Africa is the only pan-African movement dedicated to helping African nations build robust and responsible identity ecosystems, bringing together 48 mem",
+    "affected_industries": [
+      "Government",
+      "Technology"
+    ],
+    "affected_iam_domains": [
+      "General"
+    ],
+    "control_mappings": [
+      "MITRE ATT&CK"
+    ],
+    "recommended_actions": [
+      "Review IAM control effectiveness for privileged and non-human identities.",
+      "Assess enterprise exposure and affected business processes.",
+      "Update risk register and assign accountable owner.",
+      "Track remediation completion against policy deadlines."
+    ],
+    "board_impact": "Identity control weakness could increase enterprise-wide breach and fraud exposure.",
+    "ciso_action_items": [
+      "Confirm detection, response, and reporting ownership.",
+      "Validate compensating controls and policy exceptions.",
+      "Publish an executive status update with next milestones."
+    ],
+    "rankings": {
+      "credibility": 0.95,
+      "executive_relevance": 0.85,
+      "business_impact": 0.5,
+      "regulatory_importance": 0.4,
+      "overall": 0.73
+    }
+  },
+  {
+    "title": "CrowdStrike joins the OIDF as a Sustaining Corporate Member",
+    "author": "Unknown",
+    "published_at": "Wed, 10 Jun 2026 13:08:29 +0000",
+    "published_date": "Wed, 10 Jun 2026 13:08:29 +0000",
+    "published": "Wed, 10 Jun 2026 13:08:29 +0000",
+    "url": "https://openid.net/crowdstrike-joins-the-oidf-as-a-sustaining-corporate-member/",
+    "details_url": "https://openid.net/crowdstrike-joins-the-oidf-as-a-sustaining-corporate-member/",
+    "summary": "<p>The OpenID Foundation is pleased to welcome CrowdStrike as a new Sustaining Corporate Member. CrowdStrike is a global cybersecurity leader whose CrowdStrike Falcon\u00ae platform delivers real-time threat detection, endpoint protection, and high-fidelity security intelligence across modern enterprise environments.\u00a0 CrowdStrike brings with it significant expertise in real-time threat detection and security threat intelligence. As identity has [&#8230;]</p>\n<p>The post <a href=\"https://openid.net/crowdstrike-joins-the-oidf-as-a-sustaining-corporate-member/\">CrowdStrike joins the OIDF as a Sustaining Corporate Member</a> first appeared on <a href=\"https://openid.net\">OpenID Foundation</a>.</p>",
+    "category": "Identity",
+    "subcategory": "OAuth/OIDC",
+    "source": "OpenID Foundation",
+    "vendor": "OpenID Foundation",
+    "source_group": "Identity Security",
+    "monitors": [
+      "OAuth",
+      "OIDC",
+      "SCIM",
+      "Identity Fabric"
+    ],
+    "official_url": "https://openid.net",
+    "severity": "medium",
+    "tags": [],
+    "executive_summary": "Threat: <p>The OpenID Foundation is pleased to welcome CrowdStrike as a new Sustaining Corporate Member. CrowdStrike is a global cybersecurity leader whose CrowdStrike Falcon\u00ae platform delivers real-time threat detection, endpoint protection, and high-fidelity security intelligence acros",
+    "affected_industries": [
+      "Technology"
+    ],
+    "affected_iam_domains": [
+      "General"
+    ],
+    "control_mappings": [
+      "MITRE ATT&CK"
+    ],
+    "recommended_actions": [
+      "Assess enterprise exposure and affected business processes.",
+      "Update risk register and assign accountable owner.",
+      "Track remediation completion against policy deadlines."
+    ],
+    "board_impact": "May impact risk appetite, resilience objectives, and technology investment priorities.",
+    "ciso_action_items": [
+      "Hunt for related indicators and validate containment playbooks.",
+      "Confirm detection, response, and reporting ownership.",
+      "Validate compensating controls and policy exceptions.",
+      "Publish an executive status update with next milestones."
+    ],
+    "rankings": {
+      "credibility": 0.95,
+      "executive_relevance": 0.85,
+      "business_impact": 0.5,
+      "regulatory_importance": 0.6,
+      "overall": 0.76
+    }
+  },
+  {
+    "title": "OpenID AuthZEN wins EIC 2026 Outstanding Project Recognition",
+    "author": "Unknown",
+    "published_at": "Fri, 05 Jun 2026 12:38:58 +0000",
+    "published_date": "Fri, 05 Jun 2026 12:38:58 +0000",
+    "published": "Fri, 05 Jun 2026 12:38:58 +0000",
+    "url": "https://openid.net/openid-authzen-wins-eic-2026-outstanding-project-recognition/",
+    "details_url": "https://openid.net/openid-authzen-wins-eic-2026-outstanding-project-recognition/",
+    "summary": "<p>The OpenID Foundation congratulates the OpenID AuthZEN Working Group on winning the Outstanding Project Recognition award at the recent European Identity and Cloud Conference (EIC) 2026 in Berlin. The award was presented by KuppingerCole, one of the most respected analyst and research firms in the identity and access management space, who commented that AuthZEN that [&#8230;]</p>\n<p>The post <a href=\"https://openid.net/openid-authzen-wins-eic-2026-outstanding-project-recognition/\">OpenID AuthZEN wins EIC 2026 Outstanding Project Recognition</a> first appeared on <a href=\"https://openid.net\">OpenID Foundation</a>.</p>",
+    "category": "Identity",
+    "subcategory": "OAuth/OIDC",
+    "source": "OpenID Foundation",
+    "vendor": "OpenID Foundation",
+    "source_group": "Identity Security",
+    "monitors": [
+      "OAuth",
+      "OIDC",
+      "SCIM",
+      "Identity Fabric"
+    ],
+    "official_url": "https://openid.net",
+    "severity": "medium",
+    "tags": [],
+    "executive_summary": "Identity: <p>The OpenID Foundation congratulates the OpenID AuthZEN Working Group on winning the Outstanding Project Recognition award at the recent European Identity and Cloud Conference (EIC) 2026 in Berlin. The award was presented by KuppingerCole, one of the most respected analyst and",
+    "affected_industries": [
+      "Technology"
+    ],
+    "affected_iam_domains": [
+      "General"
+    ],
+    "control_mappings": [
+      "MITRE ATT&CK"
+    ],
+    "recommended_actions": [
+      "Review IAM control effectiveness for privileged and non-human identities.",
+      "Assess enterprise exposure and affected business processes.",
+      "Update risk register and assign accountable owner.",
+      "Track remediation completion against policy deadlines."
+    ],
+    "board_impact": "Identity control weakness could increase enterprise-wide breach and fraud exposure.",
+    "ciso_action_items": [
+      "Confirm detection, response, and reporting ownership.",
+      "Validate compensating controls and policy exceptions.",
+      "Publish an executive status update with next milestones."
+    ],
+    "rankings": {
+      "credibility": 0.95,
+      "executive_relevance": 0.85,
+      "business_impact": 0.5,
+      "regulatory_importance": 0.4,
+      "overall": 0.73
+    }
+  },
+  {
+    "title": "Insights from the OIDF\u2019s Australia Innovation Day",
+    "author": "Unknown",
+    "published_at": "Fri, 05 Jun 2026 09:11:11 +0000",
+    "published_date": "Fri, 05 Jun 2026 09:11:11 +0000",
+    "published": "Fri, 05 Jun 2026 09:11:11 +0000",
+    "url": "https://openid.net/insights-from-the-oidfs-australia-innovation-day/",
+    "details_url": "https://openid.net/insights-from-the-oidfs-australia-innovation-day/",
+    "summary": "<p>When does digital ID actually serve the common good? Written by Olaf Grewe, Head of Product, Sign-up and Log-in at National Australia Bank, and Co-Chair of the ADT CG\u00a0 This was the question explored at an Innovation Day organised by the OpenID Foundation&#8217;s Australian Digital Trust Community Group (ADT CG) earlier this year.\u00a0 Hosted by [&#8230;]</p>\n<p>The post <a href=\"https://openid.net/insights-from-the-oidfs-australia-innovation-day/\">Insights from the OIDF\u2019s Australia Innovation Day</a> first appeared on <a href=\"https://openid.net\">OpenID Foundation</a>.</p>",
+    "category": "Identity",
+    "subcategory": "OAuth/OIDC",
+    "source": "OpenID Foundation",
+    "vendor": "OpenID Foundation",
+    "source_group": "Identity Security",
+    "monitors": [
+      "OAuth",
+      "OIDC",
+      "SCIM",
+      "Identity Fabric"
+    ],
+    "official_url": "https://openid.net",
+    "severity": "medium",
+    "tags": [],
+    "executive_summary": "Identity: <p>When does digital ID actually serve the common good? Written by Olaf Grewe, Head of Product, Sign-up and Log-in at National Australia Bank, and Co-Chair of the ADT CG\u00a0 This was the question explored at an Innovation Day organised by the OpenID Foundation&#8217;s Australian Dig",
+    "affected_industries": [
+      "Financial Services",
+      "Technology"
+    ],
+    "affected_iam_domains": [
+      "General"
+    ],
+    "control_mappings": [
+      "MITRE ATT&CK"
+    ],
+    "recommended_actions": [
+      "Review IAM control effectiveness for privileged and non-human identities.",
+      "Assess enterprise exposure and affected business processes.",
+      "Update risk register and assign accountable owner.",
+      "Track remediation completion against policy deadlines."
+    ],
+    "board_impact": "Identity control weakness could increase enterprise-wide breach and fraud exposure.",
+    "ciso_action_items": [
+      "Confirm detection, response, and reporting ownership.",
+      "Validate compensating controls and policy exceptions.",
+      "Publish an executive status update with next milestones."
+    ],
+    "rankings": {
+      "credibility": 0.95,
+      "executive_relevance": 0.85,
+      "business_impact": 0.5,
+      "regulatory_importance": 0.4,
+      "overall": 0.73
+    }
+  },
+  {
+    "title": "OIDF presents at ITU-T workshop on digital ID and agentic AI",
+    "author": "Unknown",
+    "published_at": "Wed, 03 Jun 2026 13:32:05 +0000",
+    "published_date": "Wed, 03 Jun 2026 13:32:05 +0000",
+    "published": "Wed, 03 Jun 2026 13:32:05 +0000",
+    "url": "https://openid.net/oidf-presents-at-itu-t-workshop-on-digital-id-and-agentic-ai/",
+    "details_url": "https://openid.net/oidf-presents-at-itu-t-workshop-on-digital-id-and-agentic-ai/",
+    "summary": "<p>The OpenID Foundation recently participated in the ITU-T\u2019s most recent workshop on Trustable and Interoperable Digital Identities for Human and Agentic AI in Geneva &#8211; the first of three planned ITU-T workshops on this theme. The workshop brought together speakers from governments, standards bodies, and industry across two days, with sessions covering digital identity policy, [&#8230;]</p>\n<p>The post <a href=\"https://openid.net/oidf-presents-at-itu-t-workshop-on-digital-id-and-agentic-ai/\">OIDF presents at ITU-T workshop on digital ID and agentic AI</a> first appeared on <a href=\"https://openid.net\">OpenID Foundation</a>.</p>",
+    "category": "Identity",
+    "subcategory": "OAuth/OIDC",
+    "source": "OpenID Foundation",
+    "vendor": "OpenID Foundation",
+    "source_group": "Identity Security",
+    "monitors": [
+      "OAuth",
+      "OIDC",
+      "SCIM",
+      "Identity Fabric"
+    ],
+    "official_url": "https://openid.net",
+    "severity": "medium",
+    "tags": [],
+    "executive_summary": "Identity: <p>The OpenID Foundation recently participated in the ITU-T\u2019s most recent workshop on Trustable and Interoperable Digital Identities for Human and Agentic AI in Geneva &#8211; the first of three planned ITU-T workshops on this theme. The workshop brought together speakers from go",
+    "affected_industries": [
+      "Government",
+      "Technology"
+    ],
+    "affected_iam_domains": [
+      "Authorization"
+    ],
+    "control_mappings": [
+      "MITRE ATT&CK"
+    ],
+    "recommended_actions": [
+      "Review IAM control effectiveness for privileged and non-human identities.",
+      "Assess enterprise exposure and affected business processes.",
+      "Update risk register and assign accountable owner.",
+      "Track remediation completion against policy deadlines."
+    ],
+    "board_impact": "Identity control weakness could increase enterprise-wide breach and fraud exposure.",
+    "ciso_action_items": [
+      "Confirm detection, response, and reporting ownership.",
+      "Validate compensating controls and policy exceptions.",
+      "Publish an executive status update with next milestones."
+    ],
+    "rankings": {
+      "credibility": 0.95,
+      "executive_relevance": 0.85,
+      "business_impact": 0.5,
+      "regulatory_importance": 0.4,
+      "overall": 0.73
+    }
+  },
+  {
+    "title": "Implementer\u2019s Draft of International Government Assurance (iGov) Profile for OAuth 2.0\u00a0Approved",
+    "author": "Unknown",
+    "published_at": "Mon, 01 Jun 2026 19:10:51 +0000",
+    "published_date": "Mon, 01 Jun 2026 19:10:51 +0000",
+    "published": "Mon, 01 Jun 2026 19:10:51 +0000",
+    "url": "https://openid.net/implementers-draft-of-international-government-assurance-igov-profile-for-oauth-2-0-approved/",
+    "details_url": "https://openid.net/implementers-draft-of-international-government-assurance-igov-profile-for-oauth-2-0-approved/",
+    "summary": "<p>The OpenID Foundation membership has approved the following as an OpenID Implementer\u2019s Draft: \u00a0 International Government Assurance (iGov) Profile for OAuth 2.0: https://openid.net/specs/openid-igov-oauth2-1_0-ID2.html\u00a0 \u00a0 An Implementer\u2019s Draft is a stable version of a specification providing intellectual property protections to implementers of the specification. This Implementer\u2019s Draft is the product of the\u00a0iGov Working Group. \u00a0 The [&#8230;]</p>\n<p>The post <a href=\"https://openid.net/implementers-draft-of-international-government-assurance-igov-profile-for-oauth-2-0-approved/\">Implementer\u2019s Draft of International Government Assurance (iGov) Profile for OAuth 2.0\u00a0Approved</a> first appeared on <a href=\"https://openid.net\">OpenID Foundation</a>.</p>",
+    "category": "Identity",
+    "subcategory": "OAuth/OIDC",
+    "source": "OpenID Foundation",
+    "vendor": "OpenID Foundation",
+    "source_group": "Identity Security",
+    "monitors": [
+      "OAuth",
+      "OIDC",
+      "SCIM",
+      "Identity Fabric"
+    ],
+    "official_url": "https://openid.net",
+    "severity": "medium",
+    "tags": [],
+    "executive_summary": "Identity: <p>The OpenID Foundation membership has approved the following as an OpenID Implementer\u2019s Draft: \u00a0 International Government Assurance (iGov) Profile for OAuth 2.0: https://openid.net/specs/openid-igov-oauth2-1_0-ID2.html\u00a0 \u00a0 An Implementer\u2019s Draft is a stable version of a specific",
+    "affected_industries": [
+      "Government"
+    ],
+    "affected_iam_domains": [
+      "Federation"
+    ],
+    "control_mappings": [
+      "MITRE ATT&CK"
+    ],
+    "recommended_actions": [
+      "Review IAM control effectiveness for privileged and non-human identities.",
+      "Assess enterprise exposure and affected business processes.",
+      "Update risk register and assign accountable owner.",
+      "Track remediation completion against policy deadlines."
+    ],
+    "board_impact": "Identity control weakness could increase enterprise-wide breach and fraud exposure.",
+    "ciso_action_items": [
+      "Confirm detection, response, and reporting ownership.",
+      "Validate compensating controls and policy exceptions.",
+      "Publish an executive status update with next milestones."
+    ],
+    "rankings": {
+      "credibility": 0.95,
+      "executive_relevance": 0.85,
+      "business_impact": 0.5,
+      "regulatory_importance": 0.4,
+      "overall": 0.73
+    }
+  },
+  {
+    "title": "Who Runs the Ransomware Group \u2018The Gentlemen?\u2019",
+    "author": "Unknown",
+    "published_at": "Wed, 10 Jun 2026 14:03:44 +0000",
+    "published_date": "Wed, 10 Jun 2026 14:03:44 +0000",
+    "published": "Wed, 10 Jun 2026 14:03:44 +0000",
+    "url": "https://krebsonsecurity.com/2026/06/who-runs-the-ransomware-group-the-gentlemen/",
+    "details_url": "https://krebsonsecurity.com/2026/06/who-runs-the-ransomware-group-the-gentlemen/",
+    "summary": "A cybercrime group known as The Gentlemen has emerged as the second most active ransomware gang by victim count, rapidly attracting a talented pool of hackers through an aggressive recruitment strategy that promises affiliates 90 percent of any ransom paid by victims. This post examines clues pointing to a real life identity for the administrator of The Gentlemen ransomware group.",
+    "category": "Identity",
+    "subcategory": "Independent Journalism",
+    "source": "KrebsOnSecurity",
+    "vendor": "KrebsOnSecurity",
+    "source_group": "Independent Security Journalism",
+    "monitors": [
+      "Independent reporting",
+      "Investigations",
+      "Breach analysis"
+    ],
+    "official_url": "https://krebsonsecurity.com",
+    "severity": "medium",
+    "tags": [],
+    "executive_summary": "Regulation: A cybercrime group known as The Gentlemen has emerged as the second most active ransomware gang by victim count, rapidly attracting a talented pool of hackers through an aggressive recruitment strategy that promises affiliates 90 percent of any ransom paid by victims. This post e",
+    "affected_industries": [
+      "Technology"
+    ],
+    "affected_iam_domains": [
+      "Privileged Access"
+    ],
+    "control_mappings": [
+      "NIST"
+    ],
+    "recommended_actions": [
+      "Validate control alignment and compliance obligations with legal/risk teams.",
+      "Assess enterprise exposure and affected business processes.",
+      "Update risk register and assign accountable owner.",
+      "Track remediation completion against policy deadlines."
+    ],
+    "board_impact": "Potential compliance and supervisory impact requiring governance and assurance updates.",
+    "ciso_action_items": [
+      "Confirm detection, response, and reporting ownership.",
+      "Validate compensating controls and policy exceptions.",
+      "Publish an executive status update with next milestones."
+    ],
+    "rankings": {
+      "credibility": 0.92,
+      "executive_relevance": 0.85,
+      "business_impact": 0.5,
+      "regulatory_importance": 1.0,
+      "overall": 0.809
+    }
+  },
+  {
+    "title": "Microsoft 365 users fall victim to one-in-a-million password spray attack",
+    "author": "Unknown",
+    "published_at": "Fri, 03 Jul 2026 15:26:56 +0000",
+    "published_date": "Fri, 03 Jul 2026 15:26:56 +0000",
+    "published": "Fri, 03 Jul 2026 15:26:56 +0000",
+    "url": "https://www.csoonline.com/article/4192819/microsoft-365-users-fall-victim-to-one-in-a-million-password-spray-attack.html",
+    "details_url": "https://www.csoonline.com/article/4192819/microsoft-365-users-fall-victim-to-one-in-a-million-password-spray-attack.html",
+    "summary": "<div id=\"remove_no_follow\">\n\t\t<div class=\"grid grid--cols-10@md grid--cols-8@lg article-column\">\n\t\t\t\t\t  <div class=\"col-12 col-10@md col-6@lg col-start-3@lg\">\n\t\t\t\t\t\t<div class=\"article-column__content\">\n<section class=\"wp-block-bigbite-multi-title\"><div class=\"container\"></div></section>\n\n\n\n<p>Microsoft users have been hit by a massive, automated password spray attack.</p>\n\n\n\n<p>Among those targeted by the attack were clients of security company Huntress. It reported that the attackers made 81 million attempts to log into its customers\u2019 accounts between June 12 and 26 \u2014 and succeeded in at least 78 cases.</p>\n\n\n\n<p>And that\u2019s just the attacks on Microsoft account holders who also happen to be Huntress customers: The number of compromised accounts could be much higher, as it\u2019s in the nature of a password spray attack to attempt to connect indiscriminately.</p>\n\n\n\n<p>The attacks all came from a single source, an IPv6 address range controlled by internet provider LSHIY LLC, Huntress said in a <a href=\"https://www.huntress.com/blog/lshiy-password-spray-attack\" target=\"_blank\" rel=\"noreferrer noopener\">blog post</a>. LSHIY has since terminated access for the customer using the IP addresses involved in the attack.</p>\n\n\n\n<p>Huntress had been monitoring spray attacks for some time and had noticed a slight increase from June 12, and then a sudden spike on June 22 when 30 of its customers were affected.</p>\n\n\n\n<p>The attackers replayed validated credentials via the <a href=\"https://www.csoonline.com/article/3833826/how-to-configure-oauth-in-microsoft-365-defender-and-keep-your-cloud-secure.html\">OAuth</a> ROPC (Resource Owner Password Credentials) flow. This takes a username/password at the /token endpoint for a tenant and mints a new user-delegated token, once provided with the correct credentials. This was possible because multi-factor authentication (MFA) had not been configured to handle the techniques deployed by the attackers.</p>\n\n\n\n<p>Huntress said that this was because, in some cases, MFA had been enforced for specific apps instead of \u201cAll Cloud Apps.\u201d For example, some organizations enforced MFA for Microsoft Admin Portals, which did not cover the Azure CLI logins used by the attacker.</p>\n\n\n\n<p>In other cases, organizations enabled MFA only for specific user groups (such as Admins Only). The compromised users were not in the scope of these specific user groups.</p>\n\n\n\n<p></p>\n</div></div></div></div>",
+    "category": "Identity",
+    "subcategory": "Independent Journalism",
+    "source": "CSO Online",
+    "vendor": "CSO Online",
+    "source_group": "Independent Security Journalism",
+    "monitors": [
+      "Leadership coverage",
+      "Enterprise security"
+    ],
+    "official_url": "https://www.csoonline.com",
+    "severity": "medium",
+    "tags": [],
+    "executive_summary": "Identity: <div id=\"remove_no_follow\">\n\t\t<div class=\"grid grid--cols-10@md grid--cols-8@lg article-column\">\n\t\t\t\t\t  <div class=\"col-12 col-10@md col-6@lg col-start-3@lg\">\n\t\t\t\t\t\t<div class=\"article-column__content\">\n<section class=\"wp-block-bigbite-multi-title\"><div class=\"container\"></div></",
+    "affected_industries": [
+      "Technology"
+    ],
+    "affected_iam_domains": [
+      "Authentication",
+      "Privileged Access",
+      "Federation"
+    ],
+    "control_mappings": [
+      "MITRE ATT&CK"
+    ],
+    "recommended_actions": [
+      "Review IAM control effectiveness for privileged and non-human identities.",
+      "Assess enterprise exposure and affected business processes.",
+      "Update risk register and assign accountable owner.",
+      "Track remediation completion against policy deadlines."
+    ],
+    "board_impact": "Identity control weakness could increase enterprise-wide breach and fraud exposure.",
+    "ciso_action_items": [
+      "Confirm detection, response, and reporting ownership.",
+      "Validate compensating controls and policy exceptions.",
+      "Publish an executive status update with next milestones."
+    ],
+    "rankings": {
+      "credibility": 0.88,
+      "executive_relevance": 0.85,
+      "business_impact": 0.5,
+      "regulatory_importance": 0.4,
+      "overall": 0.706
+    }
+  },
+  {
+    "title": "New CitrixBleed-like NetScaler flaw sees exploit attempts in the wild",
+    "author": "Unknown",
+    "published_at": "Fri, 03 Jul 2026 11:41:11 +0000",
+    "published_date": "Fri, 03 Jul 2026 11:41:11 +0000",
+    "published": "Fri, 03 Jul 2026 11:41:11 +0000",
+    "url": "https://www.csoonline.com/article/4192741/new-citrixbleed-like-netscaler-flaw-sees-exploit-attempts-in-the-wild.html",
+    "details_url": "https://www.csoonline.com/article/4192741/new-citrixbleed-like-netscaler-flaw-sees-exploit-attempts-in-the-wild.html",
+    "summary": "<div id=\"remove_no_follow\">\n\t\t<div class=\"grid grid--cols-10@md grid--cols-8@lg article-column\">\n\t\t\t\t\t  <div class=\"col-12 col-10@md col-6@lg col-start-3@lg\">\n\t\t\t\t\t\t<div class=\"article-column__content\">\n<section class=\"wp-block-bigbite-multi-title\"><div class=\"container\"></div></section>\n\n\n\n<p>Citrix NetScaler appliances have been a constant target for attackers in recent years, most recently through an information leak vulnerability dubbed CitrixBleed 3, the latest in a series of NetScaler memory overreads going back to 2023. This week, Citrix patched yet another CitrixBleed-like vulnerability and there are signs of in-the-wild exploitation already.</p>\n\n\n\n<p>The new memory overread vulnerability, tracked as CVE-2026-8451, was found by researchers from security firm watchTowr who published <a href=\"https://labs.watchtowr.com/citrixbleed-to-infinity-and-beyond-citrix-netscaler-pre-auth-memory-overread-cve-2026-8451/\" target=\"_blank\" rel=\"noreferrer noopener\">a detailed write-up</a> showing how unauthenticated malformed requests can result in protected process memory data being leaked back in responses.</p>\n\n\n\n<p>The original <a href=\"https://www.csoonline.com/article/657085/citrix-urges-immediate-patching-of-critically-vulnerable-product-lines.html\">CitrixBleed (CVE-2023-4966),</a> <a href=\"https://www.csoonline.com/article/4019802/exploit-details-released-for-citrix-bleed-2-flaw-affecting-netscaler.html\">CitrixBleed 2 (CVE-2025\u20135777)</a>, and <a href=\"https://www.csoonline.com/article/4150224/new-critical-citrix-netscaler-hole-of-similar-severity-to-citrixbleed2-says-expert.html\">CitrixBleed 3 (CVE-2026-3055)</a> vulnerabilities were all rated critical because they could be used to leak session tokens and other credentials stored in memory. The new CVE-2026-8451 can only be used to leak much smaller amounts of data which do not appear to include session IDs. For this reason, <a href=\"https://community.citrix.com/techzone-blogs/110_security-updates/security-update-for-citrix-netscaler-and-netscaler-gateway-customers-r1570/\" target=\"_blank\" rel=\"noreferrer noopener\">Citrix gave it a CVSS score of 8.8</a> (high severity).</p>\n\n\n\n<p>For exploitation to be possible, the NetScaler appliance needs to be configured as a SAML Identity Provider, but this was also the case for CitrixBleed 3, which was patched in March and was subsequently exploited in the wild.</p>\n\n\n\n<p>So, this requirement doesn\u2019t mean attacks are unlikely or that this configuration is uncommon. In fact, less than 24 hours after the Citirix patch, security firm Lupovis <a href=\"https://www.lupovis.io/lupovis-insights/\" target=\"_blank\" rel=\"noreferrer noopener\">reported seeing exploitation attempts hitting its honeypot sensors</a>.</p>\n\n\n\n<p>\u201cThree separate sensors were targeted within a five-hour window,\u201d the company said. \u201cThe actor received a 200 response on the third sensor and immediately delivered the exploit payload.\u201d</p>\n\n\n\n<h2 class=\"wp-block-heading\" id=\"smaller-leak-but-still-dangerous\">Smaller leak but still dangerous</h2>\n\n\n\n<p>Even though watchTowr was only able to leak bytes of data using this flaw, compared to kilobytes with previous CitrixBleed issues, the exposed information could still be useful to attackers.</p>\n\n\n\n<p>While the proof-of-concept did not reveal credentials or tokens, it\u2019s possible that repeated requests would eventually be able to leak something sensitive. At the very least, the leaks can expose process memory pointers that could allow attackers to more easily deliver payloads using memory write vulnerabilities such as buffer overflows.</p>\n\n\n\n<p>By overwriting data in a memory location that normally contains code the process executes, attackers could bypass anti-exploitation defenses like ASLR to take full control of the device.</p>\n\n\n\n<p>As part of this same patch cycle Citrix also addressed two high-severity memory overflow vulnerabilities, tracked as CVE-2026-8452 and CVE-2026-8655. Chaining exploits for different vulnerabilities is a common approach in modern attacks.</p>\n\n\n\n<p>The company also patched an unauthenticated arbitrary file read (CVE-2026-10816), another out-of-bounds memory overread (CVE-2026-10817) and a denial-of-service issue exploitable through HTTP/2 requests (CVE-2026-13474). The latter is actually a NetScaler-specific instance of the <a href=\"https://www.csoonline.com/article/4181313/http-2s-speed-abused-to-slow-webserver-performance-in-dos-attack.html\">HTTP/2 Bomb vulnerability (CVE-2026-49975) patched recently in Apache Web Server</a>.</p>\n\n\n\n<h2 class=\"wp-block-heading\" id=\"mitigation\">Mitigation</h2>\n\n\n\n<p>Citrix advises customers to upgrade their NetScaler ADC\u202fand NetScaler Gateway appliances to versions 14.1-72.61, 14.1-72.61 FIPS, 13.1-63.18, 13.1-FIPS and 13.1-NDcPP 13.1.37.272. The HTTP/2 Bomb vulnerability also requires configuration changes in addition to the patches.</p>\n\n\n\n<p>These changes are described in <a href=\"https://support.citrix.com/support-home/kbsearch/article?articleNumber=CTX696604\" target=\"_blank\" rel=\"noreferrer noopener\">the Citrix advisory</a> along with methods to determine if appliances meet the configuration pre-conditions for exploitation for the other flaws. WatchTowr also published <a href=\"https://github.com/watchtowrlabs/watchTowr-vs-Netscaler-CVE-2026-8451\" target=\"_blank\" rel=\"noreferrer noopener\">a Python detection script for the CVE-2026-8451 vulnerability</a> that allows organizations to quickly test if their appliances are susceptible to the exploit.</p>\n\n\n\n<p></p>\n</div></div></div></div>",
+    "category": "Identity",
+    "subcategory": "Independent Journalism",
+    "source": "CSO Online",
+    "vendor": "CSO Online",
+    "source_group": "Independent Security Journalism",
+    "monitors": [
+      "Leadership coverage",
+      "Enterprise security"
+    ],
+    "official_url": "https://www.csoonline.com",
+    "severity": "medium",
+    "tags": [],
+    "executive_summary": "Vulnerability: <div id=\"remove_no_follow\">\n\t\t<div class=\"grid grid--cols-10@md grid--cols-8@lg article-column\">\n\t\t\t\t\t  <div class=\"col-12 col-10@md col-6@lg col-start-3@lg\">\n\t\t\t\t\t\t<div class=\"article-column__content\">\n<section class=\"wp-block-bigbite-multi-title\"><div class=\"container\"></div></",
+    "affected_industries": [
+      "Technology"
+    ],
+    "affected_iam_domains": [
+      "Identity Governance",
+      "Federation"
+    ],
+    "control_mappings": [
+      "MITRE ATT&CK",
+      "ISO 27001"
+    ],
+    "recommended_actions": [
+      "Assess enterprise exposure and affected business processes.",
+      "Update risk register and assign accountable owner.",
+      "Track remediation completion against policy deadlines."
+    ],
+    "board_impact": "May impact risk appetite, resilience objectives, and technology investment priorities.",
+    "ciso_action_items": [
+      "Confirm detection, response, and reporting ownership.",
+      "Validate compensating controls and policy exceptions.",
+      "Publish an executive status update with next milestones."
+    ],
+    "rankings": {
+      "credibility": 0.88,
+      "executive_relevance": 0.7,
+      "business_impact": 0.5,
+      "regulatory_importance": 0.4,
+      "overall": 0.668
+    }
+  },
+  {
+    "title": "Argo CD flaw shows why GitOps infrastructure should be treated as tier zero",
+    "author": "Unknown",
+    "published_at": "Thu, 02 Jul 2026 10:57:39 +0000",
+    "published_date": "Thu, 02 Jul 2026 10:57:39 +0000",
+    "published": "Thu, 02 Jul 2026 10:57:39 +0000",
+    "url": "https://www.csoonline.com/article/4192188/argo-cd-flaw-shows-why-gitops-infrastructure-should-be-treated-as-tier-zero.html",
+    "details_url": "https://www.csoonline.com/article/4192188/argo-cd-flaw-shows-why-gitops-infrastructure-should-be-treated-as-tier-zero.html",
+    "summary": "<div id=\"remove_no_follow\">\n\t\t<div class=\"grid grid--cols-10@md grid--cols-8@lg article-column\">\n\t\t\t\t\t  <div class=\"col-12 col-10@md col-6@lg col-start-3@lg\">\n\t\t\t\t\t\t<div class=\"article-column__content\">\n<section class=\"wp-block-bigbite-multi-title\"><div class=\"container\"></div></section>\n\n\n\n<p>A newly disclosed vulnerability in Argo CD is drawing attention to the security risks of GitOps platforms, with researchers warning that the flaw could allow attackers who gain a foothold inside a Kubernetes cluster to execute code and manipulate application deployments.</p>\n\n\n\n<p>Security firm Synacktiv said in a <a href=\"https://www.synacktiv.com/en/publications/caught-in-the-octopus-trap-unauthenticated-rce-in-argo-cd-with-codeql\" target=\"_blank\" rel=\"noreferrer noopener\">report</a> that the flaw affects Argo CD\u2019s repo-server component, which fetches content from Git repositories and generates Kubernetes manifests used to deploy resources in a cluster. Argo CD is one of the most popular Kubernetes tools and is based on the GitOps paradigm.</p>\n\n\n\n<p>\u201cArgo CD requires significant privileges within the cluster,\u201d Synacktiv said. \u201cAdditionally, it has access to private Git repositories, making it an attractive target for attackers.\u201d</p>\n\n\n\n<p>The issue centers on the repo-server\u2019s unauthenticated GenerateManifest gRPC endpoint. Synacktiv said an attacker able to reach that endpoint could supply Kustomize options in a manifest generation request and abuse Kustomize\u2019s Helm-related build options to execute attacker-controlled commands.</p>\n\n\n\n<p>Exploitation requires access to both the repo-server gRPC port and the Redis database port, which should not be exposed to users. Argo CD provides Kubernetes network policies designed to prevent that scenario, but those protections are not enabled by default in Helm chart deployments, according to Synacktiv.</p>\n\n\n\n<p>In such deployments, compromising a single pod inside the cluster could be enough to give an attacker the internal access needed to exploit the vulnerability.</p>\n\n\n\n<p>Synacktiv said it was able to use the flaw to obtain the Redis password from the repo-server environment and access Argo CD\u2019s Redis database. The researchers then manipulated cached deployment data, allowing a malicious manifest to be deployed automatically when Argo CD\u2019s Auto Sync feature was enabled.</p>\n\n\n\n<p>If Auto Sync is not enabled, exploitation would require a user to manually sync the application.</p>\n\n\n\n<p>Synacktiv publicly disclosed the details on July 1, 2026, after first reporting the issue to Argo CD maintainers in January 2025. The vulnerability remains unpatched, and the firm recommended strict Kubernetes network policies to block untrusted pods from reaching the repo-server and Redis services until a fix is available.</p>\n\n\n\n<h2 class=\"wp-block-heading\" id=\"assessing-internal-cluster-exposure\">Assessing internal cluster exposure</h2>\n\n\n\n<p>For CISOs, the key question is not only whether Argo CD is exposed to the internet, but whether <a href=\"https://www.csoonline.com/article/4151367/why-kubernetes-controllers-are-the-perfect-backdoor.html\">other workloads</a> inside the Kubernetes cluster can reach its internal services.</p>\n\n\n\n<p>\u201cBecause the repo-server\u2019s gRPC service does not enforce authentication, any pod that can reach it becomes equivalent to an authenticated attacker,\u201d said <a href=\"https://www.linkedin.com/in/devashri-datta-522b364b/\" target=\"_blank\" rel=\"noreferrer noopener\">Devashri Datta</a>, a cybersecurity researcher. \u201cIn a typical cluster, that means any compromised application pod, misconfigured service mesh, or adjacent workload with local code execution can directly query the GenerateManifest endpoint or hit the Redis cache, no internet exposure required.\u201d</p>\n\n\n\n<p>Organizations should not equate \u201cnot internet-facing\u201d with \u201clow risk,\u201d because modern attacks often begin with the compromise of an internal workload, according to <a href=\"https://my.idc.com/getdoc.jsp?containerId=PRF005665\" target=\"_blank\" rel=\"noreferrer noopener\">Sakshi Grover</a>, senior research manager for cybersecurity services research at IDC Asia/Pacific.</p>\n\n\n\n<p>\u201cCISOs should therefore evaluate which workloads can communicate with the Argo CD control plane, whether east-west traffic is appropriately segmented, and whether unnecessary trust relationships exist between application workloads and GitOps infrastructure,\u201d Grover said. \u201cThe assessment should focus on attack paths rather than perimeter exposure.\u201d</p>\n\n\n\n<h2 class=\"wp-block-heading\" id=\"treating-gitops-as-tier-zero\">Treating GitOps as tier-zero</h2>\n\n\n\n<p>The flaw also underscores the role GitOps platforms play in controlling software deployment across enterprise infrastructure.</p>\n\n\n\n<p>\u201cGitOps engines aren\u2019t utility services; they\u2019re tier-0 control-plane components,\u201d Datta said. \u201cBy design, Argo CD holds read access to private repositories, sync/write access to target clusters, and custody of deployment secrets. It sits at the precise intersection of source code, configuration management, and live infrastructure.\u201d</p>\n\n\n\n<p>That level of access means an Argo CD compromise may extend beyond a single application. An attacker could turn the platform used to deploy applications into a channel for malicious manifests, while also interfering with auto-sync behavior and extracting credentials cached in supporting systems such as Redis.</p>\n\n\n\n<p>A compromise of these platforms could influence <a href=\"https://www.csoonline.com/article/4165420/sap-npm-package-attack-highlights-risks-in-developer-tools-and-ci-cd-pipelines.html\">software delivery at scale</a>, making them strategic assets that should be subject to stricter governance and privileged access controls similar to those applied to identity platforms and other critical management systems.</p>\n</div></div></div></div>",
+    "category": "Identity",
+    "subcategory": "Independent Journalism",
+    "source": "CSO Online",
+    "vendor": "CSO Online",
+    "source_group": "Independent Security Journalism",
+    "monitors": [
+      "Leadership coverage",
+      "Enterprise security"
+    ],
+    "official_url": "https://www.csoonline.com",
+    "severity": "medium",
+    "tags": [],
+    "executive_summary": "Vulnerability: <div id=\"remove_no_follow\">\n\t\t<div class=\"grid grid--cols-10@md grid--cols-8@lg article-column\">\n\t\t\t\t\t  <div class=\"col-12 col-10@md col-6@lg col-start-3@lg\">\n\t\t\t\t\t\t<div class=\"article-column__content\">\n<section class=\"wp-block-bigbite-multi-title\"><div class=\"container\"></div></",
+    "affected_industries": [
+      "Technology"
+    ],
+    "affected_iam_domains": [
+      "Authentication",
+      "Privileged Access"
+    ],
+    "control_mappings": [
+      "MITRE ATT&CK",
+      "ISO 27001"
+    ],
+    "recommended_actions": [
+      "Assess enterprise exposure and affected business processes.",
+      "Update risk register and assign accountable owner.",
+      "Track remediation completion against policy deadlines."
+    ],
+    "board_impact": "May impact risk appetite, resilience objectives, and technology investment priorities.",
+    "ciso_action_items": [
+      "Confirm detection, response, and reporting ownership.",
+      "Validate compensating controls and policy exceptions.",
+      "Publish an executive status update with next milestones."
+    ],
+    "rankings": {
+      "credibility": 0.88,
+      "executive_relevance": 0.7,
+      "business_impact": 0.5,
+      "regulatory_importance": 0.4,
+      "overall": 0.668
+    }
+  },
+  {
+    "title": "What CISOs need to tell the board about zero trust in OT: A 90-day communication and action plan",
+    "author": "Unknown",
+    "published_at": "Fri, 26 Jun 2026 10:00:00 +0000",
+    "published_date": "Fri, 26 Jun 2026 10:00:00 +0000",
+    "published": "Fri, 26 Jun 2026 10:00:00 +0000",
+    "url": "https://www.csoonline.com/article/4189605/what-cisos-need-to-tell-the-board-about-zero-trust-in-ot-a-90-day-communication-and-action-plan.html",
+    "details_url": "https://www.csoonline.com/article/4189605/what-cisos-need-to-tell-the-board-about-zero-trust-in-ot-a-90-day-communication-and-action-plan.html",
+    "summary": "<div id=\"remove_no_follow\">\n\t\t<div class=\"grid grid--cols-10@md grid--cols-8@lg article-column\">\n\t\t\t\t\t  <div class=\"col-12 col-10@md col-6@lg col-start-3@lg\">\n\t\t\t\t\t\t<div class=\"article-column__content\">\n<section class=\"wp-block-bigbite-multi-title\"><div class=\"container\"></div></section>\n\n\n\n<p>I work as a principal specialist at a pipeline operator where Operational Technology (OT) is the backbone of the business. I do not report to the board or act as a CISO, but the issues that get raised to those levels affect my job every single day.</p>\n\n\n\n<p>Since the <a href=\"https://www.energy.gov/ceser/colonial-pipeline-cyber-incident\">Colonial pipeline ransomware incident in 2021</a>, it has become apparent that our industry has started posing different tones of \u201cAre we zero trust yet?\u201d I frequently witness its intense significance through auditing requests, TSA security directives and conversations around some control project\u2019s goals.</p>\n\n\n\n<p>One experience the zero trust role has changed is that it often feels misaligned with OT heavy environments. The NIST\u2019s <a href=\"https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=930420\">Zero Trust Architecture (SP 800\u2011207)\u00a0model</a> works for all, but is originally written as though for an IT network, not terminals, compressor stations and control rooms where equipment must run 24/7, perhaps more aged than the technology present within the organization. CISA\u2019s guidance on <a href=\"https://www.ic3.gov/CSA/2026/260429.pdf\" target=\"_blank\" rel=\"noreferrer noopener\">adapting zero trust principles to operational technology</a> helps close that gap, but applying it means satisfying the OT teams and company leadership at the same time.</p>\n\n\n\n<h2 class=\"wp-block-heading\" id=\"the-zero-trust-question-i-hear-behind-the-scenes\">The zero trust question I hear behind the scenes</h2>\n\n\n\n<p>I am pretty sure we all know it comes as a jolt of reality after something really major has happened, rather than a bullet point on a slide deck. You have pipeline. The whole distribution stops for six days. In Washington, DC, US congressional hearings are underway, and legislation is coming. <a href=\"https://www.tsa.gov/sites/default/files/tsa_sd_pipeline-2021-02-july-21_2022.pdf\">TSA Directive 2021-02C</a> requires pipeline operators to attest to several things, like network segmentation and zero-trust architectures.</p>\n\n\n\n<p><a href=\"https://www.nerc.com/globalassets/standards/reliability-standards/cip/cip-013-2.pdf\">NERC CIP-013</a> exists on a similar tack, more around supply chain security. In our case, the decision on how to select and manage a vendor partner and control their remote access is driven by regulatory compliance and governance frameworks. So, you have all those things that happen externally and force change. They say, \u201cAre you zero trust? Yes or no?\u201d We always get \u201cyes.\u201d They know it is not \u201cyes, \u201d and the vendors know it is not \u201cyes,\u201d and nothing gets done about it until something happens.</p>\n\n\n\n<h2 class=\"wp-block-heading\" id=\"how-i-reframe-zero-trust-for-ot-in-my-work\">How I reframe zero trust for OT in my work</h2>\n\n\n\n<p>My influence comes from how I frame problems and options in the conversations I am invited into. Zero trust is a good example.</p>\n\n\n\n<p>NIST\u2019s SP 800\u2011207 describes zero trust as a model where access decisions are to be based on strong identity, policy and context rather than network. CISA\u2019s OT guidance narrows it, advising operators on the appearance of devices, identity management and what overlaps with IT instead of the overall replacement. <a href=\"https://www.csoonline.com/article/4143100/why-zero-trust-breaks-down-in-iot-and-ot-environments.html\" target=\"_blank\">Why zero trust breaks down in IoT and OT environments</a>\u201d highlights that when facing the complications of IoT and OT environments, one needs to be proactive.</p>\n\n\n\n<p>During these conversations, I try to focus on three major points when talking about IoT.</p>\n\n\n\n<ol class=\"wp-block-list\">\n<li>Refer to zero trust as its functioning principle. In my experience, teams respond better when I say \u201cEvery user and system has to prove who they are and why they need access\u201d than when I talk about abstract architectures. That language matches what NIST and CISA emphasize without overwhelming people with jargon.</li>\n\n\n\n<li>Focus on where IT and OT converge, like jump hosts, historian connections, remote access paths and shared identity stores that span both worlds. Those are the choke points where zero trust style controls like stronger authentication, least privilege and detailed logging can give us quick wins without disrupting operations that depend on predictable behavior.</li>\n\n\n\n<li>Tie everything that we need to do to the existing requirements. The conversation moves from \u201cwhy are we changing this?\u201d to \u201chow do we do this well?\u201d which aligns with TSA Security Directive Pipeline\u20112021\u201102C, a CISA alert or a NERC CIP\u2011013 requirement.</li>\n</ol>\n\n\n\n<h2 class=\"wp-block-heading\" id=\"a-90-day-plan-ot-leaders-can-execute\">A 90-day plan OT leaders can execute</h2>\n\n\n\n<p>While someone operates a gas pipeline, they cannot play around with zero trust. Questions such as: \u201cWhat can we accomplish before the TSA checks up next quarter?\u201d Or \u201cHow can we show the internal audit team we are making progress this month?\u201d comes often. We have established a list of actions we take over in a ninety-day plan, because we find it aligns more with our industrial settings while also being transferable to other OT settings.</p>\n\n\n\n<h3 class=\"wp-block-heading\" id=\"days-1-30-map-assets-and-identities-at-the-it-ot-boundary\">Days 1\u201330: Map assets and identities at the IT/OT boundary</h3>\n\n\n\n<p>The first 30 days are for increased visibility. I focus on a relatively simple question: \u201cWho and what can currently reach OT, intentionally or accidentally?\u201d</p>\n\n\n\n<p>CISA\u2019s guidance on zero trust for OT, alongside other warnings, advocates for identifying and managing assets and communications where IT and OT interfaces exist, in addition to informal remote access routes. Also, TSA requires pipeline operators to regularly update and manage plans detailing which networks, systems and access points they will assess as per their established requirements across both IT and OT.</p>\n\n\n\n<p>In my position, it comes down to three actions. First, I work with OT engineers, network staff and asset inventory systems to determine which OT assets threaten operations, safety or compliance if compromised, rather than inventorying every device. Second, I map the users and links that reach into OT, such as internal staff granted advanced privileges, remote vendor support, VPNs and cloud platforms that interact with production data. Third, I categorize these identities and connections based on risk, impact and exposure, not by their roles.</p>\n\n\n\n<p>By the close of the first 30 days, the intention is to present leadership with an easily comprehensible overview: outlining the critical OT assets, delineating the entry points from both internal IT systems and external sources and identifying the associated identities. Having established this common understanding makes subsequent zero trust discussions less vague.</p>\n\n\n\n<h3 class=\"wp-block-heading\" id=\"days-31-60-contain-vendor-remote-access-and-create-early-wins\">Days 31\u201360: Contain vendor remote access and create early wins</h3>\n\n\n\n<p>Look for quick wins in the next month, in a high-impact but non-disruptive area. Vendor or third-party remote access often fulfills it, and CISA has warned about it and continues to do so.</p>\n\n\n\n<p>Their guidance emphasizes best practices, including using MFA, segmented user privileges and monitoring third-party activity independently. The NERC CIP-013 requires utilities to consider cybersecurity threats and risk management that protect their supply chains and suppliers that connect to critical systems. The TSA\u2019s pipeline directives expect close monitoring and controls of remote access. In my case, early wins look like telling a vendor: OK, instead of an unsecured, remote access method, use an audited brokered remote access solution. MFA for any and all remote OT sessions. Close old vendor RDP connections that are not in service. You are simply saying that times change and since these methods were put in place a few years back, they have evolved; it is reasonable for you to evolve.</p>\n\n\n\n<h3 class=\"wp-block-heading\" id=\"days-61-90-build-a-simple-maturity-scorecard-and-narrative\">Days 61\u201390: Build a simple maturity scorecard and narrative</h3>\n\n\n\n<p>The third month is about visibility and repeatable progress. We now will have more clarity on assets and identities traversing the IT/OT boundary and have choked down the most dangerous of remote access paths. Now we will take time to track where we have been over time.</p>\n\n\n\n<p>I will consult with leaders within security and OT teams to identify the right-sized set of metrics relevant to the specific context of the organization. While the specific terminology may vary, many will align with common language found in TSA, NERC, CISA and other industry documents. Consider the broad themes of \u201cgovern, protect and detect &amp; respond\u201d.</p>\n\n\n\n<p>We can then identify solid \u201cnow\u201d and \u201cbetter next quarter\u201d capabilities within each of these themes. \u201cGovern\u201d could incorporate specific OT policies on identity and access management that pull in zero trust directives alongside existing authoritative frameworks. \u201cProtect\u201d might track what fraction of your high-impact OT assets have been put behind better segmentation practices, coupled with the percent of your remote access pathways to OT identified as high-risk that have both MFA and a brokered connection. \u201cDetect &amp; respond\u201d could see tested playbooks in place assuming a remote connection compromise that directly injects malware into an OT system, which aligns with how recent incidents have unfolded throughout North American utilities.</p>\n\n\n\n<p>The output is not a scorecard to pass around but will be a meaningful, honest conversation for our leaders. You will know how to accurately frame how your organization applies zero trust in the OT world today, show what you achieved over the past three months and honestly describe where there is more work ahead.</p>\n\n\n\n<p>I am not the only one trying to make zero trust ideas actually fit OT, and I pay attention to the CISOs who voice the same frustrations with IoT and OT environments. We are solving the same problem from different seats. What I have found is that a workable 90-day plan, updated monthly, beats any pledge to \u201cLet us achieve zero trust together\u201d</p>\n\n\n\n<p><strong>This article is published as part of the Foundry Expert Contributor Network.</strong><br><strong><a href=\"https://www.csoonline.com/expert-contributor-network/\">Want to join?</a></strong></p>\n\n\n\n<p></p>\n</div></div></div></div>",
+    "category": "Identity",
+    "subcategory": "Independent Journalism",
+    "source": "CSO Online",
+    "vendor": "CSO Online",
+    "source_group": "Independent Security Journalism",
+    "monitors": [
+      "Leadership coverage",
+      "Enterprise security"
+    ],
+    "official_url": "https://www.csoonline.com",
+    "severity": "medium",
+    "tags": [],
+    "executive_summary": "Regulation: <div id=\"remove_no_follow\">\n\t\t<div class=\"grid grid--cols-10@md grid--cols-8@lg article-column\">\n\t\t\t\t\t  <div class=\"col-12 col-10@md col-6@lg col-start-3@lg\">\n\t\t\t\t\t\t<div class=\"article-column__content\">\n<section class=\"wp-block-bigbite-multi-title\"><div class=\"container\"></div></",
+    "affected_industries": [
+      "Critical Infrastructure",
+      "Technology"
+    ],
+    "affected_iam_domains": [
+      "Authentication",
+      "Authorization"
+    ],
+    "control_mappings": [
+      "NIST",
+      "MITRE ATT&CK",
+      "ISO 27001"
+    ],
+    "recommended_actions": [
+      "Validate control alignment and compliance obligations with legal/risk teams.",
+      "Assess enterprise exposure and affected business processes.",
+      "Update risk register and assign accountable owner.",
+      "Track remediation completion against policy deadlines."
+    ],
+    "board_impact": "Potential compliance and supervisory impact requiring governance and assurance updates.",
+    "ciso_action_items": [
+      "Confirm detection, response, and reporting ownership.",
+      "Validate compensating controls and policy exceptions.",
+      "Publish an executive status update with next milestones."
+    ],
+    "rankings": {
+      "credibility": 0.88,
+      "executive_relevance": 0.85,
+      "business_impact": 0.5,
+      "regulatory_importance": 1.0,
+      "overall": 0.795
+    }
+  },
+  {
+    "title": "Mythos is a signal, not a siren: What frontier AI should change for CISOs",
+    "author": "Unknown",
+    "published_at": "Fri, 26 Jun 2026 09:00:00 +0000",
+    "published_date": "Fri, 26 Jun 2026 09:00:00 +0000",
+    "published": "Fri, 26 Jun 2026 09:00:00 +0000",
+    "url": "https://www.csoonline.com/article/4189600/mythos-is-a-signal-not-a-siren-what-frontier-ai-should-change-for-cisos.html",
+    "details_url": "https://www.csoonline.com/article/4189600/mythos-is-a-signal-not-a-siren-what-frontier-ai-should-change-for-cisos.html",
+    "summary": "<div id=\"remove_no_follow\">\n\t\t<div class=\"grid grid--cols-10@md grid--cols-8@lg article-column\">\n\t\t\t\t\t  <div class=\"col-12 col-10@md col-6@lg col-start-3@lg\">\n\t\t\t\t\t\t<div class=\"article-column__content\">\n<section class=\"wp-block-bigbite-multi-title\"><div class=\"container\"></div></section>\n\n\n\n<p>When a new AI capability starts making headlines, I see the same pattern play out in boardrooms and executive staff meetings. The technology is introduced as a looming breakthrough for attackers. The conversation quickly shifts to worst-case scenarios. Then security leaders are asked some version of the same question: Are we suddenly exposed in ways we were not exposed before?</p>\n\n\n\n<p>My answer is usually no.</p>\n\n\n\n<p>In most organizations, the bigger issue is not that a frontier model such as Mythos will magically create a new category of risk overnight. It is that these models can accelerate work on both sides of the cybersecurity equation. Attackers may use them to move faster, but defenders can use them to identify, prioritize and fix weaknesses that have been sitting in plain sight for years.</p>\n\n\n\n<p>That is why I view Mythos as a signal, not a siren. It signals that the economics of cyber offense and defense are changing. It does not signal that security fundamentals no longer matter. If anything, it proves the opposite. The organizations that have clear asset visibility, disciplined patching, strong identity controls and resilient operating models will be in a far better position to absorb whatever AI changes next.</p>\n\n\n\n<p>That perspective matters because recent breach reporting still points to familiar failure points. Verizon\u2019s <a href=\"https://www.verizon.com/business/resources/Tea/reports/2025-dbir-data-breach-investigations-report.pdf\">2025 Data Breach Investigations Report</a> shows that credential abuse and vulnerability exploitation remain central themes in how organizations get compromised, with exploitation continuing to rise. In other words, the path into the enterprise is still usually paved by weaknesses security teams already understand.</p>\n\n\n\n<h2 class=\"wp-block-heading\" id=\"the-real-problem-is-still-the-basics\">The real problem is still the basics</h2>\n\n\n\n<p>In my experience, many organizations do not have a strategy problem as much as they have an execution problem. Security leaders know the basics. Their teams know the basics. Their auditors, regulators and board committees know the basics. The struggle is sustaining those basics consistently across hybrid estates, aging systems, cloud platforms, remote users and sprawling third-party dependencies.</p>\n\n\n\n<p>That is why I am cautious when I hear predictions that AI will fundamentally change which controls are relevant. Most successful breaches still start with a known weakness that was not remediated, not prioritized correctly or not visible in the first place. An unpatched internet-facing system. A misconfigured identity relationship. Excessive privilege. Weak segmentation. A service account nobody has reviewed in years. A business-critical exception that quietly became permanent.</p>\n\n\n\n<p>I have seen security programs lose momentum when they over-rotate toward the newest threat narrative. They start funding edge use cases while old control gaps remain open. They buy more tooling before fixing ownership, process discipline and accountability. They treat cybersecurity maturity as a collection of projects instead of an operating model. That approach was risky before frontier AI, and it will be even riskier if these models compress attacker timelines further.</p>\n\n\n\n<p>If Mythos changes anything for most enterprises, it changes the urgency of getting the basics right. It increases the cost of delays. It raises the penalty for security debt. It puts more pressure on teams that already struggle to inventory assets, rationalize findings and close the delta between what they know and what they have actually fixed.</p>\n\n\n\n<p>That shift should also change the way we prioritize work. In many programs, vulnerability backlogs grow because teams are making decisions in fragments. Infrastructure owns one piece. Security operations own another. Identity, cloud and application teams each see a different slice of the problem. What gets lost is the full risk picture. That is why so many organizations feel busy but not measurably safer. They are addressing issues, but they are not consistently reducing the combinations of weakness that attackers actually exploit.</p>\n\n\n\n<p>The practical takeaway is straightforward. Before leaders assume Mythos creates a completely new threat model, they should ask a simpler question: Where are we still weak in ways that an attacker would recognize immediately? In my experience, that question leads to a more honest and productive discussion than any speculative debate about what AI may eventually do.</p>\n\n\n\n<h2 class=\"wp-block-heading\" id=\"ai-can-help-defenders-close-the-gaps-they-already-know-they-have\">AI can help defenders close the gaps they already know they have</h2>\n\n\n\n<p>The more constructive way to think about Mythos is to ask where frontier AI can improve defensive capacity right now. I do not mean replacing analysts or handing sensitive decisions to a model without oversight. I mean using AI to tackle problems security teams have long understood but have not had the scale or time to address consistently.</p>\n\n\n\n<p>Identity is a good example. NIST says <a href=\"https://www.nist.gov/identity-access-management\">identity and access management</a> is a fundamental and critical cybersecurity capability. Most CISOs would agree. Yet identity environments remain full of drift: nested groups, inherited entitlements, stale accounts, inconsistent role definitions and privileged access that survives long after the business need is gone. Those issues are rarely invisible. They are just hard to analyze holistically in real time.</p>\n\n\n\n<p>This is where AI can become valuable. It can help correlate relationships across directories, cloud control planes, tickets, logs and policy stores. It can help surface unusual combinations of access, identify probable attack paths and prioritize fixes based on business impact rather than raw alert volume. The benefit is not more noise. The benefit is faster understanding.</p>\n\n\n\n<p>The same logic applies to vulnerability and patch management. Most enterprises already have scanners, ticketing systems and dashboards. What they often lack is a consistent way to decide which vulnerabilities matter most in the context of exploitability, exposure, compensating controls and asset criticality. Frontier AI can help teams move from a long list of findings to a shorter list of actions that materially reduce risk.</p>\n\n\n\n<p>I also see opportunities in configuration management and detection engineering. Security teams are drowning in fragmented data. AI can help normalize evidence from multiple sources, highlight configuration drift and connect seemingly isolated signals into a more realistic picture of operational risk. For lean teams, especially, that matters. It can mean spending more time reducing risk and less time reconciling spreadsheets, duplicate alerts and disconnected workflows.</p>\n\n\n\n<p>None of this eliminates the need for skilled practitioners. It simply gives them leverage. And in a field where the volume of exposure routinely outpaces available staff, leverage matters.</p>\n\n\n\n<p>The most important point is that this is not a call to hand the keys to a model. It is a call to use AI where the return is clearest: accelerating analysis, improving prioritization and helping teams close long-standing control gaps. In other words, the biggest opportunity is not building a futuristic security theater. It is finally operationalizing the fundamentals at a speed the business can sustain.</p>\n\n\n\n<h2 class=\"wp-block-heading\" id=\"the-board-conversation-should-shift-from-fear-to-resilience\">The board conversation should shift from fear to resilience</h2>\n\n\n\n<p>The most important shift Mythos should trigger may not be technical at all. It should change the way CISOs talk to boards, CEOs and operating leaders.</p>\n\n\n\n<p>Too often, emerging technologies force security leaders into reactive conversations rooted in fear. The implied message is that a new attacker capability has arrived, so the organization now needs a new budget line, another platform or a fresh round of urgent exceptions. Sometimes that is true. Often it is not. More often, the better response is to connect the new development to existing risk priorities and reinforce the investments that improve resilience across multiple scenarios.</p>\n\n\n\n<p>When I speak with executives about AI-driven cyber risk, I try to keep the conversation grounded in three points:</p>\n\n\n\n<ol class=\"wp-block-list\">\n<li>Most cyber losses still stem from preventable weaknesses. That is not a comforting message, but it is an actionable one.</li>\n\n\n\n<li>Improvements in identity, asset governance, patch discipline, third-party oversight and response readiness create value beyond any single threat cycle.</li>\n\n\n\n<li>The organizations that manage complexity best will usually outperform those that react most dramatically.</li>\n</ol>\n\n\n\n<p>That framing also helps boards ask better questions. Instead of asking, \u201cWhat are we doing about Mythos?\u201d they should ask, \u201cWhere would AI make our current weaknesses more expensive or more exploitable?\u201d Instead of asking for a point solution, they should ask whether security and IT operations are aligned on the highest-risk remediation work. Instead of measuring activity, they should measure whether security debt is shrinking.</p>\n\n\n\n<p>For CISOs, that is an opportunity. Mythos can be used to justify another round of panic, or it can be used to elevate the quality of the risk conversation. I believe the better path is clear. Use the attention to tighten fundamentals. Use the technology to improve prioritization. Use the moment to reduce chronic control failures that attackers have exploited for decades.</p>\n\n\n\n<p>That is why I do not see Mythos as a siren demanding overreaction. I see it as a signal that the enterprises most prepared for the AI era will be the ones that finally operationalize what security leaders have been saying for years: resilience is built through disciplined execution, not headline-driven improvisation.</p>\n\n\n\n<p><strong>This article is published as part of the Foundry Expert Contributor Network.</strong><br><strong><a href=\"https://www.csoonline.com/expert-contributor-network/\">Want to join?</a></strong></p>\n</div></div></div></div>",
+    "category": "Identity",
+    "subcategory": "Independent Journalism",
+    "source": "CSO Online",
+    "vendor": "CSO Online",
+    "source_group": "Independent Security Journalism",
+    "monitors": [
+      "Leadership coverage",
+      "Enterprise security"
+    ],
+    "official_url": "https://www.csoonline.com",
+    "severity": "medium",
+    "tags": [],
+    "executive_summary": "Vulnerability: <div id=\"remove_no_follow\">\n\t\t<div class=\"grid grid--cols-10@md grid--cols-8@lg article-column\">\n\t\t\t\t\t  <div class=\"col-12 col-10@md col-6@lg col-start-3@lg\">\n\t\t\t\t\t\t<div class=\"article-column__content\">\n<section class=\"wp-block-bigbite-multi-title\"><div class=\"container\"></div></",
+    "affected_industries": [
+      "Financial Services",
+      "Technology"
+    ],
+    "affected_iam_domains": [
+      "Identity Governance",
+      "Authorization",
+      "Privileged Access"
+    ],
+    "control_mappings": [
+      "NIST",
+      "MITRE ATT&CK",
+      "ISO 27001"
+    ],
+    "recommended_actions": [
+      "Assess enterprise exposure and affected business processes.",
+      "Update risk register and assign accountable owner.",
+      "Track remediation completion against policy deadlines."
+    ],
+    "board_impact": "May impact risk appetite, resilience objectives, and technology investment priorities.",
+    "ciso_action_items": [
+      "Confirm detection, response, and reporting ownership.",
+      "Validate compensating controls and policy exceptions.",
+      "Publish an executive status update with next milestones."
+    ],
+    "rankings": {
+      "credibility": 0.88,
+      "executive_relevance": 0.7,
+      "business_impact": 0.5,
+      "regulatory_importance": 0.4,
+      "overall": 0.668
+    }
+  },
+  {
+    "title": "GRC is broken. FedRAMP 20x might fix it",
+    "author": "Unknown",
+    "published_at": "Thu, 25 Jun 2026 09:00:00 +0000",
+    "published_date": "Thu, 25 Jun 2026 09:00:00 +0000",
+    "published": "Thu, 25 Jun 2026 09:00:00 +0000",
+    "url": "https://www.csoonline.com/article/4188995/grc-is-broken-fedramp-20x-might-fix-it.html",
+    "details_url": "https://www.csoonline.com/article/4188995/grc-is-broken-fedramp-20x-might-fix-it.html",
+    "summary": "<div id=\"remove_no_follow\">\n\t\t<div class=\"grid grid--cols-10@md grid--cols-8@lg article-column\">\n\t\t\t\t\t  <div class=\"col-12 col-10@md col-6@lg col-start-3@lg\">\n\t\t\t\t\t\t<div class=\"article-column__content\">\n<section class=\"wp-block-bigbite-multi-title\"><div class=\"container\"></div></section>\n\n\n\n<p>We are auditing a curated version of history.</p>\n\n\n\n<p>I\u2019ve worked in security long enough now to know something most of us don\u2019t really say out loud. A lot of compliance is theatre. Not all of it, and not all auditors or frameworks, but enough of it that most experienced CISOs know exactly what I mean. If you understand how audits work, know how controls are interpreted and can manage scope and narrative well enough, you can often steer things where you need them to go.</p>\n\n\n\n<p>That\u2019s uncomfortable to admit, but it\u2019s true. The market now treats things like SOC 2 and ISO 27001 as direct statements about operational maturity and security posture when they really aren\u2019t. They are snapshots. Point-in-time reviews based on selected evidence and sampled testing. That doesn\u2019t make them useless. These frameworks were built for a completely different world where cloud infrastructure was less dynamic, APIs weren\u2019t everywhere and continuous telemetry at scale simply wasn\u2019t realistic. Sampling existed because there wasn\u2019t much of an alternative. That\u2019s before we even mention AI, where technology now changes on a monthly cadence against a regulatory backdrop that speaks in years.</p>\n\n\n\n<p>The issue is that the world moved on, but assurance largely didn\u2019t. The team behind\u00a0 <a href=\"https://www.fedramp.gov/20x\">FedRAMP 20x</a> are attempting to address exactly that problem, pushing assurance towards automation, machine-readable evidence and continuous validation rather than documentation-heavy compliance exercises. Most compliance programs still revolve around screenshots, exported evidence, manually curated narratives and carefully staged representations of reality. And that word, reality, is the important bit because in many cases, we are not auditing reality at all. We are auditing a curated version of history.</p>\n\n\n\n<p>That\u2019s why one of the most important things I\u2019ve heard said around FedRAMP 20x is this: <strong>Passing audits does not equal security</strong>.</p>\n\n\n\n<p>Exactly. A company can pass an audit while engineers bypass processes every Friday night to hit deadlines. Controls can drift quietly over time while nobody notices because the evidence only exists for a specific audit window. The audit passes because the story passes, and honestly, I think that\u2019s the bit the industry is becoming increasingly uncomfortable with. How many times a year is the production push made as a \u201chot fix\u201d?</p>\n\n\n\n<p>And honestly, I think that\u2019s why movements like GRC engineering are getting so much traction. Not because people suddenly wanted a trendy new title for compliance. But because there\u2019s growing frustration with how artificial parts of the industry have become.</p>\n\n\n\n<p>A few months ago, I gave a talk in Seattle comparing the rise of GRC engineering to the rise of grunge music. I\u2019m a huge Nirvana fan, so maybe the analogy was inevitable, but the more I thought about it, the more it made sense. Grunge didn\u2019t emerge because people desperately wanted something shiny and new. It emerged because people stopped believing the polished version was real. Hair metal had become overproduced and performative. Grunge felt rough around the edges, but it also felt honest.</p>\n\n\n\n<p>That\u2019s exactly where GRC feels like it is right now. Too much compliance has become about presenting the cleanest possible version of reality instead of exposing operational truth. Too many clean reports. Too many green ticks on trust centers. Too many perfect policies.</p>\n\n\n\n<h2 class=\"wp-block-heading\" id=\"the-sat-nav-problem\">The sat nav problem</h2>\n\n\n\n<p>Which brings me to one of the dumbest weekends of my life.</p>\n\n\n\n<p>Many years ago, my wife decided she wanted to go glamping in the Lake District for Valentine\u2019s Day.</p>\n\n\n\n<p>We drove north through classic, miserable British weather in a tiny little car completely unsuited for what was coming.</p>\n\n\n\n<p>As we got closer to the Lakes, the rain slowly turned into heavy snow.</p>\n\n\n\n<p>Then a full blizzard.</p>\n\n\n\n<p>The sat nav confidently directed us up a tiny snow-covered road that we physically could not drive up.</p>\n\n\n\n<p>We got stuck.</p>\n\n\n\n<p>Eventually, we got free.</p>\n\n\n\n<p>The sat nav recalculated and sent us up another equally impossible road.</p>\n\n\n\n<p>Same outcome.</p>\n\n\n\n<p>This happened multiple times until we eventually ended up buried in a snow drift somewhere in the middle of nowhere, waiting for a bloke in a 4\u00d74 to rescue us while trying not to laugh too hard at the idiots in the tiny car.</p>\n\n\n\n<p>After about seventeen hours of driving, we gave up and drove home.</p>\n\n\n\n<p>Completely failed Valentine\u2019s trip.</p>\n\n\n\n<p>But honestly, I think about that weekend a lot when I think about GRC because the sat nav had data. What it lacked was context. It didn\u2019t understand the environment, the conditions, the capability of the vehicle or even the actual outcome we were trying to achieve. We became obsessed with following the prescribed route instead of stepping back and asking whether the route itself still made sense. It reminds me of stories like tourists literally driving into the sea while blindly following GPS directions. The problem wasn\u2019t the absence of data. The problem was understanding the context around the data.\u00a0 Tourists drive into sea following GPS directions.</p>\n\n\n\n<p>A lot of compliance programs behave the same way. The objective quietly becomes \u201cpass the audit\u201d instead of \u201creduce meaningful risk\u201d, and once that happens, teams start optimising for the framework rather than the security outcome. That\u2019s the shift I think FedRAMP 20x and the broader GRC engineering movement are trying to force. Not just better automation or more integrations, but a fundamentally different way of thinking about trust.</p>\n\n\n\n<h2 class=\"wp-block-heading\" id=\"compliance-becomes-an-engineering-problem\">Compliance becomes an engineering problem</h2>\n\n\n\n<p>One of the central ideas behind FedRAMP 20x is that assurance increasingly needs to be treated as an engineering challenge rather than a documentation exercise.</p>\n\n\n\n<p>Historically, most compliance has been based on samples. Sampled pull requests, sampled access reviews and sampled infrastructure evidence. FedRAMP 20x pushes in a very different direction with machine-readable evidence, APIs, telemetry and complete datasets instead of manually curated snapshots. Many of these principles closely mirror those outlined in the <a href=\"https://grc.engineering/\">GRC Engineering Manifesto</a>, which argues that modern assurance should be built on automation, telemetry and engineering disciplines rather than static evidence collection.</p>\n\n\n\n<p>One of the biggest mindset shifts for our engineering teams was realising FedRAMP wasn\u2019t really asking for selected evidence anymore. They wanted the underlying operational data itself. Not a screenshot proving something was configured correctly on one specific day, but the actual flow of telemetry that underpinned the control or assurance statement. That\u2019s a completely different way of thinking about compliance because the conversation moves away from \u201cprove this existed once\u201d and towards \u201cshow me the operational reality continuously.\u201d</p>\n\n\n\n<p>Instead of showing a screenshot proving a virtual machine was configured correctly on one day, you expose every VM in the environment alongside drift data over time.</p>\n\n\n\n<p>Instead of selecting a handful of GitHub pull requests, you expose the entire development workflow, including the messy bits where processes were bypassed.</p>\n\n\n\n<p>Instead of showing sampled JML evidence, you expose the full lifecycle history of identity management over years.</p>\n\n\n\n<p>Honestly, it should feel uncomfortable because that discomfort is probably a sign you\u2019re finally exposing operational truth instead of polishing it away. Trust shouldn\u2019t come from perfection. It should come from transparency.</p>\n\n\n\n<h2 class=\"wp-block-heading\" id=\"we-thought-we-were-ready\">We thought we were ready</h2>\n\n\n\n<p>And honestly, that\u2019s exactly why our own FedRAMP 20x journey became so interesting.</p>\n\n\n\n<p>We originally planned to move towards moderate through a much longer runway. Then the programme timings changed, government shutdowns caused disruption, and suddenly we found ourselves with around six or seven weeks before audit activity started.</p>\n\n\n\n<p>We thought we had a solid plan.</p>\n\n\n\n<p>We didn\u2019t.</p>\n\n\n\n<p>Or at least not one that was mature enough yet.</p>\n\n\n\n<p>We had missed the low pilot earlier in the journey and entered the moderate phase without having already gone through that foundational learning process. We were also the only organization in our pilot group that hadn\u2019t already completed the low pathway first.</p>\n\n\n\n<p>That mattered.</p>\n\n\n\n<p>We didn\u2019t yet have the operational muscle memory.</p>\n\n\n\n<p>No established playbook.<br>No previous iteration.<br>No deeply embedded understanding of how this model actually behaved in practice.</p>\n\n\n\n<p>At the same time, we weren\u2019t trying to approach FedRAMP 20x like traditional compliance.</p>\n\n\n\n<p>We built direct API connectivity that allowed FedRAMP and auditors to pull complete machine-readable datasets in JSON format directly from the platform. Human-readable exports still existed where required, but the focus was on exposing operational truth rather than curating static evidence.</p>\n\n\n\n<p>That\u2019s also one of the core principles behind FedRAMP 20x itself. Controls increasingly need to be both machine-readable and human-readable. The baseline expectation is that a large percentage of controls should be automated with continuous evidence flowing behind them instead of static evidence being manually assembled before an audit.</p>\n\n\n\n<p>What that means in practice is that auditors no longer just review a point-in-time evidence pack. They gain ongoing visibility into operational datasets and can interrogate those environments in a much more dynamic way.</p>\n\n\n\n<p>That\u2019s a very different mindset from traditional compliance.</p>\n\n\n\n<p>And honestly, I think that difference is part of what made the journey so valuable.</p>\n\n\n\n<h2 class=\"wp-block-heading\" id=\"we-didnt-fail-we-iterated\">We didn\u2019t fail. We iterated</h2>\n\n\n\n<p>Because I don\u2019t actually think what happened next was failure.</p>\n\n\n\n<p>I think it was iteration.</p>\n\n\n\n<p>Modern engineering teams don\u2019t release perfect software on day one. They test, rebuild, refactor, improve and iterate continuously based on telemetry and feedback.</p>\n\n\n\n<p>Applications go through:</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Testing</li>\n\n\n\n<li>User feedback</li>\n\n\n\n<li>Redesign</li>\n\n\n\n<li>Bug fixing</li>\n\n\n\n<li>Telemetry analysis</li>\n\n\n\n<li>Continuous improvement</li>\n</ul>\n\n\n\n<p>Nobody expects version one to be perfect.</p>\n\n\n\n<p>Yet historically, GRC has behaved completely differently.</p>\n\n\n\n<p>Build the controls.<br>Collect the evidence.<br>Pass the audit.<br>Repeat next year.</p>\n\n\n\n<p>The audit becomes the finish line. Our finish line became a \u201cgood effort,\u201d \u201cwe think you\u2019re ready for a Low authorization, but not Moderate just yet.\u201d For a moment, it felt like failure. It hurt. It felt fundamentally different from any other assessment or audit as we genuinely didn\u2019t know what we\u2019d achieved. In fact, FedRAMP 20x feels fundamentally different and maybe that\u2019s the whole point.</p>\n\n\n\n<p>The process itself became feedback.</p>\n\n\n\n<p>Not: Can you tell a convincing enough story?</p>\n\n\n\n<p>But: What does your environment actually look like and how do you continuously improve it?</p>\n\n\n\n<p>That\u2019s a completely different mindset.</p>\n\n\n\n<p>One of the recurring themes throughout FedRAMP 20x is that assurance should improve through continuous iteration rather than annual point-in-time validation.</p>\n\n\n\n<p>Exactly.</p>\n\n\n\n<p>That\u2019s how engineering works.</p>\n\n\n\n<p>The Low authorization wasn\u2019t the end state. It was a checkpoint and a recalibration moment that helped us understand where the next iteration needed to go.</p>\n\n\n\n<p>And honestly, if you can speedrun moderate FedRAMP with perfectly polished dashboards and no uncomfortable truths exposed, then the framework probably isn\u2019t doing its job.</p>\n\n\n\n<p>That\u2019s one of the things I genuinely appreciate about FedRAMP 20x.</p>\n\n\n\n<p>It challenges your assumptions.</p>\n\n\n\n<p>It forces you to rethink approaches that have become normalized across large parts of the compliance industry.</p>\n\n\n\n<p>Historically, proving infrastructure security often meant screenshots or exported configs. Now we can expose every VM, every drift event and the full history of posture changes across the environment.</p>\n\n\n\n<p>That changes behavior massively because you can no longer optimize around the cleanest possible sample. You have to maintain the actual posture continuously.</p>\n\n\n\n<p>Historically, proving SDLC maturity meant selecting a handful of pull requests. Now we can expose the entire workflow, including every bypassed approval or manual push into production.</p>\n\n\n\n<p>Historically, proving identity governance meant sampled JML reviews. Now we can expose the operational history of the full identity lifecycle over years.</p>\n\n\n\n<p>And honestly, that was one of the areas that challenged some of our own assumptions the most.</p>\n\n\n\n<p>Traditional sampled evidence can make processes look consistently successful because you\u2019re only reviewing selected examples. But operational truth is different. You only need one joiner, mover or leaver process to fail in the wrong way for the risk to become real.</p>\n\n\n\n<p>That\u2019s exactly the kind of thing continuous operational visibility exposes much more quickly than traditional evidence collection.</p>\n\n\n\n<p>That\u2019s not just better evidence.</p>\n\n\n\n<p>It\u2019s a fundamentally different philosophy of assurance.</p>\n\n\n\n<h2 class=\"wp-block-heading\" id=\"the-rise-of-grc-engineering\">The rise of GRC engineering</h2>\n\n\n\n<p>And this is where I think GRC engineering becomes genuinely important.</p>\n\n\n\n<p>Not because everybody suddenly needs to become a software engineer, but because the discipline itself is evolving from a documentation exercise into an operational engineering problem.</p>\n\n\n\n<p>Modern GRC teams are increasingly building telemetry pipelines, integrations, APIs, infrastructure visibility and continuous assurance layers. And honestly, some of those pipelines are much harder to build than people realize. Cloud infrastructure, CSPM tooling and application security platforms are relatively straightforward because the data is already fairly structured and accessible. The really difficult parts are the messy operational systems that organizations historically handled through process and human coordination.</p>\n\n\n\n<p>Things like policy management workflows, budget approvals, software bill of materials tracking and non-standard operational processes are far harder to standardize and expose consistently.</p>\n\n\n\n<p>That\u2019s another reason this shift matters so much. It forces organizations to operationalize areas that historically lived in spreadsheets, meetings or tribal knowledge.</p>\n\n\n\n<p>That\u2019s a very different skillset from managing spreadsheets and coordinating screenshots.</p>\n\n\n\n<p>More importantly, it changes the conversations.</p>\n\n\n\n<p>One of the things I enjoyed most throughout the FedRAMP 20x process was that discussions increasingly stopped being: How do we satisfy this control?</p>\n\n\n\n<p>And became: What risk are we actually trying to reduce here?</p>\n\n\n\n<p>That\u2019s such a healthier conversation for security teams to have. Because not every risk matters equally to every organization. Not every control meaningfully improves security posture. Not every framework requirement deserves the same operational investment.</p>\n\n\n\n<p>Traditional compliance often struggles with that nuance because it optimizes around consistency and uniformity.</p>\n\n\n\n<p>Modern engineering-led assurance feels different.</p>\n\n\n\n<p>It feels more contextual, more operational and honestly far more honest.</p>\n\n\n\n<p>And honestly, honesty is probably the biggest thing missing from large parts of compliance today.</p>\n\n\n\n<p>We\u2019ve built an industry where everyone feels pressure to look perfect.</p>\n\n\n\n<p>Perfect dashboards. Perfect controls. Perfect audit outcomes.</p>\n\n\n\n<p>But real engineering environments are never perfect.</p>\n\n\n\n<p>They have bugs, drift, exceptions, failures, temporary workarounds and weird edge cases.</p>\n\n\n\n<p>That doesn\u2019t automatically mean the environment is insecure. It means it\u2019s real.</p>\n\n\n\n<p>I actually think one of the biggest mindset shifts FedRAMP 20x and the broader GRC engineering movement are pushing is this: nonconformities should not automatically destroy trust. Handled correctly, they should build it.</p>\n\n\n\n<p>Because mature organizations are not the ones pretending problems don\u2019t exist. They\u2019re the ones capable of identifying issues quickly, exposing them honestly and improving continuously. That\u2019s engineering. And maybe that\u2019s where compliance finally starts becoming useful again.</p>\n\n\n\n<h2 class=\"wp-block-heading\" id=\"the-future-of-trust\">The future of trust</h2>\n\n\n\n<p>For organizations participating in the current pilots, many of these concepts are already being tested through automation-first assessments, machine-readable evidence and continuous visibility.\u00a0 <a href=\"https://www.fedramp.gov/20x/phases/2\">FedRAMP 20x Phase 2</a>.</p>\n\n\n\n<p>Because right now, most compliance still works like we\u2019re printing MapQuest directions in 2004 and hoping nothing changes between point A and point B.</p>\n\n\n\n<p>The environment changes constantly. Cloud infrastructure drifts, engineers move quickly, businesses evolve and threat actors adapt far faster than annual audits ever could.</p>\n\n\n\n<p>Yet most assurance still relies on frozen snapshots and sampled evidence that were already out of date the second they were exported into a PDF.</p>\n\n\n\n<p>That\u2019s the bit I think FedRAMP 20x genuinely understands. This isn\u2019t just about modernising audits. It\u2019s about acknowledging that modern systems are living systems.</p>\n\n\n\n<p>They are transient, constantly changing and impossible to understand properly through static evidence alone.</p>\n\n\n\n<p>That\u2019s why the move towards APIs, telemetry and machine-readable evidence matters so much.</p>\n\n\n\n<p>Not because APIs are trendy.</p>\n\n\n\n<p>Because they allow us to expose operational truth continuously instead of periodically reconstructing it after the fact.</p>\n\n\n\n<p>And honestly, I think that changes the future of trust.</p>\n\n\n\n<p>In five years, I don\u2019t think organizations will primarily send customers PDFs and certifications.</p>\n\n\n\n<p>I think they\u2019ll expose assurance layers.</p>\n\n\n\n<p>APIs.<br>Telemetry.<br>Machine-readable evidence.</p>\n\n\n\n<p>Instead of saying: Here\u2019s our SOC 2.</p>\n\n\n\n<p>They\u2019ll say: Here\u2019s the operational data. Query it yourself.</p>\n\n\n\n<p>Auditors won\u2019t disappear, but I think their role changes significantly.</p>\n\n\n\n<p>Less time auditing screenshots and selected controls. More time validating whether the underlying evidence pipelines are complete, accurate and trustworthy.</p>\n\n\n\n<p>Modern audit becomes less about auditing controls and more about auditing data integrity.</p>\n\n\n\n<p>And honestly?</p>\n\n\n\n<p>That feels like a much healthier future than the one we\u2019ve built today.</p>\n\n\n\n<p>Because the future of trust probably isn\u2019t polished dashboards and carefully curated evidence. It\u2019s operational truth, and operational truth is messy. It contains drift, exceptions, bypasses, gaps and uncomfortable findings, but that\u2019s exactly why it\u2019s valuable.</p>\n\n\n\n<h2 class=\"wp-block-heading\" id=\"stop-rewarding-the-best-storytellers\">Stop rewarding the best storytellers</h2>\n\n\n\n<p>Maybe that\u2019s the biggest shift FedRAMP 20x is trying to create. Not better paperwork. Better visibility.</p>\n\n\n\n<p>For years, we\u2019ve rewarded organizations for telling the cleanest story. Maybe it\u2019s finally time we reward them for exposing the truth instead. That\u2019s the revolution FedRAMP 20x and GRC engineering are leading.</p>\n\n\n\n<p><strong>This article is published as part of the Foundry Expert Contributor Network.</strong><br><strong><a href=\"https://www.csoonline.com/expert-contributor-network/\">Want to join?</a></strong></p>\n</div></div></div></div>",
+    "category": "Identity",
+    "subcategory": "Independent Journalism",
+    "source": "CSO Online",
+    "vendor": "CSO Online",
+    "source_group": "Independent Security Journalism",
+    "monitors": [
+      "Leadership coverage",
+      "Enterprise security"
+    ],
+    "official_url": "https://www.csoonline.com",
+    "severity": "medium",
+    "tags": [],
+    "executive_summary": "Regulation: <div id=\"remove_no_follow\">\n\t\t<div class=\"grid grid--cols-10@md grid--cols-8@lg article-column\">\n\t\t\t\t\t  <div class=\"col-12 col-10@md col-6@lg col-start-3@lg\">\n\t\t\t\t\t\t<div class=\"article-column__content\">\n<section class=\"wp-block-bigbite-multi-title\"><div class=\"container\"></div></",
+    "affected_industries": [
+      "Government",
+      "Healthcare",
+      "Technology"
+    ],
+    "affected_iam_domains": [
+      "Identity Governance",
+      "Authorization"
+    ],
+    "control_mappings": [
+      "MITRE ATT&CK",
+      "ISO 27001"
+    ],
+    "recommended_actions": [
+      "Validate control alignment and compliance obligations with legal/risk teams.",
+      "Assess enterprise exposure and affected business processes.",
+      "Update risk register and assign accountable owner.",
+      "Track remediation completion against policy deadlines."
+    ],
+    "board_impact": "Potential compliance and supervisory impact requiring governance and assurance updates.",
+    "ciso_action_items": [
+      "Confirm detection, response, and reporting ownership.",
+      "Validate compensating controls and policy exceptions.",
+      "Publish an executive status update with next milestones."
+    ],
+    "rankings": {
+      "credibility": 0.88,
+      "executive_relevance": 0.85,
+      "business_impact": 0.5,
+      "regulatory_importance": 1.0,
+      "overall": 0.795
+    }
+  },
+  {
+    "title": "Scattered Spider duo convicted over $38M Transport for London attack",
+    "author": "Unknown",
+    "published_at": "Wed, 24 Jun 2026 17:30:49 +0000",
+    "published_date": "Wed, 24 Jun 2026 17:30:49 +0000",
+    "published": "Wed, 24 Jun 2026 17:30:49 +0000",
+    "url": "https://www.csoonline.com/article/4189033/scattered-spider-duo-convicted-over-38m-transport-for-london-attack.html",
+    "details_url": "https://www.csoonline.com/article/4189033/scattered-spider-duo-convicted-over-38m-transport-for-london-attack.html",
+    "summary": "<div id=\"remove_no_follow\">\n\t\t<div class=\"grid grid--cols-10@md grid--cols-8@lg article-column\">\n\t\t\t\t\t  <div class=\"col-12 col-10@md col-6@lg col-start-3@lg\">\n\t\t\t\t\t\t<div class=\"article-column__content\">\n<section class=\"wp-block-bigbite-multi-title\"><div class=\"container\"></div></section>\n\n\n\n<p>Two members of the <a href=\"https://www.csoonline.com/article/4020567/anatomy-of-a-scattered-spider-attack-a-growing-ransomware-threat-evolves.html\">Scattered Spide</a>r cybercrime collective have admitted launching a cyberattack against Transport for London (TfL) that caused millions in damages.</p>\n\n\n\n<p>Thalha Jubair, 20, from East London, and Owen Flowers, 18, from Walsall, West Midlands, were due to stand trial for computer hacking offences at Woolwich Crown Court on Monday but changed their pleas to guilty on the first day of what was scheduled to be a six-week trial.</p>\n\n\n\n<p>Sentencing for the pair is due to take place in the same outer London court on July 22.</p>\n\n\n\n<h2 class=\"wp-block-heading\" id=\"mind-the-gap\">Mind the gap</h2>\n\n\n\n<p><a href=\"https://www.bbc.co.uk/news/articles/czx5yp9qy0do\">Jubair and Flowers</a> compromised TfL\u2019s network between Aug. 31 and Sept. 3, 2024, in an attack that disrupted in-station services such as information boards, and online services such as TfL\u2019s refunds portal and Oyster photocard application systems for young people.</p>\n\n\n\n<p>The same attack also meant all 28,000 employees of the London transport network were obliged to attend a TfL office for a password reset. A BBC investigation in March 2026 revealed that the hack had exposed the names, email addresses, mobile phone numbers and physical addresses of <a href=\"https://www.bbc.co.uk/news/articles/cz0ggkr2g77o\">an estimated 10 million people</a>.</p>\n\n\n\n<p>TfL suffered a reported \u00a329 million ($38.2 million) in losses, incident response, and other recovery costs.</p>\n\n\n\n<p>The attack was investigated by the UK\u2019s National Crime Agency and City of London Police. Police investigators quickly identified Flowers as a suspect prior to his arrest at his home on Sept. 6, 2024.</p>\n\n\n\n<p>Forensic analysis on the laptops, tower computers, hard drives, and USB sticks seized at the time of Flower\u2019s arrest uncovered evidence that he had also broken into the systems of US healthcare companies SSM Health Care and Sutter Health.</p>\n\n\n\n<p>One Acer laptop seized during the arrest held videos showing Jubair accessing TfL systems during the attack, according to a <a href=\"https://www.nationalcrimeagency.gov.uk/news/cyber-criminals-who-hacked-into-transport-for-londons-computer-network-are-convicted\">police statement on the case</a>. The pair were messaging each other through the Telegram messaging service as well as using a common workspace that they shared with other cybercriminals.</p>\n\n\n\n<h2 class=\"wp-block-heading\" id=\"web-of-destruction\">Web of destruction</h2>\n\n\n\n<p>The <a href=\"https://www.csoonline.com/article/3994369/how-cisos-can-defend-against-scattered-spider-ransomware-attacks.html\">Scattered Spider group</a> burst onto the scene with <a href=\"https://www.csoonline.com/article/563507/what-is-ransomware-how-it-works-and-how-to-remove-it.html\">ransomware</a> attacks against Caesars Entertainment and <a href=\"https://www.csoonline.com/article/654846/mgm-ransomware-attack-costs-100-million-in-busy-month-for-breaches.html\">MGM Resorts</a> in 2023. Attacks against a wide variety of targets across multiple industries, including <a href=\"https://www.csoonline.com/article/3977688/warning-issued-to-retailers-cisos-worldwide-after-three-attacks-in-uk.html\">retail</a>, hospitality, telecoms, and aviation, followed.</p>\n\n\n\n<p>UK attacks linked to Scattered Spider include high-profile attacks on <a href=\"https://www.csoonline.com/article/4065991/dont-drink-or-drive-say-cyberattackers.html\">Jaguar Land Rover</a> and retailer <a href=\"https://www.csoonline.com/article/3986579/aggressive-creative-hackers-behind-uk-breaches-now-eyeing-us-retailers.html\">Marks and Spencer</a>.</p>\n\n\n\n<p>Scattered Spider is best viewed as an overlapping network of largely English-speaking crews and affiliates rather than a tightly knit organisation.</p>\n\n\n\n<p>The group\u2019s tradecraft is characterised by social engineering, help-desk impersonation, SIM swapping in the furtherance of ransomware-enabled extortion, and other scams. In particular, Scattered Spider targeted outsourced IT support and help-desk providers to reset credentials and bypass multi-factor authentication controls to expand their access into victim\u2019s networks.</p>\n\n\n\n<p>A loose alliance or collective of cybercrime groups including Scattered Spider, <a href=\"https://en.wikipedia.org/wiki/Lapsus%24\">Lapsus$</a>, and <a href=\"https://en.wikipedia.org/wiki/ShinyHunters\">ShinyHunters</a> was established last year.</p>\n\n\n\n<p>Jubair and Flowers are among a growing number of members of the group to be convicted for computer crime offences.</p>\n\n\n\n<p><a href=\"https://www.csoonline.com/article/4163328/scattered-spider-co-conspirator-pleads-guilty.html\">Tyler Buchanan</a>, a senior figure in the group, was arrested at a Spanish airport in June 2024.</p>\n\n\n\n<p>Buchanan, 24, of Dundee, Scotland, was extradited to the US and <a href=\"https://www.justice.gov/usao-cdca/pr/british-national-pleads-guilty-hacking-companies-and-stealing-least-8-million-virtual\">pleaded guilty in April 2026 to a scam that aimed to steal $8 million in virtual currency</a> from at least a dozen companies as well as numerous individuals.</p>\n\n\n\n<p>Co-conspirator <a href=\"https://www.justice.gov/usao-mdfl/pr/palm-coast-hacker-sentenced-10-years-prison\">Noah Michael Urban of Palm Coast, Florida, was jailed for 10 years</a> in April 2025 after pleading guilty to aggravated identity theft and wire fraud offences.</p>\n\n\n\n<p>Other prosecutions remain pending.</p>\n</div></div></div></div>",
+    "category": "Identity",
+    "subcategory": "Independent Journalism",
+    "source": "CSO Online",
+    "vendor": "CSO Online",
+    "source_group": "Independent Security Journalism",
+    "monitors": [
+      "Leadership coverage",
+      "Enterprise security"
+    ],
+    "official_url": "https://www.csoonline.com",
+    "severity": "medium",
+    "tags": [],
+    "executive_summary": "Threat: <div id=\"remove_no_follow\">\n\t\t<div class=\"grid grid--cols-10@md grid--cols-8@lg article-column\">\n\t\t\t\t\t  <div class=\"col-12 col-10@md col-6@lg col-start-3@lg\">\n\t\t\t\t\t\t<div class=\"article-column__content\">\n<section class=\"wp-block-bigbite-multi-title\"><div class=\"container\"></div></",
+    "affected_industries": [
+      "Government",
+      "Healthcare",
+      "Critical Infrastructure",
+      "Technology"
+    ],
+    "affected_iam_domains": [
+      "Identity Governance",
+      "Authentication"
+    ],
+    "control_mappings": [
+      "MITRE ATT&CK",
+      "ISO 27001"
+    ],
+    "recommended_actions": [
+      "Assess enterprise exposure and affected business processes.",
+      "Update risk register and assign accountable owner.",
+      "Track remediation completion against policy deadlines."
+    ],
+    "board_impact": "May impact risk appetite, resilience objectives, and technology investment priorities.",
+    "ciso_action_items": [
+      "Hunt for related indicators and validate containment playbooks.",
+      "Confirm detection, response, and reporting ownership.",
+      "Validate compensating controls and policy exceptions.",
+      "Publish an executive status update with next milestones."
+    ],
+    "rankings": {
+      "credibility": 0.88,
+      "executive_relevance": 0.85,
+      "business_impact": 0.5,
+      "regulatory_importance": 0.6,
+      "overall": 0.735
+    }
+  }
+]

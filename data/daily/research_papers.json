@@ -1,0 +1,357 @@
+[
+  {
+    "title": "The Global Namespace Risk: Universal Bucket Hijacking Technique for Cloud Data Exfiltration",
+    "author": "Unknown",
+    "published_at": "Mon, 22 Jun 2026 22:00:04 +0000",
+    "published_date": "Mon, 22 Jun 2026 22:00:04 +0000",
+    "published": "Mon, 22 Jun 2026 22:00:04 +0000",
+    "url": "https://unit42.paloaltonetworks.com/cloud-bucket-hijacking-risks/",
+    "details_url": "https://unit42.paloaltonetworks.com/cloud-bucket-hijacking-risks/",
+    "summary": "<p>Unit 42 research details how attackers could exploit global name uniqueness in bucket hijacking to redirect cloud data streams across major CSPs.</p>\n<p>The post <a href=\"https://unit42.paloaltonetworks.com/cloud-bucket-hijacking-risks/\">The Global Namespace Risk: Universal Bucket Hijacking Technique for Cloud Data Exfiltration</a> appeared first on <a href=\"https://unit42.paloaltonetworks.com\">Unit 42</a>.</p>",
+    "category": "Research",
+    "subcategory": "Threat Intel",
+    "source": "Unit 42",
+    "vendor": "Unit 42",
+    "source_group": "Threat Intelligence",
+    "monitors": [
+      "Campaigns",
+      "Ransomware",
+      "Cloud attacks"
+    ],
+    "official_url": "https://unit42.paloaltonetworks.com",
+    "severity": "medium",
+    "tags": [],
+    "executive_summary": "Research: <p>Unit 42 research details how attackers could exploit global name uniqueness in bucket hijacking to redirect cloud data streams across major CSPs.</p>\n<p>The post <a href=\"https://unit42.paloaltonetworks.com/cloud-bucket-hijacking-risks/\">The Global Namespace Risk: Universal Bu",
+    "affected_industries": [
+      "Technology"
+    ],
+    "affected_iam_domains": [
+      "General"
+    ],
+    "control_mappings": [
+      "MITRE ATT&CK"
+    ],
+    "recommended_actions": [
+      "Assess enterprise exposure and affected business processes.",
+      "Update risk register and assign accountable owner.",
+      "Track remediation completion against policy deadlines."
+    ],
+    "board_impact": "May impact risk appetite, resilience objectives, and technology investment priorities.",
+    "ciso_action_items": [
+      "Confirm detection, response, and reporting ownership.",
+      "Validate compensating controls and policy exceptions.",
+      "Publish an executive status update with next milestones."
+    ],
+    "rankings": {
+      "credibility": 0.95,
+      "executive_relevance": 0.7,
+      "business_impact": 0.5,
+      "regulatory_importance": 0.4,
+      "overall": 0.692
+    }
+  },
+  {
+    "title": "Blinding the Watchmen: Abusing Cloud Logging Services for Defense Evasion and Visibility",
+    "author": "Unknown",
+    "published_at": "Tue, 09 Jun 2026 22:00:21 +0000",
+    "published_date": "Tue, 09 Jun 2026 22:00:21 +0000",
+    "published": "Tue, 09 Jun 2026 22:00:21 +0000",
+    "url": "https://unit42.paloaltonetworks.com/cloud-logging-defense-evasion/",
+    "details_url": "https://unit42.paloaltonetworks.com/cloud-logging-defense-evasion/",
+    "summary": "<p>Unit 42 research examines attack scenarios targeting cloud logging services. Learn how to defend against log manipulation and defense evasion.</p>\n<p>The post <a href=\"https://unit42.paloaltonetworks.com/cloud-logging-defense-evasion/\">Blinding the Watchmen: Abusing Cloud Logging Services for Defense Evasion and Visibility</a> appeared first on <a href=\"https://unit42.paloaltonetworks.com\">Unit 42</a>.</p>",
+    "category": "Research",
+    "subcategory": "Threat Intel",
+    "source": "Unit 42",
+    "vendor": "Unit 42",
+    "source_group": "Threat Intelligence",
+    "monitors": [
+      "Campaigns",
+      "Ransomware",
+      "Cloud attacks"
+    ],
+    "official_url": "https://unit42.paloaltonetworks.com",
+    "severity": "medium",
+    "tags": [],
+    "executive_summary": "Research: <p>Unit 42 research examines attack scenarios targeting cloud logging services. Learn how to defend against log manipulation and defense evasion.</p>\n<p>The post <a href=\"https://unit42.paloaltonetworks.com/cloud-logging-defense-evasion/\">Blinding the Watchmen: Abusing Cloud Logg",
+    "affected_industries": [
+      "Technology"
+    ],
+    "affected_iam_domains": [
+      "General"
+    ],
+    "control_mappings": [
+      "MITRE ATT&CK"
+    ],
+    "recommended_actions": [
+      "Assess enterprise exposure and affected business processes.",
+      "Update risk register and assign accountable owner.",
+      "Track remediation completion against policy deadlines."
+    ],
+    "board_impact": "May impact risk appetite, resilience objectives, and technology investment priorities.",
+    "ciso_action_items": [
+      "Confirm detection, response, and reporting ownership.",
+      "Validate compensating controls and policy exceptions.",
+      "Publish an executive status update with next milestones."
+    ],
+    "rankings": {
+      "credibility": 0.95,
+      "executive_relevance": 0.7,
+      "business_impact": 0.5,
+      "regulatory_importance": 0.4,
+      "overall": 0.692
+    }
+  },
+  {
+    "title": "FBI Seizes NetNut Proxy Platform, Popa Botnet",
+    "author": "Unknown",
+    "published_at": "Thu, 02 Jul 2026 19:27:33 +0000",
+    "published_date": "Thu, 02 Jul 2026 19:27:33 +0000",
+    "published": "Thu, 02 Jul 2026 19:27:33 +0000",
+    "url": "https://krebsonsecurity.com/2026/07/fbi-seizes-netnut-proxy-platform-popa-botnet/",
+    "details_url": "https://krebsonsecurity.com/2026/07/fbi-seizes-netnut-proxy-platform-popa-botnet/",
+    "summary": "The Federal Bureau of Investigation (FBI) said today it worked with industry partners to seize hundreds of domains associated with NetNut, a sprawling residential proxy service operated by the publicly-traded Israeli company Alarum Technologies [NASDAQ: ALAR]. The action comes roughly two weeks after KrebsOnSecurity published findings from multiple security firms connecting NetNut to the Popa botnet, a collection of at least two million devices that have been compromised by malicious software with little or no consent from victims.",
+    "category": "Research",
+    "subcategory": "Independent Journalism",
+    "source": "KrebsOnSecurity",
+    "vendor": "KrebsOnSecurity",
+    "source_group": "Independent Security Journalism",
+    "monitors": [
+      "Independent reporting",
+      "Investigations",
+      "Breach analysis"
+    ],
+    "official_url": "https://krebsonsecurity.com",
+    "severity": "medium",
+    "tags": [],
+    "executive_summary": "Research: The Federal Bureau of Investigation (FBI) said today it worked with industry partners to seize hundreds of domains associated with NetNut, a sprawling residential proxy service operated by the publicly-traded Israeli company Alarum Technologies [NASDAQ: ALAR]. The action comes ro",
+    "affected_industries": [
+      "Technology"
+    ],
+    "affected_iam_domains": [
+      "Identity Governance"
+    ],
+    "control_mappings": [
+      "ASD Essential Eight"
+    ],
+    "recommended_actions": [
+      "Assess enterprise exposure and affected business processes.",
+      "Update risk register and assign accountable owner.",
+      "Track remediation completion against policy deadlines."
+    ],
+    "board_impact": "May impact risk appetite, resilience objectives, and technology investment priorities.",
+    "ciso_action_items": [
+      "Confirm detection, response, and reporting ownership.",
+      "Validate compensating controls and policy exceptions.",
+      "Publish an executive status update with next milestones."
+    ],
+    "rankings": {
+      "credibility": 0.92,
+      "executive_relevance": 0.7,
+      "business_impact": 0.5,
+      "regulatory_importance": 0.4,
+      "overall": 0.682
+    }
+  },
+  {
+    "title": "\u2018Popa\u2019 Botnet Linked to Publicly-Traded Israeli Firm",
+    "author": "Unknown",
+    "published_at": "Thu, 18 Jun 2026 17:37:58 +0000",
+    "published_date": "Thu, 18 Jun 2026 17:37:58 +0000",
+    "published": "Thu, 18 Jun 2026 17:37:58 +0000",
+    "url": "https://krebsonsecurity.com/2026/06/popa-botnet-linked-to-publicly-traded-israeli-firm/",
+    "details_url": "https://krebsonsecurity.com/2026/06/popa-botnet-linked-to-publicly-traded-israeli-firm/",
+    "summary": "For the past four years, a sprawling Android-based botnet called Popa has forced millions of consumer TV boxes to relay Internet traffic linked to advertising fraud, account takeovers, and mass data-scraping efforts. This week, researchers from multiple security firms concluded that the Popa botnet is linked to NetNut, a \"residential proxy\" provider operated by the publicly-traded Israeli firm Alarum Technologies Ltd [NASDAQ: ALAR].",
+    "category": "Research",
+    "subcategory": "Independent Journalism",
+    "source": "KrebsOnSecurity",
+    "vendor": "KrebsOnSecurity",
+    "source_group": "Independent Security Journalism",
+    "monitors": [
+      "Independent reporting",
+      "Investigations",
+      "Breach analysis"
+    ],
+    "official_url": "https://krebsonsecurity.com",
+    "severity": "medium",
+    "tags": [],
+    "executive_summary": "Research: For the past four years, a sprawling Android-based botnet called Popa has forced millions of consumer TV boxes to relay Internet traffic linked to advertising fraud, account takeovers, and mass data-scraping efforts. This week, researchers from multiple security firms concluded t",
+    "affected_industries": [
+      "Technology"
+    ],
+    "affected_iam_domains": [
+      "General"
+    ],
+    "control_mappings": [
+      "ASD Essential Eight"
+    ],
+    "recommended_actions": [
+      "Assess enterprise exposure and affected business processes.",
+      "Update risk register and assign accountable owner.",
+      "Track remediation completion against policy deadlines."
+    ],
+    "board_impact": "May impact risk appetite, resilience objectives, and technology investment priorities.",
+    "ciso_action_items": [
+      "Confirm detection, response, and reporting ownership.",
+      "Validate compensating controls and policy exceptions.",
+      "Publish an executive status update with next milestones."
+    ],
+    "rankings": {
+      "credibility": 0.92,
+      "executive_relevance": 0.7,
+      "business_impact": 0.5,
+      "regulatory_importance": 0.4,
+      "overall": 0.682
+    }
+  },
+  {
+    "title": "Non-interactive SSH attacks dominate after login",
+    "author": "Unknown",
+    "published_at": "Fri, 03 Jul 2026 05:30:42 +0000",
+    "published_date": "Fri, 03 Jul 2026 05:30:42 +0000",
+    "published": "Fri, 03 Jul 2026 05:30:42 +0000",
+    "url": "https://www.helpnetsecurity.com/2026/07/03/research-non-interactive-ssh-attacks/",
+    "details_url": "https://www.helpnetsecurity.com/2026/07/03/research-non-interactive-ssh-attacks/",
+    "summary": "<p>Anyone who runs a server with SSH exposed to the internet sees the same pattern in the logs. A steady stream of automated scanners tries to log in, hour after hour, from addresses all over the world. The common picture of what comes next has an attacker landing a shell, looking around the system, and typing commands. The reality recorded across eleven research honeypots looks almost nothing like that. Eleven SSH honeypots ran on cloud &#8230; <a href=\"https://www.helpnetsecurity.com/2026/07/03/research-non-interactive-ssh-attacks/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/07/03/research-non-interactive-ssh-attacks/\">Non-interactive SSH attacks dominate after login</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "category": "Research",
+    "subcategory": "Independent Journalism",
+    "source": "Help Net Security",
+    "vendor": "Help Net Security",
+    "source_group": "Independent Security Journalism",
+    "monitors": [
+      "Industry reporting",
+      "Research coverage"
+    ],
+    "official_url": "https://www.helpnetsecurity.com",
+    "severity": "medium",
+    "tags": [],
+    "executive_summary": "Research: <p>Anyone who runs a server with SSH exposed to the internet sees the same pattern in the logs. A steady stream of automated scanners tries to log in, hour after hour, from addresses all over the world. The common picture of what comes next has an attacker landing a shell, lookin",
+    "affected_industries": [
+      "Technology"
+    ],
+    "affected_iam_domains": [
+      "General"
+    ],
+    "control_mappings": [
+      "MITRE ATT&CK"
+    ],
+    "recommended_actions": [
+      "Assess enterprise exposure and affected business processes.",
+      "Update risk register and assign accountable owner.",
+      "Track remediation completion against policy deadlines."
+    ],
+    "board_impact": "May impact risk appetite, resilience objectives, and technology investment priorities.",
+    "ciso_action_items": [
+      "Confirm detection, response, and reporting ownership.",
+      "Validate compensating controls and policy exceptions.",
+      "Publish an executive status update with next milestones."
+    ],
+    "rankings": {
+      "credibility": 0.89,
+      "executive_relevance": 0.7,
+      "business_impact": 0.5,
+      "regulatory_importance": 0.4,
+      "overall": 0.671
+    }
+  },
+  {
+    "title": "This phishing kit looks more like BEC-as-a-service",
+    "author": "Unknown",
+    "published_at": "Wed, 01 Jul 2026 10:00:00 +0000",
+    "published_date": "Wed, 01 Jul 2026 10:00:00 +0000",
+    "published": "Wed, 01 Jul 2026 10:00:00 +0000",
+    "url": "https://cyberscoop.com/artoken-bec-platform-cisco-talos/",
+    "details_url": "https://cyberscoop.com/artoken-bec-platform-cisco-talos/",
+    "summary": "<p>Cisco Talos\u2019 research on ARToken builds on what\u2019s known about the related EvilTokens phishing-as-a-service.</p>\n<p>The post <a href=\"https://cyberscoop.com/artoken-bec-platform-cisco-talos/\">This phishing kit looks more like BEC-as-a-service</a> appeared first on <a href=\"https://cyberscoop.com\">CyberScoop</a>.</p>",
+    "category": "Research",
+    "subcategory": "Independent Journalism",
+    "source": "CyberScoop",
+    "vendor": "CyberScoop",
+    "source_group": "Independent Security Journalism",
+    "monitors": [
+      "Policy coverage",
+      "Cyber operations"
+    ],
+    "official_url": "https://cyberscoop.com",
+    "severity": "medium",
+    "tags": [],
+    "executive_summary": "Research: <p>Cisco Talos\u2019 research on ARToken builds on what\u2019s known about the related EvilTokens phishing-as-a-service.</p>\n<p>The post <a href=\"https://cyberscoop.com/artoken-bec-platform-cisco-talos/\">This phishing kit looks more like BEC-as-a-service</a> appeared first on <a href=\"http",
+    "affected_industries": [
+      "Technology"
+    ],
+    "affected_iam_domains": [
+      "General"
+    ],
+    "control_mappings": [
+      "MITRE ATT&CK"
+    ],
+    "recommended_actions": [
+      "Assess enterprise exposure and affected business processes.",
+      "Update risk register and assign accountable owner.",
+      "Track remediation completion against policy deadlines."
+    ],
+    "board_impact": "May impact risk appetite, resilience objectives, and technology investment priorities.",
+    "ciso_action_items": [
+      "Confirm detection, response, and reporting ownership.",
+      "Validate compensating controls and policy exceptions.",
+      "Publish an executive status update with next milestones."
+    ],
+    "rankings": {
+      "credibility": 0.89,
+      "executive_relevance": 0.7,
+      "business_impact": 0.5,
+      "regulatory_importance": 0.4,
+      "overall": 0.671
+    }
+  },
+  {
+    "title": "GDPR at 10: Landmark data protections, increasing business burden",
+    "author": "Unknown",
+    "published_at": "Fri, 26 Jun 2026 07:30:00 +0000",
+    "published_date": "Fri, 26 Jun 2026 07:30:00 +0000",
+    "published": "Fri, 26 Jun 2026 07:30:00 +0000",
+    "url": "https://www.csoonline.com/article/4180915/10-years-of-the-gdpr-a-summary.html",
+    "details_url": "https://www.csoonline.com/article/4180915/10-years-of-the-gdpr-a-summary.html",
+    "summary": "<div id=\"remove_no_follow\">\n\t\t<div class=\"grid grid--cols-10@md grid--cols-8@lg article-column\">\n\t\t\t\t\t  <div class=\"col-12 col-10@md col-6@lg col-start-3@lg\">\n\t\t\t\t\t\t<div class=\"article-column__content\">\n<section class=\"wp-block-bigbite-multi-title\"><div class=\"container\"></div></section>\n\n\n\n<p>Ten years have passed since the <a href=\"https://www.csoonline.com/article/562107/general-data-protection-regulation-gdpr-requirements-deadlines-and-facts.html\">General Data Protection Regulation (GDPR)</a> came into force, and the results are mixed. While data protection has become more firmly established in European companies \u2014 and beyond \u2014 than ever before, the business world remains critical of the regulation due to increasing bureaucracy, legal uncertainty, and competitive disadvantages.</p>\n\n\n\n<p>From a data protection perspective, this is\u00a0a success story.\u00a0<a href=\"https://www.bitkom.org/sites/main/files/2026-05/bitkom-zeitreihe-ds-gvo-final.pdf\" target=\"_blank\" rel=\"noreferrer noopener\">According to a 2018 Bitkom study</a>, shortly before GDPR came into effect that year, only 7% of German companies had fully or largely implemented the requirements. Six years later, 71% of German companies said they had done so.</p>\n\n\n\n<p>Furthermore, GDPR has significantly increased awareness of the protection of personal data \u2014 both among companies and consumers. Customers are paying closer attention to transparency, consent, and data security. For many companies, data protection has now become a competitive factor in building customer trust.</p>\n\n\n\n<p>At the same time, record fines against data giants such as <a href=\"https://www.csoonline.com/article/567531/the-biggest-data-breach-fines-penalties-and-settlements-so-far.html\">Meta, TikTok, and Uber</a> show that the GDPR is serious business, with the total amount of publicly known GDPR fines having exceeded \u20ac6 billion for the first time in March 2026. Still, <a href=\"https://www.csoonline.com/article/4178001/gdpr-set-the-tone-for-regulatory-action-and-the-ai-fine-pushback-to-come.html\">just 60% of fines have been paid to date</a>, with other fines having been annulled or remaining under appeal.</p>\n\n\n\n<p>Also,\u00a0according to law firm CMS, there has been a clear shift in focus for GDPR enforcement: Supervisory authorities are increasingly concentrating on practical compliance issues and less on isolated, high-profile cases. What began with landmark proceedings and record fines has now evolved into a routine, operational review of companies\u2019 day-to-day data protection practices.</p>\n\n\n\n<h2 class=\"wp-block-heading\" id=\"companies-complain-of-increasing-burden\">Companies complain of increasing burden</h2>\n\n\n\n<p>At the same time, dissatisfaction within the business community is increasing. What was originally intended to provide greater legal certainty and uniform rules across Europe is now perceived by many companies as a constant burden.</p>\n\n\n\n<p>In a Bitkom survey from 2025, 81% of companies surveyed stated that the GDPR was making their business processes more complicated. In 2016, only 25% held this view. By 2025, 97% rated the effort required\u00a0as high, with 44% rating it as very high.</p>\n\n\n\n<p>There are many reasons for this discontent. Four out of five companies surveyed (82%) by Bitkom cited uncertainty regarding the precise data protection regulations as a challenge in 2025. At the same time, 86% believe that implementation is never truly complete because companies must continuously react to technical and legal developments. Data protection is thus perceived as a particularly challenging, ongoing compliance task.</p>\n\n\n\n<h2 class=\"wp-block-heading\" id=\"ai-gdprs-new-test\">AI: GDPR\u2019s new test</h2>\n\n\n\n<p>Data-driven projects are particularly affected. In 2025, 59% of study participants reported that the development of data pools had failed or not even been initiated due to data protection regulations. The figures remain high for data analysis tools, AI applications, and the digitization of business processes as well. Data protection regulations are thus perceived as a hurdle primarily where \u2014 as is particularly the case with AI \u2014 innovations depend on large volumes of data.</p>\n\n\n\n<p>The result: According to Bitkom, 59% of companies see European data protection as an advantage for AI development in Germany and Europe compared to other countries. In practice, however, they experience the opposite. For example, in 2025, 69% of respondents stated that data protection makes it difficult to train AI models with sufficient data.</p>\n\n\n\n<p>\u201cThe reality is: AI is not being developed in Europe because of our data protection practices, but the models are still being used here,\u201d commented Bitkom President Ralf Wintergerst on the findings. \u201cThis means nothing is gained for the protection of European citizens\u2019 data, but much is lost for Europe as a business location.\u201d</p>\n\n\n\n<p>Bitkom is therefore calling for a reform that strengthens data protection where real risks to people arise \u2014 and relieves companies of the burden where formal obligations offer no additional protection. Specifically, this means a consistent risk-oriented approach to the GDPR and a unified understanding that the training and operation of AI systems must also be possible in Europe, says Wintergerst.</p>\n\n\n\n<p>Whether the industry association\u2019s demand for a relaxation of data protection standards in favor of technological competitiveness is also in the interest of consumers is another matter. What is certain is that the GDPR has not lost its relevance even 10 years after its entry into force (or eight years since its application).</p>\n\n\n\n<p>Or, as lawyer\u00a0<a href=\"https://cms.law/de/deu/personen/anna-lena-fuellsack\" target=\"_blank\" rel=\"noreferrer noopener\">Anna Lena F\u00fcllsack</a>\u00a0from CMS puts it: \u201cThe enforcement of the GDPR has outgrown its infancy and is now an integral part of the regular legal landscape throughout Europe. For companies, it will remain a key strategic issue in the coming years.\u201d</p>\n</div></div></div></div>",
+    "category": "Research",
+    "subcategory": "Independent Journalism",
+    "source": "CSO Online",
+    "vendor": "CSO Online",
+    "source_group": "Independent Security Journalism",
+    "monitors": [
+      "Leadership coverage",
+      "Enterprise security"
+    ],
+    "official_url": "https://www.csoonline.com",
+    "severity": "medium",
+    "tags": [],
+    "executive_summary": "Research: <div id=\"remove_no_follow\">\n\t\t<div class=\"grid grid--cols-10@md grid--cols-8@lg article-column\">\n\t\t\t\t\t  <div class=\"col-12 col-10@md col-6@lg col-start-3@lg\">\n\t\t\t\t\t\t<div class=\"article-column__content\">\n<section class=\"wp-block-bigbite-multi-title\"><div class=\"container\"></div></",
+    "affected_industries": [
+      "Technology"
+    ],
+    "affected_iam_domains": [
+      "Identity Governance"
+    ],
+    "control_mappings": [
+      "MITRE ATT&CK",
+      "ISO 27001"
+    ],
+    "recommended_actions": [
+      "Assess enterprise exposure and affected business processes.",
+      "Update risk register and assign accountable owner.",
+      "Track remediation completion against policy deadlines."
+    ],
+    "board_impact": "May impact risk appetite, resilience objectives, and technology investment priorities.",
+    "ciso_action_items": [
+      "Confirm detection, response, and reporting ownership.",
+      "Validate compensating controls and policy exceptions.",
+      "Publish an executive status update with next milestones."
+    ],
+    "rankings": {
+      "credibility": 0.88,
+      "executive_relevance": 0.7,
+      "business_impact": 0.5,
+      "regulatory_importance": 0.4,
+      "overall": 0.668
+    }
+  }
+]

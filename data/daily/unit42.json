@@ -1,0 +1,780 @@
+[
+  {
+    "title": "How We Added WebAuthn to a Browser-Based RDP Client",
+    "author": "Unknown",
+    "published_at": "Thu, 02 Jul 2026 22:00:39 +0000",
+    "published_date": "Thu, 02 Jul 2026 22:00:39 +0000",
+    "published": "Thu, 02 Jul 2026 22:00:39 +0000",
+    "url": "https://unit42.paloaltonetworks.com/webauthn-added-to-browser-based-rdp/",
+    "details_url": "https://unit42.paloaltonetworks.com/webauthn-added-to-browser-based-rdp/",
+    "summary": "<p>A look inside the reverse-engineering journey of building the first RDP client outside of Windows to support WebAuthn redirection.</p>\n<p>The post <a href=\"https://unit42.paloaltonetworks.com/webauthn-added-to-browser-based-rdp/\">How We Added WebAuthn to a Browser-Based RDP Client</a> appeared first on <a href=\"https://unit42.paloaltonetworks.com\">Unit 42</a>.</p>",
+    "category": "Threat",
+    "subcategory": "Threat Intel",
+    "source": "Unit 42",
+    "vendor": "Unit 42",
+    "source_group": "Threat Intelligence",
+    "monitors": [
+      "Campaigns",
+      "Ransomware",
+      "Cloud attacks"
+    ],
+    "official_url": "https://unit42.paloaltonetworks.com",
+    "severity": "medium",
+    "tags": [],
+    "executive_summary": "Threat: <p>A look inside the reverse-engineering journey of building the first RDP client outside of Windows to support WebAuthn redirection.</p>\n<p>The post <a href=\"https://unit42.paloaltonetworks.com/webauthn-added-to-browser-based-rdp/\">How We Added WebAuthn to a Browser-Based RDP Cl",
+    "affected_industries": [
+      "Technology"
+    ],
+    "affected_iam_domains": [
+      "General"
+    ],
+    "control_mappings": [
+      "MITRE ATT&CK"
+    ],
+    "recommended_actions": [
+      "Assess enterprise exposure and affected business processes.",
+      "Update risk register and assign accountable owner.",
+      "Track remediation completion against policy deadlines."
+    ],
+    "board_impact": "May impact risk appetite, resilience objectives, and technology investment priorities.",
+    "ciso_action_items": [
+      "Hunt for related indicators and validate containment playbooks.",
+      "Confirm detection, response, and reporting ownership.",
+      "Validate compensating controls and policy exceptions.",
+      "Publish an executive status update with next milestones."
+    ],
+    "rankings": {
+      "credibility": 0.95,
+      "executive_relevance": 0.85,
+      "business_impact": 0.5,
+      "regulatory_importance": 0.6,
+      "overall": 0.76
+    }
+  },
+  {
+    "title": "Phantom Squatting: AI-Hallucinated Domains as a Software Supply Chain Vector",
+    "author": "Unknown",
+    "published_at": "Wed, 01 Jul 2026 01:00:11 +0000",
+    "published_date": "Wed, 01 Jul 2026 01:00:11 +0000",
+    "published": "Wed, 01 Jul 2026 01:00:11 +0000",
+    "url": "https://unit42.paloaltonetworks.com/phantom-squatting-hallucinated-web-domains/",
+    "details_url": "https://unit42.paloaltonetworks.com/phantom-squatting-hallucinated-web-domains/",
+    "summary": "<p>Attackers can exploit LLM domain hallucinations through phantom squatting to target supply chains. Read the analysis to learn more. </p>\n<p>The post <a href=\"https://unit42.paloaltonetworks.com/phantom-squatting-hallucinated-web-domains/\">Phantom Squatting: AI-Hallucinated Domains as a Software Supply Chain Vector</a> appeared first on <a href=\"https://unit42.paloaltonetworks.com\">Unit 42</a>.</p>",
+    "category": "Research",
+    "subcategory": "Threat Intel",
+    "source": "Unit 42",
+    "vendor": "Unit 42",
+    "source_group": "Threat Intelligence",
+    "monitors": [
+      "Campaigns",
+      "Ransomware",
+      "Cloud attacks"
+    ],
+    "official_url": "https://unit42.paloaltonetworks.com",
+    "severity": "medium",
+    "tags": [],
+    "executive_summary": "Research: <p>Attackers can exploit LLM domain hallucinations through phantom squatting to target supply chains. Read the analysis to learn more. </p>\n<p>The post <a href=\"https://unit42.paloaltonetworks.com/phantom-squatting-hallucinated-web-domains/\">Phantom Squatting: AI-Hallucinated Dom",
+    "affected_industries": [
+      "Technology"
+    ],
+    "affected_iam_domains": [
+      "General"
+    ],
+    "control_mappings": [
+      "MITRE ATT&CK"
+    ],
+    "recommended_actions": [
+      "Assess enterprise exposure and affected business processes.",
+      "Update risk register and assign accountable owner.",
+      "Track remediation completion against policy deadlines."
+    ],
+    "board_impact": "May impact risk appetite, resilience objectives, and technology investment priorities.",
+    "ciso_action_items": [
+      "Confirm detection, response, and reporting ownership.",
+      "Validate compensating controls and policy exceptions.",
+      "Publish an executive status update with next milestones."
+    ],
+    "rankings": {
+      "credibility": 0.95,
+      "executive_relevance": 0.7,
+      "business_impact": 0.5,
+      "regulatory_importance": 0.4,
+      "overall": 0.692
+    }
+  },
+  {
+    "title": "Threat Brief: Mitigating Large-Scale Credential Attacks",
+    "author": "Unknown",
+    "published_at": "Fri, 26 Jun 2026 19:05:33 +0000",
+    "published_date": "Fri, 26 Jun 2026 19:05:33 +0000",
+    "published": "Fri, 26 Jun 2026 19:05:33 +0000",
+    "url": "https://unit42.paloaltonetworks.com/large-scale-credential-attacks/",
+    "details_url": "https://unit42.paloaltonetworks.com/large-scale-credential-attacks/",
+    "summary": "<p>We provide guidance for preparing for and mitigating large-scale credential attacks, focusing on recent campaigns targeting security vendors' devices. </p>\n<p>The post <a href=\"https://unit42.paloaltonetworks.com/large-scale-credential-attacks/\">Threat Brief: Mitigating Large-Scale Credential Attacks</a> appeared first on <a href=\"https://unit42.paloaltonetworks.com\">Unit 42</a>.</p>",
+    "category": "Threat",
+    "subcategory": "Threat Intel",
+    "source": "Unit 42",
+    "vendor": "Unit 42",
+    "source_group": "Threat Intelligence",
+    "monitors": [
+      "Campaigns",
+      "Ransomware",
+      "Cloud attacks"
+    ],
+    "official_url": "https://unit42.paloaltonetworks.com",
+    "severity": "medium",
+    "tags": [],
+    "executive_summary": "Threat: <p>We provide guidance for preparing for and mitigating large-scale credential attacks, focusing on recent campaigns targeting security vendors' devices. </p>\n<p>The post <a href=\"https://unit42.paloaltonetworks.com/large-scale-credential-attacks/\">Threat Brief: Mitigating Large-",
+    "affected_industries": [
+      "Technology"
+    ],
+    "affected_iam_domains": [
+      "Identity Governance"
+    ],
+    "control_mappings": [
+      "MITRE ATT&CK"
+    ],
+    "recommended_actions": [
+      "Assess enterprise exposure and affected business processes.",
+      "Update risk register and assign accountable owner.",
+      "Track remediation completion against policy deadlines."
+    ],
+    "board_impact": "May impact risk appetite, resilience objectives, and technology investment priorities.",
+    "ciso_action_items": [
+      "Hunt for related indicators and validate containment playbooks.",
+      "Confirm detection, response, and reporting ownership.",
+      "Validate compensating controls and policy exceptions.",
+      "Publish an executive status update with next milestones."
+    ],
+    "rankings": {
+      "credibility": 0.95,
+      "executive_relevance": 0.85,
+      "business_impact": 0.5,
+      "regulatory_importance": 0.6,
+      "overall": 0.76
+    }
+  },
+  {
+    "title": "CL-STA-1062 Targets Southeast Asian Governments and Critical Infrastructure",
+    "author": "Unknown",
+    "published_at": "Thu, 25 Jun 2026 22:00:52 +0000",
+    "published_date": "Thu, 25 Jun 2026 22:00:52 +0000",
+    "published": "Thu, 25 Jun 2026 22:00:52 +0000",
+    "url": "https://unit42.paloaltonetworks.com/cl-sta-1062-tinyrct-backdoor/",
+    "details_url": "https://unit42.paloaltonetworks.com/cl-sta-1062-tinyrct-backdoor/",
+    "summary": "<p>Government entities and critical infrastructure were targeted for espionage in SE Asia by attackers using a hybrid toolkit, including custom TinyRCT backdoor. </p>\n<p>The post <a href=\"https://unit42.paloaltonetworks.com/cl-sta-1062-tinyrct-backdoor/\">CL-STA-1062 Targets Southeast Asian Governments and Critical Infrastructure</a> appeared first on <a href=\"https://unit42.paloaltonetworks.com\">Unit 42</a>.</p>",
+    "category": "Threat",
+    "subcategory": "Threat Intel",
+    "source": "Unit 42",
+    "vendor": "Unit 42",
+    "source_group": "Threat Intelligence",
+    "monitors": [
+      "Campaigns",
+      "Ransomware",
+      "Cloud attacks"
+    ],
+    "official_url": "https://unit42.paloaltonetworks.com",
+    "severity": "medium",
+    "tags": [],
+    "executive_summary": "Threat: <p>Government entities and critical infrastructure were targeted for espionage in SE Asia by attackers using a hybrid toolkit, including custom TinyRCT backdoor. </p>\n<p>The post <a href=\"https://unit42.paloaltonetworks.com/cl-sta-1062-tinyrct-backdoor/\">CL-STA-1062 Targets South",
+    "affected_industries": [
+      "Government",
+      "Critical Infrastructure",
+      "Technology"
+    ],
+    "affected_iam_domains": [
+      "General"
+    ],
+    "control_mappings": [
+      "MITRE ATT&CK"
+    ],
+    "recommended_actions": [
+      "Assess enterprise exposure and affected business processes.",
+      "Update risk register and assign accountable owner.",
+      "Track remediation completion against policy deadlines."
+    ],
+    "board_impact": "May impact risk appetite, resilience objectives, and technology investment priorities.",
+    "ciso_action_items": [
+      "Hunt for related indicators and validate containment playbooks.",
+      "Confirm detection, response, and reporting ownership.",
+      "Validate compensating controls and policy exceptions.",
+      "Publish an executive status update with next milestones."
+    ],
+    "rankings": {
+      "credibility": 0.95,
+      "executive_relevance": 0.85,
+      "business_impact": 0.5,
+      "regulatory_importance": 0.6,
+      "overall": 0.76
+    }
+  },
+  {
+    "title": "OpenClaw\u2019s Skill Marketplace and the Emerging AI Supply Chain Threat",
+    "author": "Unknown",
+    "published_at": "Tue, 23 Jun 2026 22:00:51 +0000",
+    "published_date": "Tue, 23 Jun 2026 22:00:51 +0000",
+    "published": "Tue, 23 Jun 2026 22:00:51 +0000",
+    "url": "https://unit42.paloaltonetworks.com/openclaw-ai-supply-chain-risk/",
+    "details_url": "https://unit42.paloaltonetworks.com/openclaw-ai-supply-chain-risk/",
+    "summary": "<p>Unit 42's analysis of ClawHub revealed evasive malicious skills bypassing automated scanners to deploy infostealers and execute agentic financial fraud.</p>\n<p>The post <a href=\"https://unit42.paloaltonetworks.com/openclaw-ai-supply-chain-risk/\">OpenClaw\u2019s Skill Marketplace and the Emerging AI Supply Chain Threat</a> appeared first on <a href=\"https://unit42.paloaltonetworks.com\">Unit 42</a>.</p>",
+    "category": "Threat",
+    "subcategory": "Threat Intel",
+    "source": "Unit 42",
+    "vendor": "Unit 42",
+    "source_group": "Threat Intelligence",
+    "monitors": [
+      "Campaigns",
+      "Ransomware",
+      "Cloud attacks"
+    ],
+    "official_url": "https://unit42.paloaltonetworks.com",
+    "severity": "medium",
+    "tags": [],
+    "executive_summary": "Threat: <p>Unit 42's analysis of ClawHub revealed evasive malicious skills bypassing automated scanners to deploy infostealers and execute agentic financial fraud.</p>\n<p>The post <a href=\"https://unit42.paloaltonetworks.com/openclaw-ai-supply-chain-risk/\">OpenClaw\u2019s Skill Marketplace an",
+    "affected_industries": [
+      "Financial Services",
+      "Technology"
+    ],
+    "affected_iam_domains": [
+      "General"
+    ],
+    "control_mappings": [
+      "MITRE ATT&CK"
+    ],
+    "recommended_actions": [
+      "Assess enterprise exposure and affected business processes.",
+      "Update risk register and assign accountable owner.",
+      "Track remediation completion against policy deadlines."
+    ],
+    "board_impact": "May impact risk appetite, resilience objectives, and technology investment priorities.",
+    "ciso_action_items": [
+      "Hunt for related indicators and validate containment playbooks.",
+      "Confirm detection, response, and reporting ownership.",
+      "Validate compensating controls and policy exceptions.",
+      "Publish an executive status update with next milestones."
+    ],
+    "rankings": {
+      "credibility": 0.95,
+      "executive_relevance": 0.85,
+      "business_impact": 0.5,
+      "regulatory_importance": 0.6,
+      "overall": 0.76
+    }
+  },
+  {
+    "title": "The Global Namespace Risk: Universal Bucket Hijacking Technique for Cloud Data Exfiltration",
+    "author": "Unknown",
+    "published_at": "Mon, 22 Jun 2026 22:00:04 +0000",
+    "published_date": "Mon, 22 Jun 2026 22:00:04 +0000",
+    "published": "Mon, 22 Jun 2026 22:00:04 +0000",
+    "url": "https://unit42.paloaltonetworks.com/cloud-bucket-hijacking-risks/",
+    "details_url": "https://unit42.paloaltonetworks.com/cloud-bucket-hijacking-risks/",
+    "summary": "<p>Unit 42 research details how attackers could exploit global name uniqueness in bucket hijacking to redirect cloud data streams across major CSPs.</p>\n<p>The post <a href=\"https://unit42.paloaltonetworks.com/cloud-bucket-hijacking-risks/\">The Global Namespace Risk: Universal Bucket Hijacking Technique for Cloud Data Exfiltration</a> appeared first on <a href=\"https://unit42.paloaltonetworks.com\">Unit 42</a>.</p>",
+    "category": "Research",
+    "subcategory": "Threat Intel",
+    "source": "Unit 42",
+    "vendor": "Unit 42",
+    "source_group": "Threat Intelligence",
+    "monitors": [
+      "Campaigns",
+      "Ransomware",
+      "Cloud attacks"
+    ],
+    "official_url": "https://unit42.paloaltonetworks.com",
+    "severity": "medium",
+    "tags": [],
+    "executive_summary": "Research: <p>Unit 42 research details how attackers could exploit global name uniqueness in bucket hijacking to redirect cloud data streams across major CSPs.</p>\n<p>The post <a href=\"https://unit42.paloaltonetworks.com/cloud-bucket-hijacking-risks/\">The Global Namespace Risk: Universal Bu",
+    "affected_industries": [
+      "Technology"
+    ],
+    "affected_iam_domains": [
+      "General"
+    ],
+    "control_mappings": [
+      "MITRE ATT&CK"
+    ],
+    "recommended_actions": [
+      "Assess enterprise exposure and affected business processes.",
+      "Update risk register and assign accountable owner.",
+      "Track remediation completion against policy deadlines."
+    ],
+    "board_impact": "May impact risk appetite, resilience objectives, and technology investment priorities.",
+    "ciso_action_items": [
+      "Confirm detection, response, and reporting ownership.",
+      "Validate compensating controls and policy exceptions.",
+      "Publish an executive status update with next milestones."
+    ],
+    "rankings": {
+      "credibility": 0.95,
+      "executive_relevance": 0.7,
+      "business_impact": 0.5,
+      "regulatory_importance": 0.4,
+      "overall": 0.692
+    }
+  },
+  {
+    "title": "Pickle in the Middle \u2013 Hijacking Vertex AI Model Uploads for Cross-Tenant RCE",
+    "author": "Unknown",
+    "published_at": "Tue, 16 Jun 2026 10:00:29 +0000",
+    "published_date": "Tue, 16 Jun 2026 10:00:29 +0000",
+    "published": "Tue, 16 Jun 2026 10:00:29 +0000",
+    "url": "https://unit42.paloaltonetworks.com/hijacking-vertex-ai-model/",
+    "details_url": "https://unit42.paloaltonetworks.com/hijacking-vertex-ai-model/",
+    "summary": "<p>Unit 42 discovered a Vertex AI Python SDK vulnerability that allows remote code execution via bucket squatting. Read the article for more. </p>\n<p>The post <a href=\"https://unit42.paloaltonetworks.com/hijacking-vertex-ai-model/\">Pickle in the Middle \u2013 Hijacking Vertex AI Model Uploads for Cross-Tenant RCE</a> appeared first on <a href=\"https://unit42.paloaltonetworks.com\">Unit 42</a>.</p>",
+    "category": "Vulnerability",
+    "subcategory": "Threat Intel",
+    "source": "Unit 42",
+    "vendor": "Unit 42",
+    "source_group": "Threat Intelligence",
+    "monitors": [
+      "Campaigns",
+      "Ransomware",
+      "Cloud attacks"
+    ],
+    "official_url": "https://unit42.paloaltonetworks.com",
+    "severity": "medium",
+    "tags": [],
+    "executive_summary": "Vulnerability: <p>Unit 42 discovered a Vertex AI Python SDK vulnerability that allows remote code execution via bucket squatting. Read the article for more. </p>\n<p>The post <a href=\"https://unit42.paloaltonetworks.com/hijacking-vertex-ai-model/\">Pickle in the Middle \u2013 Hijacking Vertex AI Model",
+    "affected_industries": [
+      "Technology"
+    ],
+    "affected_iam_domains": [
+      "General"
+    ],
+    "control_mappings": [
+      "MITRE ATT&CK"
+    ],
+    "recommended_actions": [
+      "Assess enterprise exposure and affected business processes.",
+      "Update risk register and assign accountable owner.",
+      "Track remediation completion against policy deadlines."
+    ],
+    "board_impact": "May impact risk appetite, resilience objectives, and technology investment priorities.",
+    "ciso_action_items": [
+      "Confirm detection, response, and reporting ownership.",
+      "Validate compensating controls and policy exceptions.",
+      "Publish an executive status update with next milestones."
+    ],
+    "rankings": {
+      "credibility": 0.95,
+      "executive_relevance": 0.7,
+      "business_impact": 0.5,
+      "regulatory_importance": 0.4,
+      "overall": 0.692
+    }
+  },
+  {
+    "title": "Inside the Modern SOC: The 72-Minute Race",
+    "author": "Unknown",
+    "published_at": "Mon, 15 Jun 2026 23:00:19 +0000",
+    "published_date": "Mon, 15 Jun 2026 23:00:19 +0000",
+    "published": "Mon, 15 Jun 2026 23:00:19 +0000",
+    "url": "https://unit42.paloaltonetworks.com/soc-72-minute-race/",
+    "details_url": "https://unit42.paloaltonetworks.com/soc-72-minute-race/",
+    "summary": "<p>Attackers can move from access to exfiltration in 72 minutes. Learn how modern SOC teams close the speed gap with Unit 42's AI-driven automation, threat hunting, MDR and Managed XSIAM.</p>\n<p>The post <a href=\"https://unit42.paloaltonetworks.com/soc-72-minute-race/\">Inside the Modern SOC: The 72-Minute Race</a> appeared first on <a href=\"https://unit42.paloaltonetworks.com\">Unit 42</a>.</p>",
+    "category": "Threat",
+    "subcategory": "Threat Intel",
+    "source": "Unit 42",
+    "vendor": "Unit 42",
+    "source_group": "Threat Intelligence",
+    "monitors": [
+      "Campaigns",
+      "Ransomware",
+      "Cloud attacks"
+    ],
+    "official_url": "https://unit42.paloaltonetworks.com",
+    "severity": "medium",
+    "tags": [],
+    "executive_summary": "Threat: <p>Attackers can move from access to exfiltration in 72 minutes. Learn how modern SOC teams close the speed gap with Unit 42's AI-driven automation, threat hunting, MDR and Managed XSIAM.</p>\n<p>The post <a href=\"https://unit42.paloaltonetworks.com/soc-72-minute-race/\">Inside the",
+    "affected_industries": [
+      "Technology"
+    ],
+    "affected_iam_domains": [
+      "General"
+    ],
+    "control_mappings": [
+      "MITRE ATT&CK"
+    ],
+    "recommended_actions": [
+      "Assess enterprise exposure and affected business processes.",
+      "Update risk register and assign accountable owner.",
+      "Track remediation completion against policy deadlines."
+    ],
+    "board_impact": "May impact risk appetite, resilience objectives, and technology investment priorities.",
+    "ciso_action_items": [
+      "Hunt for related indicators and validate containment playbooks.",
+      "Confirm detection, response, and reporting ownership.",
+      "Validate compensating controls and policy exceptions.",
+      "Publish an executive status update with next milestones."
+    ],
+    "rankings": {
+      "credibility": 0.95,
+      "executive_relevance": 0.85,
+      "business_impact": 0.5,
+      "regulatory_importance": 0.6,
+      "overall": 0.76
+    }
+  },
+  {
+    "title": "Tracing Digital Intent: New MacOS Tahoe 26 Artifact Discovered",
+    "author": "Unknown",
+    "published_at": "Fri, 12 Jun 2026 22:00:14 +0000",
+    "published_date": "Fri, 12 Jun 2026 22:00:14 +0000",
+    "published": "Fri, 12 Jun 2026 22:00:14 +0000",
+    "url": "https://unit42.paloaltonetworks.com/new-macos-artifact-discovered/",
+    "details_url": "https://unit42.paloaltonetworks.com/new-macos-artifact-discovered/",
+    "summary": "<p>Unit 42 has discovered a new macOS Tahoe 26 forensic artifact that tracks user menu selections across the operating system. Learn more here. </p>\n<p>The post <a href=\"https://unit42.paloaltonetworks.com/new-macos-artifact-discovered/\">Tracing Digital Intent: New MacOS Tahoe 26 Artifact Discovered</a> appeared first on <a href=\"https://unit42.paloaltonetworks.com\">Unit 42</a>.</p>",
+    "category": "Threat",
+    "subcategory": "Threat Intel",
+    "source": "Unit 42",
+    "vendor": "Unit 42",
+    "source_group": "Threat Intelligence",
+    "monitors": [
+      "Campaigns",
+      "Ransomware",
+      "Cloud attacks"
+    ],
+    "official_url": "https://unit42.paloaltonetworks.com",
+    "severity": "medium",
+    "tags": [],
+    "executive_summary": "Threat: <p>Unit 42 has discovered a new macOS Tahoe 26 forensic artifact that tracks user menu selections across the operating system. Learn more here. </p>\n<p>The post <a href=\"https://unit42.paloaltonetworks.com/new-macos-artifact-discovered/\">Tracing Digital Intent: New MacOS Tahoe 26",
+    "affected_industries": [
+      "Technology"
+    ],
+    "affected_iam_domains": [
+      "General"
+    ],
+    "control_mappings": [
+      "MITRE ATT&CK"
+    ],
+    "recommended_actions": [
+      "Assess enterprise exposure and affected business processes.",
+      "Update risk register and assign accountable owner.",
+      "Track remediation completion against policy deadlines."
+    ],
+    "board_impact": "May impact risk appetite, resilience objectives, and technology investment priorities.",
+    "ciso_action_items": [
+      "Hunt for related indicators and validate containment playbooks.",
+      "Confirm detection, response, and reporting ownership.",
+      "Validate compensating controls and policy exceptions.",
+      "Publish an executive status update with next milestones."
+    ],
+    "rankings": {
+      "credibility": 0.95,
+      "executive_relevance": 0.85,
+      "business_impact": 0.5,
+      "regulatory_importance": 0.6,
+      "overall": 0.76
+    }
+  },
+  {
+    "title": "Trust No Skill: Integrity Verification for AI Agent Supply Chains",
+    "author": "Unknown",
+    "published_at": "Thu, 11 Jun 2026 10:00:24 +0000",
+    "published_date": "Thu, 11 Jun 2026 10:00:24 +0000",
+    "published": "Thu, 11 Jun 2026 10:00:24 +0000",
+    "url": "https://unit42.paloaltonetworks.com/ai-agent-supply-chain-risks/",
+    "details_url": "https://unit42.paloaltonetworks.com/ai-agent-supply-chain-risks/",
+    "summary": "<p>Protect enterprise AI agents from supply chain risks by auditing third-party skills for hidden vulnerabilities and multi-stage attack chains.</p>\n<p>The post <a href=\"https://unit42.paloaltonetworks.com/ai-agent-supply-chain-risks/\">Trust No Skill: Integrity Verification for AI Agent Supply Chains</a> appeared first on <a href=\"https://unit42.paloaltonetworks.com\">Unit 42</a>.</p>",
+    "category": "Threat",
+    "subcategory": "Threat Intel",
+    "source": "Unit 42",
+    "vendor": "Unit 42",
+    "source_group": "Threat Intelligence",
+    "monitors": [
+      "Campaigns",
+      "Ransomware",
+      "Cloud attacks"
+    ],
+    "official_url": "https://unit42.paloaltonetworks.com",
+    "severity": "medium",
+    "tags": [],
+    "executive_summary": "Threat: <p>Protect enterprise AI agents from supply chain risks by auditing third-party skills for hidden vulnerabilities and multi-stage attack chains.</p>\n<p>The post <a href=\"https://unit42.paloaltonetworks.com/ai-agent-supply-chain-risks/\">Trust No Skill: Integrity Verification for A",
+    "affected_industries": [
+      "Technology"
+    ],
+    "affected_iam_domains": [
+      "General"
+    ],
+    "control_mappings": [
+      "MITRE ATT&CK"
+    ],
+    "recommended_actions": [
+      "Assess enterprise exposure and affected business processes.",
+      "Update risk register and assign accountable owner.",
+      "Track remediation completion against policy deadlines."
+    ],
+    "board_impact": "May impact risk appetite, resilience objectives, and technology investment priorities.",
+    "ciso_action_items": [
+      "Hunt for related indicators and validate containment playbooks.",
+      "Confirm detection, response, and reporting ownership.",
+      "Validate compensating controls and policy exceptions.",
+      "Publish an executive status update with next milestones."
+    ],
+    "rankings": {
+      "credibility": 0.95,
+      "executive_relevance": 0.85,
+      "business_impact": 0.5,
+      "regulatory_importance": 0.6,
+      "overall": 0.76
+    }
+  },
+  {
+    "title": "Blinding the Watchmen: Abusing Cloud Logging Services for Defense Evasion and Visibility",
+    "author": "Unknown",
+    "published_at": "Tue, 09 Jun 2026 22:00:21 +0000",
+    "published_date": "Tue, 09 Jun 2026 22:00:21 +0000",
+    "published": "Tue, 09 Jun 2026 22:00:21 +0000",
+    "url": "https://unit42.paloaltonetworks.com/cloud-logging-defense-evasion/",
+    "details_url": "https://unit42.paloaltonetworks.com/cloud-logging-defense-evasion/",
+    "summary": "<p>Unit 42 research examines attack scenarios targeting cloud logging services. Learn how to defend against log manipulation and defense evasion.</p>\n<p>The post <a href=\"https://unit42.paloaltonetworks.com/cloud-logging-defense-evasion/\">Blinding the Watchmen: Abusing Cloud Logging Services for Defense Evasion and Visibility</a> appeared first on <a href=\"https://unit42.paloaltonetworks.com\">Unit 42</a>.</p>",
+    "category": "Research",
+    "subcategory": "Threat Intel",
+    "source": "Unit 42",
+    "vendor": "Unit 42",
+    "source_group": "Threat Intelligence",
+    "monitors": [
+      "Campaigns",
+      "Ransomware",
+      "Cloud attacks"
+    ],
+    "official_url": "https://unit42.paloaltonetworks.com",
+    "severity": "medium",
+    "tags": [],
+    "executive_summary": "Research: <p>Unit 42 research examines attack scenarios targeting cloud logging services. Learn how to defend against log manipulation and defense evasion.</p>\n<p>The post <a href=\"https://unit42.paloaltonetworks.com/cloud-logging-defense-evasion/\">Blinding the Watchmen: Abusing Cloud Logg",
+    "affected_industries": [
+      "Technology"
+    ],
+    "affected_iam_domains": [
+      "General"
+    ],
+    "control_mappings": [
+      "MITRE ATT&CK"
+    ],
+    "recommended_actions": [
+      "Assess enterprise exposure and affected business processes.",
+      "Update risk register and assign accountable owner.",
+      "Track remediation completion against policy deadlines."
+    ],
+    "board_impact": "May impact risk appetite, resilience objectives, and technology investment priorities.",
+    "ciso_action_items": [
+      "Confirm detection, response, and reporting ownership.",
+      "Validate compensating controls and policy exceptions.",
+      "Publish an executive status update with next milestones."
+    ],
+    "rankings": {
+      "credibility": 0.95,
+      "executive_relevance": 0.7,
+      "business_impact": 0.5,
+      "regulatory_importance": 0.4,
+      "overall": 0.692
+    }
+  },
+  {
+    "title": "Threat Brief: Active Exploitation of PAN-OS CVE-2026-0257",
+    "author": "Unknown",
+    "published_at": "Tue, 09 Jun 2026 14:05:42 +0000",
+    "published_date": "Tue, 09 Jun 2026 14:05:42 +0000",
+    "published": "Tue, 09 Jun 2026 14:05:42 +0000",
+    "url": "https://unit42.paloaltonetworks.com/active-exploitation-of-pan-os-cve-2026-0257/",
+    "details_url": "https://unit42.paloaltonetworks.com/active-exploitation-of-pan-os-cve-2026-0257/",
+    "summary": "<p>We include indicators of activity and mitigations for PAN-OS vulnerability CVE-2026-0257.</p>\n<p>The post <a href=\"https://unit42.paloaltonetworks.com/active-exploitation-of-pan-os-cve-2026-0257/\">Threat Brief: Active Exploitation of PAN-OS CVE-2026-0257</a> appeared first on <a href=\"https://unit42.paloaltonetworks.com\">Unit 42</a>.</p>",
+    "category": "Vulnerability",
+    "subcategory": "Threat Intel",
+    "source": "Unit 42",
+    "vendor": "Unit 42",
+    "source_group": "Threat Intelligence",
+    "monitors": [
+      "Campaigns",
+      "Ransomware",
+      "Cloud attacks"
+    ],
+    "official_url": "https://unit42.paloaltonetworks.com",
+    "severity": "medium",
+    "tags": [],
+    "executive_summary": "Vulnerability: <p>We include indicators of activity and mitigations for PAN-OS vulnerability CVE-2026-0257.</p>\n<p>The post <a href=\"https://unit42.paloaltonetworks.com/active-exploitation-of-pan-os-cve-2026-0257/\">Threat Brief: Active Exploitation of PAN-OS CVE-2026-0257</a> appeared first on",
+    "affected_industries": [
+      "Technology"
+    ],
+    "affected_iam_domains": [
+      "Identity Governance"
+    ],
+    "control_mappings": [
+      "MITRE ATT&CK"
+    ],
+    "recommended_actions": [
+      "Assess enterprise exposure and affected business processes.",
+      "Update risk register and assign accountable owner.",
+      "Track remediation completion against policy deadlines."
+    ],
+    "board_impact": "May impact risk appetite, resilience objectives, and technology investment priorities.",
+    "ciso_action_items": [
+      "Confirm detection, response, and reporting ownership.",
+      "Validate compensating controls and policy exceptions.",
+      "Publish an executive status update with next milestones."
+    ],
+    "rankings": {
+      "credibility": 0.95,
+      "executive_relevance": 0.7,
+      "business_impact": 0.5,
+      "regulatory_importance": 0.4,
+      "overall": 0.692
+    }
+  },
+  {
+    "title": "When \u201cHi, This Is IT\u201d Comes Through Microsoft Teams",
+    "author": "Unknown",
+    "published_at": "Mon, 08 Jun 2026 23:00:45 +0000",
+    "published_date": "Mon, 08 Jun 2026 23:00:45 +0000",
+    "published": "Mon, 08 Jun 2026 23:00:45 +0000",
+    "url": "https://unit42.paloaltonetworks.com/microsoft-teams-phishing/",
+    "details_url": "https://unit42.paloaltonetworks.com/microsoft-teams-phishing/",
+    "summary": "<p>Attackers are increasingly targeting collaboration platforms like Microsoft Teams. Learn the risks and key steps to strengthen your organization's security.</p>\n<p>The post <a href=\"https://unit42.paloaltonetworks.com/microsoft-teams-phishing/\">When \u201cHi, This Is IT\u201d Comes Through Microsoft Teams</a> appeared first on <a href=\"https://unit42.paloaltonetworks.com\">Unit 42</a>.</p>",
+    "category": "Threat",
+    "subcategory": "Threat Intel",
+    "source": "Unit 42",
+    "vendor": "Unit 42",
+    "source_group": "Threat Intelligence",
+    "monitors": [
+      "Campaigns",
+      "Ransomware",
+      "Cloud attacks"
+    ],
+    "official_url": "https://unit42.paloaltonetworks.com",
+    "severity": "medium",
+    "tags": [],
+    "executive_summary": "Threat: <p>Attackers are increasingly targeting collaboration platforms like Microsoft Teams. Learn the risks and key steps to strengthen your organization's security.</p>\n<p>The post <a href=\"https://unit42.paloaltonetworks.com/microsoft-teams-phishing/\">When \u201cHi, This Is IT\u201d Comes Thro",
+    "affected_industries": [
+      "Technology"
+    ],
+    "affected_iam_domains": [
+      "General"
+    ],
+    "control_mappings": [
+      "MITRE ATT&CK"
+    ],
+    "recommended_actions": [
+      "Assess enterprise exposure and affected business processes.",
+      "Update risk register and assign accountable owner.",
+      "Track remediation completion against policy deadlines."
+    ],
+    "board_impact": "May impact risk appetite, resilience objectives, and technology investment priorities.",
+    "ciso_action_items": [
+      "Hunt for related indicators and validate containment playbooks.",
+      "Confirm detection, response, and reporting ownership.",
+      "Validate compensating controls and policy exceptions.",
+      "Publish an executive status update with next milestones."
+    ],
+    "rankings": {
+      "credibility": 0.95,
+      "executive_relevance": 0.85,
+      "business_impact": 0.5,
+      "regulatory_importance": 0.6,
+      "overall": 0.76
+    }
+  },
+  {
+    "title": "The npm Threat Landscape: Attack Surface and Mitigations (Updated June 2)",
+    "author": "Unknown",
+    "published_at": "Tue, 02 Jun 2026 17:30:33 +0000",
+    "published_date": "Tue, 02 Jun 2026 17:30:33 +0000",
+    "published": "Tue, 02 Jun 2026 17:30:33 +0000",
+    "url": "https://unit42.paloaltonetworks.com/monitoring-npm-supply-chain-attacks/",
+    "details_url": "https://unit42.paloaltonetworks.com/monitoring-npm-supply-chain-attacks/",
+    "summary": "<p>Unit 42 analyzes npm supply chain evolution post-Shai Hulud. Discover wormable malware, CI/CD persistence, multi-stage attacks and more. </p>\n<p>The post <a href=\"https://unit42.paloaltonetworks.com/monitoring-npm-supply-chain-attacks/\">The npm Threat Landscape: Attack Surface and Mitigations (Updated June 2)</a> appeared first on <a href=\"https://unit42.paloaltonetworks.com\">Unit 42</a>.</p>",
+    "category": "Threat",
+    "subcategory": "Threat Intel",
+    "source": "Unit 42",
+    "vendor": "Unit 42",
+    "source_group": "Threat Intelligence",
+    "monitors": [
+      "Campaigns",
+      "Ransomware",
+      "Cloud attacks"
+    ],
+    "official_url": "https://unit42.paloaltonetworks.com",
+    "severity": "medium",
+    "tags": [],
+    "executive_summary": "Threat: <p>Unit 42 analyzes npm supply chain evolution post-Shai Hulud. Discover wormable malware, CI/CD persistence, multi-stage attacks and more. </p>\n<p>The post <a href=\"https://unit42.paloaltonetworks.com/monitoring-npm-supply-chain-attacks/\">The npm Threat Landscape: Attack Surface",
+    "affected_industries": [
+      "Technology"
+    ],
+    "affected_iam_domains": [
+      "Identity Governance"
+    ],
+    "control_mappings": [
+      "MITRE ATT&CK"
+    ],
+    "recommended_actions": [
+      "Assess enterprise exposure and affected business processes.",
+      "Update risk register and assign accountable owner.",
+      "Track remediation completion against policy deadlines."
+    ],
+    "board_impact": "May impact risk appetite, resilience objectives, and technology investment priorities.",
+    "ciso_action_items": [
+      "Hunt for related indicators and validate containment playbooks.",
+      "Confirm detection, response, and reporting ownership.",
+      "Validate compensating controls and policy exceptions.",
+      "Publish an executive status update with next milestones."
+    ],
+    "rankings": {
+      "credibility": 0.95,
+      "executive_relevance": 0.85,
+      "business_impact": 0.5,
+      "regulatory_importance": 0.6,
+      "overall": 0.76
+    }
+  },
+  {
+    "title": "Operation FlutterBridge: macOS Malvertising Campaign Spreads New FlutterShell Backdoor",
+    "author": "Unknown",
+    "published_at": "Tue, 02 Jun 2026 10:00:31 +0000",
+    "published_date": "Tue, 02 Jun 2026 10:00:31 +0000",
+    "published": "Tue, 02 Jun 2026 10:00:31 +0000",
+    "url": "https://unit42.paloaltonetworks.com/flutterbridge-new-fluttershell-backdoor/",
+    "details_url": "https://unit42.paloaltonetworks.com/flutterbridge-new-fluttershell-backdoor/",
+    "summary": "<p>Operation FlutterBridge is a malvertising campaign targeting macOS users. It distributed the new backdoor FlutterShell, built using the Flutter framework.</p>\n<p>The post <a href=\"https://unit42.paloaltonetworks.com/flutterbridge-new-fluttershell-backdoor/\">Operation FlutterBridge: macOS Malvertising Campaign Spreads New FlutterShell Backdoor</a> appeared first on <a href=\"https://unit42.paloaltonetworks.com\">Unit 42</a>.</p>",
+    "category": "Regulation",
+    "subcategory": "Threat Intel",
+    "source": "Unit 42",
+    "vendor": "Unit 42",
+    "source_group": "Threat Intelligence",
+    "monitors": [
+      "Campaigns",
+      "Ransomware",
+      "Cloud attacks"
+    ],
+    "official_url": "https://unit42.paloaltonetworks.com",
+    "severity": "medium",
+    "tags": [],
+    "executive_summary": "Regulation: <p>Operation FlutterBridge is a malvertising campaign targeting macOS users. It distributed the new backdoor FlutterShell, built using the Flutter framework.</p>\n<p>The post <a href=\"https://unit42.paloaltonetworks.com/flutterbridge-new-fluttershell-backdoor/\">Operation FlutterBr",
+    "affected_industries": [
+      "Technology"
+    ],
+    "affected_iam_domains": [
+      "General"
+    ],
+    "control_mappings": [
+      "MITRE ATT&CK"
+    ],
+    "recommended_actions": [
+      "Validate control alignment and compliance obligations with legal/risk teams.",
+      "Assess enterprise exposure and affected business processes.",
+      "Update risk register and assign accountable owner.",
+      "Track remediation completion against policy deadlines."
+    ],
+    "board_impact": "Potential compliance and supervisory impact requiring governance and assurance updates.",
+    "ciso_action_items": [
+      "Confirm detection, response, and reporting ownership.",
+      "Validate compensating controls and policy exceptions.",
+      "Publish an executive status update with next milestones."
+    ],
+    "rankings": {
+      "credibility": 0.95,
+      "executive_relevance": 0.85,
+      "business_impact": 0.5,
+      "regulatory_importance": 1.0,
+      "overall": 0.82
+    }
+  }
+]

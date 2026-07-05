@@ -1,0 +1,514 @@
+[
+  {
+    "title": "Someone infected a spyware probe overseer with spyware",
+    "author": "Unknown",
+    "published_at": "Fri, 03 Jul 2026 05:00:00 +0000",
+    "published_date": "Fri, 03 Jul 2026 05:00:00 +0000",
+    "published": "Fri, 03 Jul 2026 05:00:00 +0000",
+    "url": "https://cyberscoop.com/pegasus-spyware-pega-committee-member-targeted/",
+    "details_url": "https://cyberscoop.com/pegasus-spyware-pega-committee-member-targeted/",
+    "summary": "<p>Citizen Lab says the phone of a member of Europe\u2019s PEGA Committee was infected twice with Pegasus, the NSO Group spyware that gave the panel its name.</p>\n<p>The post <a href=\"https://cyberscoop.com/pegasus-spyware-pega-committee-member-targeted/\">Someone infected a spyware probe overseer with spyware</a> appeared first on <a href=\"https://cyberscoop.com\">CyberScoop</a>.</p>",
+    "category": "Threat",
+    "subcategory": "Independent Journalism",
+    "source": "CyberScoop",
+    "vendor": "CyberScoop",
+    "source_group": "Independent Security Journalism",
+    "monitors": [
+      "Policy coverage",
+      "Cyber operations"
+    ],
+    "official_url": "https://cyberscoop.com",
+    "severity": "medium",
+    "tags": [],
+    "executive_summary": "Threat: <p>Citizen Lab says the phone of a member of Europe\u2019s PEGA Committee was infected twice with Pegasus, the NSO Group spyware that gave the panel its name.</p>\n<p>The post <a href=\"https://cyberscoop.com/pegasus-spyware-pega-committee-member-targeted/\">Someone infected a spyware pr",
+    "affected_industries": [
+      "Technology"
+    ],
+    "affected_iam_domains": [
+      "General"
+    ],
+    "control_mappings": [
+      "MITRE ATT&CK"
+    ],
+    "recommended_actions": [
+      "Assess enterprise exposure and affected business processes.",
+      "Update risk register and assign accountable owner.",
+      "Track remediation completion against policy deadlines."
+    ],
+    "board_impact": "May impact risk appetite, resilience objectives, and technology investment priorities.",
+    "ciso_action_items": [
+      "Hunt for related indicators and validate containment playbooks.",
+      "Confirm detection, response, and reporting ownership.",
+      "Validate compensating controls and policy exceptions.",
+      "Publish an executive status update with next milestones."
+    ],
+    "rankings": {
+      "credibility": 0.89,
+      "executive_relevance": 0.85,
+      "business_impact": 0.5,
+      "regulatory_importance": 0.6,
+      "overall": 0.739
+    }
+  },
+  {
+    "title": "Alleged longstanding member of Scattered Spider extradited to US",
+    "author": "Unknown",
+    "published_at": "Thu, 02 Jul 2026 15:28:25 +0000",
+    "published_date": "Thu, 02 Jul 2026 15:28:25 +0000",
+    "published": "Thu, 02 Jul 2026 15:28:25 +0000",
+    "url": "https://cyberscoop.com/scattered-spider-peter-stokes-cybercrime-extradition/",
+    "details_url": "https://cyberscoop.com/scattered-spider-peter-stokes-cybercrime-extradition/",
+    "summary": "<p>Peter Stokes boasted on social media about the luxurious globetrotting life he enjoyed while he was still a child.</p>\n<p>The post <a href=\"https://cyberscoop.com/scattered-spider-peter-stokes-cybercrime-extradition/\">Alleged longstanding member of Scattered Spider extradited to US</a> appeared first on <a href=\"https://cyberscoop.com\">CyberScoop</a>.</p>",
+    "category": "Threat",
+    "subcategory": "Independent Journalism",
+    "source": "CyberScoop",
+    "vendor": "CyberScoop",
+    "source_group": "Independent Security Journalism",
+    "monitors": [
+      "Policy coverage",
+      "Cyber operations"
+    ],
+    "official_url": "https://cyberscoop.com",
+    "severity": "medium",
+    "tags": [],
+    "executive_summary": "Threat: <p>Peter Stokes boasted on social media about the luxurious globetrotting life he enjoyed while he was still a child.</p>\n<p>The post <a href=\"https://cyberscoop.com/scattered-spider-peter-stokes-cybercrime-extradition/\">Alleged longstanding member of Scattered Spider extradited",
+    "affected_industries": [
+      "Technology"
+    ],
+    "affected_iam_domains": [
+      "General"
+    ],
+    "control_mappings": [
+      "MITRE ATT&CK"
+    ],
+    "recommended_actions": [
+      "Assess enterprise exposure and affected business processes.",
+      "Update risk register and assign accountable owner.",
+      "Track remediation completion against policy deadlines."
+    ],
+    "board_impact": "May impact risk appetite, resilience objectives, and technology investment priorities.",
+    "ciso_action_items": [
+      "Hunt for related indicators and validate containment playbooks.",
+      "Confirm detection, response, and reporting ownership.",
+      "Validate compensating controls and policy exceptions.",
+      "Publish an executive status update with next milestones."
+    ],
+    "rankings": {
+      "credibility": 0.89,
+      "executive_relevance": 0.85,
+      "business_impact": 0.5,
+      "regulatory_importance": 0.6,
+      "overall": 0.739
+    }
+  },
+  {
+    "title": "Researchers spot exploitation of another critical Oracle defect",
+    "author": "Unknown",
+    "published_at": "Wed, 01 Jul 2026 19:23:26 +0000",
+    "published_date": "Wed, 01 Jul 2026 19:23:26 +0000",
+    "published": "Wed, 01 Jul 2026 19:23:26 +0000",
+    "url": "https://cyberscoop.com/oracle-ebs-critical-vulnerability-exploited/",
+    "details_url": "https://cyberscoop.com/oracle-ebs-critical-vulnerability-exploited/",
+    "summary": "<p>The defect impacts a popular collection of business applications that attackers have hit before in widespread attack sprees.</p>\n<p>The post <a href=\"https://cyberscoop.com/oracle-ebs-critical-vulnerability-exploited/\">Researchers spot exploitation of another critical Oracle defect</a> appeared first on <a href=\"https://cyberscoop.com\">CyberScoop</a>.</p>",
+    "category": "Vulnerability",
+    "subcategory": "Independent Journalism",
+    "source": "CyberScoop",
+    "vendor": "CyberScoop",
+    "source_group": "Independent Security Journalism",
+    "monitors": [
+      "Policy coverage",
+      "Cyber operations"
+    ],
+    "official_url": "https://cyberscoop.com",
+    "severity": "medium",
+    "tags": [],
+    "executive_summary": "Vulnerability: <p>The defect impacts a popular collection of business applications that attackers have hit before in widespread attack sprees.</p>\n<p>The post <a href=\"https://cyberscoop.com/oracle-ebs-critical-vulnerability-exploited/\">Researchers spot exploitation of another critical Oracle d",
+    "affected_industries": [
+      "Technology"
+    ],
+    "affected_iam_domains": [
+      "General"
+    ],
+    "control_mappings": [
+      "MITRE ATT&CK"
+    ],
+    "recommended_actions": [
+      "Assess enterprise exposure and affected business processes.",
+      "Update risk register and assign accountable owner.",
+      "Track remediation completion against policy deadlines."
+    ],
+    "board_impact": "May impact risk appetite, resilience objectives, and technology investment priorities.",
+    "ciso_action_items": [
+      "Confirm detection, response, and reporting ownership.",
+      "Validate compensating controls and policy exceptions.",
+      "Publish an executive status update with next milestones."
+    ],
+    "rankings": {
+      "credibility": 0.89,
+      "executive_relevance": 0.7,
+      "business_impact": 0.5,
+      "regulatory_importance": 0.4,
+      "overall": 0.671
+    }
+  },
+  {
+    "title": "US lifting export control restrictions on Anthropic\u2019s Mythos, Fable",
+    "author": "Unknown",
+    "published_at": "Wed, 01 Jul 2026 13:36:39 +0000",
+    "published_date": "Wed, 01 Jul 2026 13:36:39 +0000",
+    "published": "Wed, 01 Jul 2026 13:36:39 +0000",
+    "url": "https://cyberscoop.com/us-lifting-export-control-restrictions-anthropic-mythos-fable/",
+    "details_url": "https://cyberscoop.com/us-lifting-export-control-restrictions-anthropic-mythos-fable/",
+    "summary": "<p>The company and the Commerce Department say they have reached an agreement that will see the AI models released publicly with new guardrails and classifiers.</p>\n<p>The post <a href=\"https://cyberscoop.com/us-lifting-export-control-restrictions-anthropic-mythos-fable/\">US lifting export control restrictions on Anthropic\u2019s Mythos, Fable</a> appeared first on <a href=\"https://cyberscoop.com\">CyberScoop</a>.</p>",
+    "category": "Vulnerability",
+    "subcategory": "Independent Journalism",
+    "source": "CyberScoop",
+    "vendor": "CyberScoop",
+    "source_group": "Independent Security Journalism",
+    "monitors": [
+      "Policy coverage",
+      "Cyber operations"
+    ],
+    "official_url": "https://cyberscoop.com",
+    "severity": "medium",
+    "tags": [],
+    "executive_summary": "Vulnerability: <p>The company and the Commerce Department say they have reached an agreement that will see the AI models released publicly with new guardrails and classifiers.</p>\n<p>The post <a href=\"https://cyberscoop.com/us-lifting-export-control-restrictions-anthropic-mythos-fable/\">US lift",
+    "affected_industries": [
+      "Government",
+      "Technology"
+    ],
+    "affected_iam_domains": [
+      "General"
+    ],
+    "control_mappings": [
+      "MITRE ATT&CK"
+    ],
+    "recommended_actions": [
+      "Assess enterprise exposure and affected business processes.",
+      "Update risk register and assign accountable owner.",
+      "Track remediation completion against policy deadlines."
+    ],
+    "board_impact": "May impact risk appetite, resilience objectives, and technology investment priorities.",
+    "ciso_action_items": [
+      "Confirm detection, response, and reporting ownership.",
+      "Validate compensating controls and policy exceptions.",
+      "Publish an executive status update with next milestones."
+    ],
+    "rankings": {
+      "credibility": 0.89,
+      "executive_relevance": 0.7,
+      "business_impact": 0.5,
+      "regulatory_importance": 0.4,
+      "overall": 0.671
+    }
+  },
+  {
+    "title": "This phishing kit looks more like BEC-as-a-service",
+    "author": "Unknown",
+    "published_at": "Wed, 01 Jul 2026 10:00:00 +0000",
+    "published_date": "Wed, 01 Jul 2026 10:00:00 +0000",
+    "published": "Wed, 01 Jul 2026 10:00:00 +0000",
+    "url": "https://cyberscoop.com/artoken-bec-platform-cisco-talos/",
+    "details_url": "https://cyberscoop.com/artoken-bec-platform-cisco-talos/",
+    "summary": "<p>Cisco Talos\u2019 research on ARToken builds on what\u2019s known about the related EvilTokens phishing-as-a-service.</p>\n<p>The post <a href=\"https://cyberscoop.com/artoken-bec-platform-cisco-talos/\">This phishing kit looks more like BEC-as-a-service</a> appeared first on <a href=\"https://cyberscoop.com\">CyberScoop</a>.</p>",
+    "category": "Research",
+    "subcategory": "Independent Journalism",
+    "source": "CyberScoop",
+    "vendor": "CyberScoop",
+    "source_group": "Independent Security Journalism",
+    "monitors": [
+      "Policy coverage",
+      "Cyber operations"
+    ],
+    "official_url": "https://cyberscoop.com",
+    "severity": "medium",
+    "tags": [],
+    "executive_summary": "Research: <p>Cisco Talos\u2019 research on ARToken builds on what\u2019s known about the related EvilTokens phishing-as-a-service.</p>\n<p>The post <a href=\"https://cyberscoop.com/artoken-bec-platform-cisco-talos/\">This phishing kit looks more like BEC-as-a-service</a> appeared first on <a href=\"http",
+    "affected_industries": [
+      "Technology"
+    ],
+    "affected_iam_domains": [
+      "General"
+    ],
+    "control_mappings": [
+      "MITRE ATT&CK"
+    ],
+    "recommended_actions": [
+      "Assess enterprise exposure and affected business processes.",
+      "Update risk register and assign accountable owner.",
+      "Track remediation completion against policy deadlines."
+    ],
+    "board_impact": "May impact risk appetite, resilience objectives, and technology investment priorities.",
+    "ciso_action_items": [
+      "Confirm detection, response, and reporting ownership.",
+      "Validate compensating controls and policy exceptions.",
+      "Publish an executive status update with next milestones."
+    ],
+    "rankings": {
+      "credibility": 0.89,
+      "executive_relevance": 0.7,
+      "business_impact": 0.5,
+      "regulatory_importance": 0.4,
+      "overall": 0.671
+    }
+  },
+  {
+    "title": "Citrix patches a new NetScaler flaw with echoes of CitrixBleed",
+    "author": "Unknown",
+    "published_at": "Tue, 30 Jun 2026 21:46:38 +0000",
+    "published_date": "Tue, 30 Jun 2026 21:46:38 +0000",
+    "published": "Tue, 30 Jun 2026 21:46:38 +0000",
+    "url": "https://cyberscoop.com/citrix-netscaler-flaw-cve-2026-8451-citrixbleed/",
+    "details_url": "https://cyberscoop.com/citrix-netscaler-flaw-cve-2026-8451-citrixbleed/",
+    "summary": "<p>The bulletin includes six NetScaler issues, but attention is centered on a high-severity flaw with similarities to earlier actively exploited bugs.</p>\n<p>The post <a href=\"https://cyberscoop.com/citrix-netscaler-flaw-cve-2026-8451-citrixbleed/\">Citrix patches a new NetScaler flaw with echoes of CitrixBleed</a> appeared first on <a href=\"https://cyberscoop.com\">CyberScoop</a>.</p>",
+    "category": "Vulnerability",
+    "subcategory": "Independent Journalism",
+    "source": "CyberScoop",
+    "vendor": "CyberScoop",
+    "source_group": "Independent Security Journalism",
+    "monitors": [
+      "Policy coverage",
+      "Cyber operations"
+    ],
+    "official_url": "https://cyberscoop.com",
+    "severity": "medium",
+    "tags": [],
+    "executive_summary": "Vulnerability: <p>The bulletin includes six NetScaler issues, but attention is centered on a high-severity flaw with similarities to earlier actively exploited bugs.</p>\n<p>The post <a href=\"https://cyberscoop.com/citrix-netscaler-flaw-cve-2026-8451-citrixbleed/\">Citrix patches a new NetScaler",
+    "affected_industries": [
+      "Technology"
+    ],
+    "affected_iam_domains": [
+      "General"
+    ],
+    "control_mappings": [
+      "MITRE ATT&CK"
+    ],
+    "recommended_actions": [
+      "Assess enterprise exposure and affected business processes.",
+      "Update risk register and assign accountable owner.",
+      "Track remediation completion against policy deadlines."
+    ],
+    "board_impact": "May impact risk appetite, resilience objectives, and technology investment priorities.",
+    "ciso_action_items": [
+      "Confirm detection, response, and reporting ownership.",
+      "Validate compensating controls and policy exceptions.",
+      "Publish an executive status update with next milestones."
+    ],
+    "rankings": {
+      "credibility": 0.89,
+      "executive_relevance": 0.7,
+      "business_impact": 0.5,
+      "regulatory_importance": 0.4,
+      "overall": 0.671
+    }
+  },
+  {
+    "title": "Trump budget boss Russell Vought open to re-staffing CISA",
+    "author": "Unknown",
+    "published_at": "Tue, 30 Jun 2026 20:51:07 +0000",
+    "published_date": "Tue, 30 Jun 2026 20:51:07 +0000",
+    "published": "Tue, 30 Jun 2026 20:51:07 +0000",
+    "url": "https://cyberscoop.com/russell-vought-cisa-staffing-trump-budget-cuts/",
+    "details_url": "https://cyberscoop.com/russell-vought-cisa-staffing-trump-budget-cuts/",
+    "summary": "<p>DHS Secretary Markwayne Mullin has been floating the idea of adding back 600 CISA personnel after deep Trump administration cuts.</p>\n<p>The post <a href=\"https://cyberscoop.com/russell-vought-cisa-staffing-trump-budget-cuts/\">Trump budget boss Russell Vought open to re-staffing CISA</a> appeared first on <a href=\"https://cyberscoop.com\">CyberScoop</a>.</p>",
+    "category": "Regulation",
+    "subcategory": "Independent Journalism",
+    "source": "CyberScoop",
+    "vendor": "CyberScoop",
+    "source_group": "Independent Security Journalism",
+    "monitors": [
+      "Policy coverage",
+      "Cyber operations"
+    ],
+    "official_url": "https://cyberscoop.com",
+    "severity": "medium",
+    "tags": [],
+    "executive_summary": "Regulation: <p>DHS Secretary Markwayne Mullin has been floating the idea of adding back 600 CISA personnel after deep Trump administration cuts.</p>\n<p>The post <a href=\"https://cyberscoop.com/russell-vought-cisa-staffing-trump-budget-cuts/\">Trump budget boss Russell Vought open to re-staffi",
+    "affected_industries": [
+      "General"
+    ],
+    "affected_iam_domains": [
+      "Privileged Access"
+    ],
+    "control_mappings": [
+      "NIST",
+      "MITRE ATT&CK"
+    ],
+    "recommended_actions": [
+      "Validate control alignment and compliance obligations with legal/risk teams.",
+      "Assess enterprise exposure and affected business processes.",
+      "Update risk register and assign accountable owner.",
+      "Track remediation completion against policy deadlines."
+    ],
+    "board_impact": "Potential compliance and supervisory impact requiring governance and assurance updates.",
+    "ciso_action_items": [
+      "Confirm detection, response, and reporting ownership.",
+      "Validate compensating controls and policy exceptions.",
+      "Publish an executive status update with next milestones."
+    ],
+    "rankings": {
+      "credibility": 0.89,
+      "executive_relevance": 0.85,
+      "business_impact": 0.5,
+      "regulatory_importance": 1.0,
+      "overall": 0.799
+    }
+  },
+  {
+    "title": "DHS to unveil replacement council for critical infrastructure cybersecurity",
+    "author": "Unknown",
+    "published_at": "Tue, 30 Jun 2026 15:14:01 +0000",
+    "published_date": "Tue, 30 Jun 2026 15:14:01 +0000",
+    "published": "Tue, 30 Jun 2026 15:14:01 +0000",
+    "url": "https://cyberscoop.com/dhs-anchor-ci-cybersecurity-information-sharing/",
+    "details_url": "https://cyberscoop.com/dhs-anchor-ci-cybersecurity-information-sharing/",
+    "summary": "<p>The Department of Homeland Security is bringing back a key cybersecurity information sharing effort with critical infrastructure, more than a year after the Trump administration shuttered an existing nerve center between government and private sector. The Alliance of National Councils for Homeland Operational Resilience \u2013 Critical Infrastructure program,&#160;first reported by CyberScoop in January, is meant [&#8230;]</p>\n<p>The post <a href=\"https://cyberscoop.com/dhs-anchor-ci-cybersecurity-information-sharing/\">DHS to unveil replacement council for critical infrastructure cybersecurity</a> appeared first on <a href=\"https://cyberscoop.com\">CyberScoop</a>.</p>",
+    "category": "Regulation",
+    "subcategory": "Independent Journalism",
+    "source": "CyberScoop",
+    "vendor": "CyberScoop",
+    "source_group": "Independent Security Journalism",
+    "monitors": [
+      "Policy coverage",
+      "Cyber operations"
+    ],
+    "official_url": "https://cyberscoop.com",
+    "severity": "medium",
+    "tags": [],
+    "executive_summary": "Regulation: <p>The Department of Homeland Security is bringing back a key cybersecurity information sharing effort with critical infrastructure, more than a year after the Trump administration shuttered an existing nerve center between government and private sector. The Alliance of National",
+    "affected_industries": [
+      "Government",
+      "Critical Infrastructure",
+      "Technology"
+    ],
+    "affected_iam_domains": [
+      "Privileged Access"
+    ],
+    "control_mappings": [
+      "NIST",
+      "MITRE ATT&CK",
+      "APRA CPS 230"
+    ],
+    "recommended_actions": [
+      "Validate control alignment and compliance obligations with legal/risk teams.",
+      "Assess enterprise exposure and affected business processes.",
+      "Update risk register and assign accountable owner.",
+      "Track remediation completion against policy deadlines."
+    ],
+    "board_impact": "Potential compliance and supervisory impact requiring governance and assurance updates.",
+    "ciso_action_items": [
+      "Confirm detection, response, and reporting ownership.",
+      "Validate compensating controls and policy exceptions.",
+      "Publish an executive status update with next milestones."
+    ],
+    "rankings": {
+      "credibility": 0.89,
+      "executive_relevance": 0.85,
+      "business_impact": 0.5,
+      "regulatory_importance": 1.0,
+      "overall": 0.799
+    }
+  },
+  {
+    "title": "How ransomware syndicates weaponize corporate-style organization",
+    "author": "Unknown",
+    "published_at": "Tue, 30 Jun 2026 09:00:00 +0000",
+    "published_date": "Tue, 30 Jun 2026 09:00:00 +0000",
+    "published": "Tue, 30 Jun 2026 09:00:00 +0000",
+    "url": "https://cyberscoop.com/ransomware-syndicates-corporate-organization-op-ed/",
+    "details_url": "https://cyberscoop.com/ransomware-syndicates-corporate-organization-op-ed/",
+    "summary": "<p>From outsourced labor to tiered pricing models, an inside look at how today's top ransomware threats operate less like rogue hackers and more like Fortune 500 companies.</p>\n<p>The post <a href=\"https://cyberscoop.com/ransomware-syndicates-corporate-organization-op-ed/\">How ransomware syndicates weaponize corporate-style organization</a> appeared first on <a href=\"https://cyberscoop.com\">CyberScoop</a>.</p>",
+    "category": "Threat",
+    "subcategory": "Independent Journalism",
+    "source": "CyberScoop",
+    "vendor": "CyberScoop",
+    "source_group": "Independent Security Journalism",
+    "monitors": [
+      "Policy coverage",
+      "Cyber operations"
+    ],
+    "official_url": "https://cyberscoop.com",
+    "severity": "medium",
+    "tags": [],
+    "executive_summary": "Threat: <p>From outsourced labor to tiered pricing models, an inside look at how today's top ransomware threats operate less like rogue hackers and more like Fortune 500 companies.</p>\n<p>The post <a href=\"https://cyberscoop.com/ransomware-syndicates-corporate-organization-op-ed/\">How ra",
+    "affected_industries": [
+      "General"
+    ],
+    "affected_iam_domains": [
+      "General"
+    ],
+    "control_mappings": [
+      "MITRE ATT&CK"
+    ],
+    "recommended_actions": [
+      "Assess enterprise exposure and affected business processes.",
+      "Update risk register and assign accountable owner.",
+      "Track remediation completion against policy deadlines."
+    ],
+    "board_impact": "May impact risk appetite, resilience objectives, and technology investment priorities.",
+    "ciso_action_items": [
+      "Hunt for related indicators and validate containment playbooks.",
+      "Confirm detection, response, and reporting ownership.",
+      "Validate compensating controls and policy exceptions.",
+      "Publish an executive status update with next milestones."
+    ],
+    "rankings": {
+      "credibility": 0.89,
+      "executive_relevance": 0.85,
+      "business_impact": 0.5,
+      "regulatory_importance": 0.6,
+      "overall": 0.739
+    }
+  },
+  {
+    "title": "Warner bill would create federally vetted list for secure, trustworthy AI agents",
+    "author": "Unknown",
+    "published_at": "Mon, 29 Jun 2026 21:29:06 +0000",
+    "published_date": "Mon, 29 Jun 2026 21:29:06 +0000",
+    "published": "Mon, 29 Jun 2026 21:29:06 +0000",
+    "url": "https://cyberscoop.com/ai-agent-act-senate-draft-bill-mark-warner/",
+    "details_url": "https://cyberscoop.com/ai-agent-act-senate-draft-bill-mark-warner/",
+    "summary": "<p>The bill empowers the FTC to create a registry for sellers of AI agent software certifying their privacy and cybersecurity protections. </p>\n<p>The post <a href=\"https://cyberscoop.com/ai-agent-act-senate-draft-bill-mark-warner/\">Warner bill would create federally vetted list for secure, trustworthy AI agents</a> appeared first on <a href=\"https://cyberscoop.com\">CyberScoop</a>.</p>",
+    "category": "Threat",
+    "subcategory": "Independent Journalism",
+    "source": "CyberScoop",
+    "vendor": "CyberScoop",
+    "source_group": "Independent Security Journalism",
+    "monitors": [
+      "Policy coverage",
+      "Cyber operations"
+    ],
+    "official_url": "https://cyberscoop.com",
+    "severity": "medium",
+    "tags": [],
+    "executive_summary": "Threat: <p>The bill empowers the FTC to create a registry for sellers of AI agent software certifying their privacy and cybersecurity protections. </p>\n<p>The post <a href=\"https://cyberscoop.com/ai-agent-act-senate-draft-bill-mark-warner/\">Warner bill would create federally vetted list",
+    "affected_industries": [
+      "Technology"
+    ],
+    "affected_iam_domains": [
+      "General"
+    ],
+    "control_mappings": [
+      "MITRE ATT&CK"
+    ],
+    "recommended_actions": [
+      "Assess enterprise exposure and affected business processes.",
+      "Update risk register and assign accountable owner.",
+      "Track remediation completion against policy deadlines."
+    ],
+    "board_impact": "May impact risk appetite, resilience objectives, and technology investment priorities.",
+    "ciso_action_items": [
+      "Hunt for related indicators and validate containment playbooks.",
+      "Confirm detection, response, and reporting ownership.",
+      "Validate compensating controls and policy exceptions.",
+      "Publish an executive status update with next milestones."
+    ],
+    "rankings": {
+      "credibility": 0.89,
+      "executive_relevance": 0.85,
+      "business_impact": 0.5,
+      "regulatory_importance": 0.6,
+      "overall": 0.739
+    }
+  }
+]

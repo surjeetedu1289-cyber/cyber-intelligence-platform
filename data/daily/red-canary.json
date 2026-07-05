@@ -1,0 +1,512 @@
+[
+  {
+    "title": "Train, triage, repeat: The AI agent changing how we fight phishing",
+    "author": "Unknown",
+    "published_at": "Tue, 30 Jun 2026 12:33:22 +0000",
+    "published_date": "Tue, 30 Jun 2026 12:33:22 +0000",
+    "published": "Tue, 30 Jun 2026 12:33:22 +0000",
+    "url": "https://redcanary.com/blog/threat-detection/phishing-ai-agent/",
+    "details_url": "https://redcanary.com/blog/threat-detection/phishing-ai-agent/",
+    "summary": "Learn how Red Canary engineered a super agent\u2014blending ML, a rules engine, similarity, agentic AI, and LLMs\u2014to classify phishing emails.",
+    "category": "Threat",
+    "subcategory": "Threat Intel",
+    "source": "Red Canary",
+    "vendor": "Red Canary",
+    "source_group": "Threat Intelligence",
+    "monitors": [
+      "Detection engineering",
+      "Threat trends"
+    ],
+    "official_url": "https://redcanary.com",
+    "severity": "medium",
+    "tags": [],
+    "executive_summary": "Threat: Learn how Red Canary engineered a super agent\u2014blending ML, a rules engine, similarity, agentic AI, and LLMs\u2014to classify phishing emails.",
+    "affected_industries": [
+      "Technology"
+    ],
+    "affected_iam_domains": [
+      "General"
+    ],
+    "control_mappings": [
+      "General"
+    ],
+    "recommended_actions": [
+      "Assess enterprise exposure and affected business processes.",
+      "Update risk register and assign accountable owner.",
+      "Track remediation completion against policy deadlines."
+    ],
+    "board_impact": "May impact risk appetite, resilience objectives, and technology investment priorities.",
+    "ciso_action_items": [
+      "Hunt for related indicators and validate containment playbooks.",
+      "Confirm detection, response, and reporting ownership.",
+      "Validate compensating controls and policy exceptions.",
+      "Publish an executive status update with next milestones."
+    ],
+    "rankings": {
+      "credibility": 0.93,
+      "executive_relevance": 0.85,
+      "business_impact": 0.5,
+      "regulatory_importance": 0.6,
+      "overall": 0.753
+    }
+  },
+  {
+    "title": "Intelligence Insights: June 2026",
+    "author": "Unknown",
+    "published_at": "Thu, 18 Jun 2026 17:49:20 +0000",
+    "published_date": "Thu, 18 Jun 2026 17:49:20 +0000",
+    "published": "Thu, 18 Jun 2026 17:49:20 +0000",
+    "url": "https://redcanary.com/blog/threat-intelligence/intelligence-insights-june-2026/",
+    "details_url": "https://redcanary.com/blog/threat-intelligence/intelligence-insights-june-2026/",
+    "summary": "ClearFake is the clear-cut number one again and Kali365 debuts in this month\u2019s edition of Intelligence Insights",
+    "category": "Threat",
+    "subcategory": "Threat Intel",
+    "source": "Red Canary",
+    "vendor": "Red Canary",
+    "source_group": "Threat Intelligence",
+    "monitors": [
+      "Detection engineering",
+      "Threat trends"
+    ],
+    "official_url": "https://redcanary.com",
+    "severity": "medium",
+    "tags": [],
+    "executive_summary": "Threat: ClearFake is the clear-cut number one again and Kali365 debuts in this month\u2019s edition of Intelligence Insights",
+    "affected_industries": [
+      "Technology"
+    ],
+    "affected_iam_domains": [
+      "General"
+    ],
+    "control_mappings": [
+      "General"
+    ],
+    "recommended_actions": [
+      "Assess enterprise exposure and affected business processes.",
+      "Update risk register and assign accountable owner.",
+      "Track remediation completion against policy deadlines."
+    ],
+    "board_impact": "May impact risk appetite, resilience objectives, and technology investment priorities.",
+    "ciso_action_items": [
+      "Hunt for related indicators and validate containment playbooks.",
+      "Confirm detection, response, and reporting ownership.",
+      "Validate compensating controls and policy exceptions.",
+      "Publish an executive status update with next milestones."
+    ],
+    "rankings": {
+      "credibility": 0.93,
+      "executive_relevance": 0.85,
+      "business_impact": 0.5,
+      "regulatory_importance": 0.6,
+      "overall": 0.753
+    }
+  },
+  {
+    "title": "The dual-use dilemma: Rethinking detection for remote access tool abuse",
+    "author": "Unknown",
+    "published_at": "Wed, 17 Jun 2026 16:15:51 +0000",
+    "published_date": "Wed, 17 Jun 2026 16:15:51 +0000",
+    "published": "Wed, 17 Jun 2026 16:15:51 +0000",
+    "url": "https://redcanary.com/blog/security-operations/rmm-detection/",
+    "details_url": "https://redcanary.com/blog/security-operations/rmm-detection/",
+    "summary": "A comprehensive guide to the most commonly abused RMM tools, including technical guidance for detection and prevention",
+    "category": "Threat",
+    "subcategory": "Threat Intel",
+    "source": "Red Canary",
+    "vendor": "Red Canary",
+    "source_group": "Threat Intelligence",
+    "monitors": [
+      "Detection engineering",
+      "Threat trends"
+    ],
+    "official_url": "https://redcanary.com",
+    "severity": "medium",
+    "tags": [],
+    "executive_summary": "Threat: A comprehensive guide to the most commonly abused RMM tools, including technical guidance for detection and prevention",
+    "affected_industries": [
+      "General"
+    ],
+    "affected_iam_domains": [
+      "General"
+    ],
+    "control_mappings": [
+      "General"
+    ],
+    "recommended_actions": [
+      "Assess enterprise exposure and affected business processes.",
+      "Update risk register and assign accountable owner.",
+      "Track remediation completion against policy deadlines."
+    ],
+    "board_impact": "May impact risk appetite, resilience objectives, and technology investment priorities.",
+    "ciso_action_items": [
+      "Hunt for related indicators and validate containment playbooks.",
+      "Confirm detection, response, and reporting ownership.",
+      "Validate compensating controls and policy exceptions.",
+      "Publish an executive status update with next milestones."
+    ],
+    "rankings": {
+      "credibility": 0.93,
+      "executive_relevance": 0.85,
+      "business_impact": 0.5,
+      "regulatory_importance": 0.6,
+      "overall": 0.753
+    }
+  },
+  {
+    "title": "How threat hunting evolves at scale",
+    "author": "Unknown",
+    "published_at": "Thu, 11 Jun 2026 13:09:00 +0000",
+    "published_date": "Thu, 11 Jun 2026 13:09:00 +0000",
+    "published": "Thu, 11 Jun 2026 13:09:00 +0000",
+    "url": "https://redcanary.com/blog/threat-detection/threat-hunting-scaled/",
+    "details_url": "https://redcanary.com/blog/threat-detection/threat-hunting-scaled/",
+    "summary": "We offer a practical roadmap for evolving informal, ad hoc threat hunting practices into a mature, scalable program",
+    "category": "Threat",
+    "subcategory": "Threat Intel",
+    "source": "Red Canary",
+    "vendor": "Red Canary",
+    "source_group": "Threat Intelligence",
+    "monitors": [
+      "Detection engineering",
+      "Threat trends"
+    ],
+    "official_url": "https://redcanary.com",
+    "severity": "medium",
+    "tags": [],
+    "executive_summary": "Threat: We offer a practical roadmap for evolving informal, ad hoc threat hunting practices into a mature, scalable program",
+    "affected_industries": [
+      "General"
+    ],
+    "affected_iam_domains": [
+      "General"
+    ],
+    "control_mappings": [
+      "General"
+    ],
+    "recommended_actions": [
+      "Assess enterprise exposure and affected business processes.",
+      "Update risk register and assign accountable owner.",
+      "Track remediation completion against policy deadlines."
+    ],
+    "board_impact": "May impact risk appetite, resilience objectives, and technology investment priorities.",
+    "ciso_action_items": [
+      "Hunt for related indicators and validate containment playbooks.",
+      "Confirm detection, response, and reporting ownership.",
+      "Validate compensating controls and policy exceptions.",
+      "Publish an executive status update with next milestones."
+    ],
+    "rankings": {
+      "credibility": 0.93,
+      "executive_relevance": 0.85,
+      "business_impact": 0.5,
+      "regulatory_importance": 0.6,
+      "overall": 0.753
+    }
+  },
+  {
+    "title": "Investigating suspicious AI workflows in Microsoft Entra Agent ID: Assistive agents",
+    "author": "Unknown",
+    "published_at": "Mon, 08 Jun 2026 15:37:01 +0000",
+    "published_date": "Mon, 08 Jun 2026 15:37:01 +0000",
+    "published": "Mon, 08 Jun 2026 15:37:01 +0000",
+    "url": "https://redcanary.com/blog/threat-detection/entra-id-ai-workflows-assistive-agents/",
+    "details_url": "https://redcanary.com/blog/threat-detection/entra-id-ai-workflows-assistive-agents/",
+    "summary": "Assistive AI agents aren't always helpful\u2014it all depends on who they're working on behalf of.",
+    "category": "Identity",
+    "subcategory": "Threat Intel",
+    "source": "Red Canary",
+    "vendor": "Red Canary",
+    "source_group": "Threat Intelligence",
+    "monitors": [
+      "Detection engineering",
+      "Threat trends"
+    ],
+    "official_url": "https://redcanary.com",
+    "severity": "medium",
+    "tags": [],
+    "executive_summary": "Identity: Assistive AI agents aren't always helpful\u2014it all depends on who they're working on behalf of.",
+    "affected_industries": [
+      "Technology"
+    ],
+    "affected_iam_domains": [
+      "Identity Governance"
+    ],
+    "control_mappings": [
+      "General"
+    ],
+    "recommended_actions": [
+      "Review IAM control effectiveness for privileged and non-human identities.",
+      "Assess enterprise exposure and affected business processes.",
+      "Update risk register and assign accountable owner.",
+      "Track remediation completion against policy deadlines."
+    ],
+    "board_impact": "Identity control weakness could increase enterprise-wide breach and fraud exposure.",
+    "ciso_action_items": [
+      "Confirm detection, response, and reporting ownership.",
+      "Validate compensating controls and policy exceptions.",
+      "Publish an executive status update with next milestones."
+    ],
+    "rankings": {
+      "credibility": 0.93,
+      "executive_relevance": 0.85,
+      "business_impact": 0.5,
+      "regulatory_importance": 0.4,
+      "overall": 0.723
+    }
+  },
+  {
+    "title": "Red Canary CFP tracker: June 2026",
+    "author": "Unknown",
+    "published_at": "Mon, 01 Jun 2026 18:59:52 +0000",
+    "published_date": "Mon, 01 Jun 2026 18:59:52 +0000",
+    "published": "Mon, 01 Jun 2026 18:59:52 +0000",
+    "url": "https://redcanary.com/blog/news-events/red-canary-cfp-tracker-june-2026/",
+    "details_url": "https://redcanary.com/blog/news-events/red-canary-cfp-tracker-june-2026/",
+    "summary": "Red Canary's monthly roundup of upcoming security conferences and call for papers (CFP) submission deadlines June 2026",
+    "category": "Threat",
+    "subcategory": "Threat Intel",
+    "source": "Red Canary",
+    "vendor": "Red Canary",
+    "source_group": "Threat Intelligence",
+    "monitors": [
+      "Detection engineering",
+      "Threat trends"
+    ],
+    "official_url": "https://redcanary.com",
+    "severity": "medium",
+    "tags": [],
+    "executive_summary": "Threat: Red Canary's monthly roundup of upcoming security conferences and call for papers (CFP) submission deadlines June 2026",
+    "affected_industries": [
+      "Technology"
+    ],
+    "affected_iam_domains": [
+      "General"
+    ],
+    "control_mappings": [
+      "General"
+    ],
+    "recommended_actions": [
+      "Assess enterprise exposure and affected business processes.",
+      "Update risk register and assign accountable owner.",
+      "Track remediation completion against policy deadlines."
+    ],
+    "board_impact": "May impact risk appetite, resilience objectives, and technology investment priorities.",
+    "ciso_action_items": [
+      "Hunt for related indicators and validate containment playbooks.",
+      "Confirm detection, response, and reporting ownership.",
+      "Validate compensating controls and policy exceptions.",
+      "Publish an executive status update with next milestones."
+    ],
+    "rankings": {
+      "credibility": 0.93,
+      "executive_relevance": 0.85,
+      "business_impact": 0.5,
+      "regulatory_importance": 0.6,
+      "overall": 0.753
+    }
+  },
+  {
+    "title": "Investigating suspicious AI workflows in Microsoft Entra Agent ID: Agent\u2019s user account",
+    "author": "Unknown",
+    "published_at": "Mon, 01 Jun 2026 13:04:01 +0000",
+    "published_date": "Mon, 01 Jun 2026 13:04:01 +0000",
+    "published": "Mon, 01 Jun 2026 13:04:01 +0000",
+    "url": "https://redcanary.com/blog/threat-detection/entra-id-ai-workflows-teams/",
+    "details_url": "https://redcanary.com/blog/threat-detection/entra-id-ai-workflows-teams/",
+    "summary": "Entra ID agent users can send malicious content to human users via Microsoft Teams. Here\u2019s what to look out for.",
+    "category": "Identity",
+    "subcategory": "Threat Intel",
+    "source": "Red Canary",
+    "vendor": "Red Canary",
+    "source_group": "Threat Intelligence",
+    "monitors": [
+      "Detection engineering",
+      "Threat trends"
+    ],
+    "official_url": "https://redcanary.com",
+    "severity": "medium",
+    "tags": [],
+    "executive_summary": "Identity: Entra ID agent users can send malicious content to human users via Microsoft Teams. Here\u2019s what to look out for.",
+    "affected_industries": [
+      "General"
+    ],
+    "affected_iam_domains": [
+      "Identity Governance"
+    ],
+    "control_mappings": [
+      "General"
+    ],
+    "recommended_actions": [
+      "Review IAM control effectiveness for privileged and non-human identities.",
+      "Assess enterprise exposure and affected business processes.",
+      "Update risk register and assign accountable owner.",
+      "Track remediation completion against policy deadlines."
+    ],
+    "board_impact": "Identity control weakness could increase enterprise-wide breach and fraud exposure.",
+    "ciso_action_items": [
+      "Confirm detection, response, and reporting ownership.",
+      "Validate compensating controls and policy exceptions.",
+      "Publish an executive status update with next milestones."
+    ],
+    "rankings": {
+      "credibility": 0.93,
+      "executive_relevance": 0.85,
+      "business_impact": 0.5,
+      "regulatory_importance": 0.4,
+      "overall": 0.723
+    }
+  },
+  {
+    "title": "Grading on a curve: How to assess a pentest",
+    "author": "Unknown",
+    "published_at": "Thu, 28 May 2026 13:13:04 +0000",
+    "published_date": "Thu, 28 May 2026 13:13:04 +0000",
+    "published": "Thu, 28 May 2026 13:13:04 +0000",
+    "url": "https://redcanary.com/blog/testing-and-validation/pentesting/",
+    "details_url": "https://redcanary.com/blog/testing-and-validation/pentesting/",
+    "summary": "Defenders don\u2019t need to detect every adversary action to prevent a threat. Here\u2019s a more realistic, optimized approach to testing.",
+    "category": "Threat",
+    "subcategory": "Threat Intel",
+    "source": "Red Canary",
+    "vendor": "Red Canary",
+    "source_group": "Threat Intelligence",
+    "monitors": [
+      "Detection engineering",
+      "Threat trends"
+    ],
+    "official_url": "https://redcanary.com",
+    "severity": "medium",
+    "tags": [],
+    "executive_summary": "Threat: Defenders don\u2019t need to detect every adversary action to prevent a threat. Here\u2019s a more realistic, optimized approach to testing.",
+    "affected_industries": [
+      "General"
+    ],
+    "affected_iam_domains": [
+      "General"
+    ],
+    "control_mappings": [
+      "General"
+    ],
+    "recommended_actions": [
+      "Assess enterprise exposure and affected business processes.",
+      "Update risk register and assign accountable owner.",
+      "Track remediation completion against policy deadlines."
+    ],
+    "board_impact": "May impact risk appetite, resilience objectives, and technology investment priorities.",
+    "ciso_action_items": [
+      "Hunt for related indicators and validate containment playbooks.",
+      "Confirm detection, response, and reporting ownership.",
+      "Validate compensating controls and policy exceptions.",
+      "Publish an executive status update with next milestones."
+    ],
+    "rankings": {
+      "credibility": 0.93,
+      "executive_relevance": 0.85,
+      "business_impact": 0.5,
+      "regulatory_importance": 0.6,
+      "overall": 0.753
+    }
+  },
+  {
+    "title": "Investigating suspicious AI workflows in Microsoft Entra Agent ID: Autonomous agents",
+    "author": "Unknown",
+    "published_at": "Wed, 27 May 2026 12:58:44 +0000",
+    "published_date": "Wed, 27 May 2026 12:58:44 +0000",
+    "published": "Wed, 27 May 2026 12:58:44 +0000",
+    "url": "https://redcanary.com/blog/threat-detection/entra-id-ai-workflows/",
+    "details_url": "https://redcanary.com/blog/threat-detection/entra-id-ai-workflows/",
+    "summary": "Read our primer on how to detect and respond to an autonomous agent escalating privileges and persisting in your Entra ID tenant",
+    "category": "Identity",
+    "subcategory": "Threat Intel",
+    "source": "Red Canary",
+    "vendor": "Red Canary",
+    "source_group": "Threat Intelligence",
+    "monitors": [
+      "Detection engineering",
+      "Threat trends"
+    ],
+    "official_url": "https://redcanary.com",
+    "severity": "medium",
+    "tags": [],
+    "executive_summary": "Identity: Read our primer on how to detect and respond to an autonomous agent escalating privileges and persisting in your Entra ID tenant",
+    "affected_industries": [
+      "General"
+    ],
+    "affected_iam_domains": [
+      "Identity Governance"
+    ],
+    "control_mappings": [
+      "General"
+    ],
+    "recommended_actions": [
+      "Review IAM control effectiveness for privileged and non-human identities.",
+      "Assess enterprise exposure and affected business processes.",
+      "Update risk register and assign accountable owner.",
+      "Track remediation completion against policy deadlines."
+    ],
+    "board_impact": "Identity control weakness could increase enterprise-wide breach and fraud exposure.",
+    "ciso_action_items": [
+      "Confirm detection, response, and reporting ownership.",
+      "Validate compensating controls and policy exceptions.",
+      "Publish an executive status update with next milestones."
+    ],
+    "rankings": {
+      "credibility": 0.93,
+      "executive_relevance": 0.85,
+      "business_impact": 0.5,
+      "regulatory_importance": 0.4,
+      "overall": 0.723
+    }
+  },
+  {
+    "title": "Intelligence Insights: May 2026",
+    "author": "Unknown",
+    "published_at": "Tue, 26 May 2026 13:55:13 +0000",
+    "published_date": "Tue, 26 May 2026 13:55:13 +0000",
+    "published": "Tue, 26 May 2026 13:55:13 +0000",
+    "url": "https://redcanary.com/blog/threat-intelligence/intelligence-insights-may-2026/",
+    "details_url": "https://redcanary.com/blog/threat-intelligence/intelligence-insights-may-2026/",
+    "summary": "ClearFake is in command and ACR Stealer and GraphRunner debut in this month\u2019s edition of Intelligence Insights",
+    "category": "Threat",
+    "subcategory": "Threat Intel",
+    "source": "Red Canary",
+    "vendor": "Red Canary",
+    "source_group": "Threat Intelligence",
+    "monitors": [
+      "Detection engineering",
+      "Threat trends"
+    ],
+    "official_url": "https://redcanary.com",
+    "severity": "medium",
+    "tags": [],
+    "executive_summary": "Threat: ClearFake is in command and ACR Stealer and GraphRunner debut in this month\u2019s edition of Intelligence Insights",
+    "affected_industries": [
+      "Technology"
+    ],
+    "affected_iam_domains": [
+      "General"
+    ],
+    "control_mappings": [
+      "General"
+    ],
+    "recommended_actions": [
+      "Assess enterprise exposure and affected business processes.",
+      "Update risk register and assign accountable owner.",
+      "Track remediation completion against policy deadlines."
+    ],
+    "board_impact": "May impact risk appetite, resilience objectives, and technology investment priorities.",
+    "ciso_action_items": [
+      "Hunt for related indicators and validate containment playbooks.",
+      "Confirm detection, response, and reporting ownership.",
+      "Validate compensating controls and policy exceptions.",
+      "Publish an executive status update with next milestones."
+    ],
+    "rankings": {
+      "credibility": 0.93,
+      "executive_relevance": 0.85,
+      "business_impact": 0.5,
+      "regulatory_importance": 0.6,
+      "overall": 0.753
+    }
+  }
+]
