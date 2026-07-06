@@ -1,4 +1,4 @@
-const CACHE_NAME = 'cyber-intel-static-v1';
+const CACHE_NAME = 'cyber-intel-static-v2';
 const STATIC_ASSETS = ['.', 'index.html', 'site.webmanifest', 'favicon.svg'];
 const DATA_PREFIX = 'data/';
 
@@ -25,6 +25,20 @@ self.addEventListener('fetch', (event) => {
   }
 
   const url = new URL(request.url);
+
+  if (request.mode === 'navigate' || url.pathname.endsWith('/index.html')) {
+    event.respondWith(
+      fetch(request)
+        .then((response) => {
+          const responseClone = response.clone();
+          caches.open(CACHE_NAME).then((cache) => cache.put(request, responseClone));
+          return response;
+        })
+        .catch(() => caches.match(request))
+    );
+    return;
+  }
+
   if (url.pathname.includes(DATA_PREFIX)) {
     event.respondWith(
       fetch(request)
