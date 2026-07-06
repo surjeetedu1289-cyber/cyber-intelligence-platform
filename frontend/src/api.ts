@@ -32,13 +32,30 @@ const API_BASE_URL = resolveApiBaseUrl();
 const STATIC_DATA_BASE_URL = resolveStaticDataBaseUrl();
 const USE_STATIC_DATA = API_BASE_URL.length === 0;
 
-function buildApiUrl(path: string): string {
-  const normalizedPath = path.startsWith('/') ? path : `/${path}`;
-  return `${API_BASE_URL}${normalizedPath}`;
+function getDayStamp(): string {
+  const now = new Date();
+  const year = now.getUTCFullYear();
+  const month = String(now.getUTCMonth() + 1).padStart(2, '0');
+  const day = String(now.getUTCDate()).padStart(2, '0');
+  return `${year}-${month}-${day}`;
 }
 
-function buildStaticUrl(fileName: string): string {
-  return `${STATIC_DATA_BASE_URL}/${fileName}`;
+function buildApiUrl(path: string, query?: URLSearchParams): string {
+  const normalizedPath = path.startsWith('/') ? path : `/${path}`;
+  if (!query || query.size === 0) {
+    return `${API_BASE_URL}${normalizedPath}`;
+  }
+
+  return `${API_BASE_URL}${normalizedPath}?${query.toString()}`;
+}
+
+function buildStaticUrl(fileName: string, query?: URLSearchParams): string {
+  const basePath = `${STATIC_DATA_BASE_URL}/${fileName}`;
+  if (!query || query.size === 0) {
+    return basePath;
+  }
+
+  return `${basePath}?${query.toString()}`;
 }
 
 function buildError(message: string): Error {
@@ -89,20 +106,20 @@ async function fetchRawJson<T>(url: string): Promise<T> {
   throw buildError(`Unable to load ${url}`);
 }
 
-async function fetchApiJson<T>(path: string): Promise<T> {
-  return fetchRawJson<T>(buildApiUrl(path));
+async function fetchApiJson<T>(path: string, query?: URLSearchParams): Promise<T> {
+  return fetchRawJson<T>(buildApiUrl(path, query));
 }
 
-async function fetchStaticJson<T>(fileName: string): Promise<T> {
-  return fetchRawJson<T>(buildStaticUrl(fileName));
+async function fetchStaticJson<T>(fileName: string, query?: URLSearchParams): Promise<T> {
+  return fetchRawJson<T>(buildStaticUrl(fileName, query));
 }
 
-async function fetchJson<T>(apiPath: string, staticFileName: string): Promise<T> {
+async function fetchJson<T>(apiPath: string, staticFileName: string, query?: URLSearchParams): Promise<T> {
   if (USE_STATIC_DATA) {
-    return fetchStaticJson<T>(staticFileName);
+    return fetchStaticJson<T>(staticFileName, query);
   }
 
-  return fetchApiJson<T>(apiPath);
+  return fetchApiJson<T>(apiPath, query);
 }
 
 async function fetchStaticItems(fileName: string): Promise<IntelligenceItem[]> {
@@ -127,7 +144,8 @@ export async function fetchNews(): Promise<PaginatedResponse<IntelligenceItem>> 
 }
 
 export async function fetchDashboard(): Promise<DashboardPayload> {
-  return fetchJson<DashboardPayload>('/dashboard', 'dashboard.json');
+  const query = new URLSearchParams({ day: getDayStamp() });
+  return fetchJson<DashboardPayload>('/dashboard', 'dashboard.json', query);
 }
 
 export async function fetchSummary(): Promise<ExecutiveSummary> {

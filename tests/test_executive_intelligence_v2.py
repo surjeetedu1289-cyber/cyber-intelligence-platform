@@ -60,8 +60,19 @@ def test_v2_pipeline_run_endpoint(monkeypatch) -> None:
             "generated_at": "2026-01-01T00:00:00+00:00",
         },
     )
+    export_calls = []
+
+    def fake_export_static_dashboard_data() -> dict[str, object]:
+        export_calls.append(True)
+        return {"generatedAt": "2026-01-01T00:00:00+00:00", "files": []}
+
+    monkeypatch.setattr(
+        "backend.pipeline.export_static_dashboard.export_static_dashboard_data",
+        fake_export_static_dashboard_data,
+    )
     response = client.post("/v2/executive/pipeline/run", params={"max_sources": 10})
     assert response.status_code == 200
     body = response.json()
     assert body["source_count"] == 10
     assert body["deduplicated_items"] == 100
+    assert export_calls == [True]

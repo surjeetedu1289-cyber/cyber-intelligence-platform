@@ -1,4 +1,4 @@
-import { Suspense, lazy, useEffect, useMemo, useState } from 'react';
+import { Suspense, lazy, useEffect, useMemo, useRef, useState } from 'react';
 import { fetchComplianceControlIntelligence, fetchDashboard } from './api';
 import { FeedList } from './components/FeedList';
 import { MetricCard } from './components/MetricCard';
@@ -6,8 +6,23 @@ import { SectionCard } from './components/SectionCard';
 import type { ComplianceControlIntelligencePayload, DashboardPayload, ExecutiveSummary, IntelligenceItem } from './types';
 
 const REFRESH_MS = 15 * 60 * 1000;
+const DAY_MS = 24 * 60 * 60 * 1000;
 const UPDATE_MESSAGE = 'Dashboard is currently updating';
 const TrendChart = lazy(() => import('./components/TrendChart').then((module) => ({ default: module.TrendChart })));
+
+function getLocalDayKey(): string {
+  const now = new Date();
+  const year = now.getFullYear();
+  const month = String(now.getMonth() + 1).padStart(2, '0');
+  const day = String(now.getDate()).padStart(2, '0');
+  return `${year}-${month}-${day}`;
+}
+
+function msUntilNextMidnight(): number {
+  const now = new Date();
+  const nextMidnight = new Date(now.getFullYear(), now.getMonth(), now.getDate() + 1);
+  return Math.max(nextMidnight.getTime() - now.getTime(), 1000);
+}
 
 const EMPTY_SUMMARY: ExecutiveSummary = {
   headline: 'Daily cyber intelligence summary',
@@ -97,6 +112,7 @@ export default function App() {
   const [refreshing, setRefreshing] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [complianceError, setComplianceError] = useState<string | null>(null);
+  const currentDayRef = useRef(getLocalDayKey());
 
   const items = dashboard.articles;
   const summary = dashboard.summary;
@@ -165,7 +181,36 @@ export default function App() {
       loadDashboardData(true);
     }, REFRESH_MS);
 
-    return () => window.clearInterval(timer);
+    const midnightTimer = window.setTimeout(() => {
+      currentDayRef.current = getLocalDayKey();
+      loadDashboardData(true);
+    }, msUntilNextMidnight());
+
+    const dailyTimer = window.setInterval(() => {
+      currentDayRef.current = getLocalDayKey();
+      loadDashboardData(true);
+    }, DAY_MS);
+
+    const handleVisibilityChange = () => {
+      if (document.visibilityState !== 'visible') {
+        return;
+      }
+
+      const day = getLocalDayKey();
+      if (day !== currentDayRef.current) {
+        currentDayRef.current = day;
+        loadDashboardData(true);
+      }
+    };
+
+    document.addEventListener('visibilitychange', handleVisibilityChange);
+
+    return () => {
+      window.clearInterval(timer);
+      window.clearTimeout(midnightTimer);
+      window.clearInterval(dailyTimer);
+      document.removeEventListener('visibilitychange', handleVisibilityChange);
+    };
   }, []);
 
   const complianceFeedItems = useMemo<IntelligenceItem[]>(() => {

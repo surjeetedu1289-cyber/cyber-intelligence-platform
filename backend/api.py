@@ -49,7 +49,18 @@ app.add_middleware(
 _START_TIME = time.time()
 _REQUEST_COUNT = 0
 _SOURCE_DEFINITION_BY_NAME = {definition.name.lower(): definition for definition in flattened_sources()}
-_EXECUTIVE_SCHEDULER = DailyPipelineScheduler(job_runner=run_ingestion_enrichment_pipeline)
+
+
+def _run_executive_refresh_pipeline(max_sources: Optional[int] = None) -> Dict[str, Any]:
+    result = run_ingestion_enrichment_pipeline(max_sources=max_sources)
+
+    from backend.pipeline.export_static_dashboard import export_static_dashboard_data
+
+    export_static_dashboard_data()
+    return result
+
+
+_EXECUTIVE_SCHEDULER = DailyPipelineScheduler(job_runner=_run_executive_refresh_pipeline)
 
 
 @app.on_event("startup")
@@ -1567,7 +1578,7 @@ def executive_scheduler() -> Dict[str, Any]:
     description="Collects sources using API/RSS/HTML fallback, enriches content, persists normalized records, and writes executive brief/report snapshots.",
 )
 def run_executive_pipeline(max_sources: Optional[int] = Query(None, ge=1, le=500)) -> Dict[str, Any]:
-    result = run_ingestion_enrichment_pipeline(max_sources=max_sources)
+    result = _run_executive_refresh_pipeline(max_sources=max_sources)
     if isinstance(result, dict):
         _EXECUTIVE_SCHEDULER.record_manual_run(result)
     return result
