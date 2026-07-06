@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-07-06T02:46:15.330311+00:00",
+  "generatedAt": "2026-07-06T02:54:28.729154+00:00",
   "trendData": [
     {
       "name": "Threat",
-      "value": 36
+      "value": 35
     },
     {
       "name": "Regulation",
@@ -11,7 +11,7 @@
     },
     {
       "name": "Vulnerability",
-      "value": 16
+      "value": 17
     },
     {
       "name": "Research",

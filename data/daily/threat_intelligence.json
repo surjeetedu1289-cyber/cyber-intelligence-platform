@@ -934,57 +934,6 @@
     }
   },
   {
-    "title": "Opera blocks ClickFix attacks with new clipboard protection feature",
-    "author": "Unknown",
-    "published_at": "Thu, 02 Jul 2026 08:00:01 +0000",
-    "published_date": "Thu, 02 Jul 2026 08:00:01 +0000",
-    "published": "Thu, 02 Jul 2026 08:00:01 +0000",
-    "url": "https://www.helpnetsecurity.com/2026/07/02/opera-blocks-clickfix-attacks-with-new-clipboard-protection-feature/",
-    "details_url": "https://www.helpnetsecurity.com/2026/07/02/opera-blocks-clickfix-attacks-with-new-clipboard-protection-feature/",
-    "summary": "<p>Opera has launched Paste Protect, a clipboard protection feature designed to prevent clipboard-based attacks such as hijacking and pastejacking. Paste Protect includes built-in protection and warnings against ClickFix-based cyberattacks, which accounted for more than half of malware-delivery attacks in 2025. The feature is built into Opera&#8217;s desktop browsers and is enabled by default, so users are protected automatically without any setup. A ClickFix-style attack usually starts with something small and ordinary: a video that won&#8217;t &#8230; <a href=\"https://www.helpnetsecurity.com/2026/07/02/opera-blocks-clickfix-attacks-with-new-clipboard-protection-feature/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/07/02/opera-blocks-clickfix-attacks-with-new-clipboard-protection-feature/\">Opera blocks ClickFix attacks with new clipboard protection feature</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
-    "category": "Threat",
-    "subcategory": "Independent Journalism",
-    "source": "Help Net Security",
-    "vendor": "Help Net Security",
-    "source_group": "Independent Security Journalism",
-    "monitors": [
-      "Industry reporting",
-      "Research coverage"
-    ],
-    "official_url": "https://www.helpnetsecurity.com",
-    "severity": "medium",
-    "tags": [],
-    "executive_summary": "Threat: <p>Opera has launched Paste Protect, a clipboard protection feature designed to prevent clipboard-based attacks such as hijacking and pastejacking. Paste Protect includes built-in protection and warnings against ClickFix-based cyberattacks, which accounted for more than half of m",
-    "affected_industries": [
-      "Technology"
-    ],
-    "affected_iam_domains": [
-      "General"
-    ],
-    "control_mappings": [
-      "MITRE ATT&CK"
-    ],
-    "recommended_actions": [
-      "Assess enterprise exposure and affected business processes.",
-      "Update risk register and assign accountable owner.",
-      "Track remediation completion against policy deadlines."
-    ],
-    "board_impact": "May impact risk appetite, resilience objectives, and technology investment priorities.",
-    "ciso_action_items": [
-      "Hunt for related indicators and validate containment playbooks.",
-      "Confirm detection, response, and reporting ownership.",
-      "Validate compensating controls and policy exceptions.",
-      "Publish an executive status update with next milestones."
-    ],
-    "rankings": {
-      "credibility": 0.89,
-      "executive_relevance": 0.85,
-      "business_impact": 0.5,
-      "regulatory_importance": 0.6,
-      "overall": 0.739
-    }
-  },
-  {
     "title": "Someone infected a spyware probe overseer with spyware",
     "author": "Unknown",
     "published_at": "Fri, 03 Jul 2026 05:00:00 +0000",

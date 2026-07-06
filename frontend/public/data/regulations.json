@@ -122,7 +122,7 @@
     }
   },
   "prioritization": "executive_relevance_over_publication_date",
-  "generatedAt": "2026-07-06T02:46:15.445555+00:00",
+  "generatedAt": "2026-07-06T02:54:28.823547+00:00",
   "filtersApplied": {
     "country": null,
     "framework": null,
@@ -302,11 +302,11 @@
       },
       {
         "name": "Governance and Oversight",
-        "count": 31
+        "count": 30
       },
       {
         "name": "Vulnerability Management",
-        "count": 19
+        "count": 20
       },
       {
         "name": "Identity & Access Management",
@@ -6386,130 +6386,6 @@
       }
     },
     {
-      "title": "Opera blocks ClickFix attacks with new clipboard protection feature",
-      "summary": "<p>Opera has launched Paste Protect, a clipboard protection feature designed to prevent clipboard-based attacks such as hijacking and pastejacking. Paste Protect includes built-in protection and warnings against ClickFix-based cyberattacks, which accounted for more than half of malware-delivery attacks in 2025. The feature is built into Opera&#8217;s desktop browsers and is enabled by default, so users are protected automatically without any setup. A ClickFix-style attack usually starts with something small and ordinary: a video that won&#8217;t &#8230; <a href=\"https://www.helpnetsecurity.com/2026/07/02/opera-blocks-clickfix-attacks-with-new-clipboard-protection-feature/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/07/02/opera-blocks-clickfix-attacks-with-new-clipboard-protection-feature/\">Opera blocks ClickFix attacks with new clipboard protection feature</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
-      "url": "https://www.helpnetsecurity.com/2026/07/02/opera-blocks-clickfix-attacks-with-new-clipboard-protection-feature/",
-      "publishedAt": "Thu, 02 Jul 2026 08:00:01 +0000",
-      "country": "Global",
-      "regulator": "Help Net Security",
-      "framework": [
-        "MITRE ATT&CK"
-      ],
-      "control": [
-        "Governance and Oversight"
-      ],
-      "riskLevel": "medium",
-      "securityDomains": [
-        "AI"
-      ],
-      "affectedIndustries": [
-        "Financial Services"
-      ],
-      "affectedTechnologies": [
-        "AI/ML Systems"
-      ],
-      "controlMapping": {
-        "frameworks": [
-          "MITRE ATT&CK"
-        ],
-        "controls": [
-          "Governance and Oversight"
-        ],
-        "introducesNewControl": false,
-        "changesExistingGuidance": true,
-        "impactsRegulatedFinancialInstitutions": false,
-        "impactsIAM": false,
-        "impactsAIGovernance": false,
-        "impactsCloudSecurity": false,
-        "impactsOperationalResilience": false,
-        "impactsThirdPartyRisk": false
-      },
-      "controlCrossReference": [
-        "MITRE ATT&CK"
-      ],
-      "changeSummary": "New or revised regulatory and control guidance identified.",
-      "executiveAnalysis": {
-        "executiveSummary": "Threat: <p>Opera has launched Paste Protect, a clipboard protection feature designed to prevent clipboard-based attacks such as hijacking and pastejacking. Paste Protect includes built-in protection and warnings against ClickFix-based cyberattacks, which accounted for more than half of m",
-        "technicalSummary": "<p>Opera has launched Paste Protect, a clipboard protection feature designed to prevent clipboard-based attacks such as hijacking and pastejacking. Paste Protect includes built-in protection and warnings against ClickFix-based cyberattacks, which accounted for more than half of malware-delivery attacks in 2025. The feature is built into Opera&#8217;s desktop browsers and is enabled by default, so users are protected automatically without any setup. A ClickFix-style attack usually starts with something small and ordinary: a video that won&#8217;t &#8230; <a href=\"https://www.helpnetsecurity.com/2026/07/02/opera-blocks-clickfix-attacks-with-new-clipboard-protection-feature/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/07/02/opera-blocks-clickfix-attacks-with-new-clipboard-protection-feature/\">Opera blocks ClickFix attacks with new clipboard protection feature</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
-        "businessImpact": "Potential compliance, resilience, and operational risk implications for regulated institutions.",
-        "operationalImpact": "Control owners may need to update operating procedures, assurance cadence, and evidence collection.",
-        "riskRating": "medium",
-        "likelihood": "medium",
-        "potentialFinancialImpact": "Limited direct financial impact unless exposure intersects critical business services.",
-        "affectedIndustries": [
-          "Financial Services"
-        ],
-        "affectedTechnologies": [
-          "AI/ML Systems"
-        ],
-        "affectedControls": [
-          "Governance and Oversight"
-        ],
-        "affectedSecurityDomains": [
-          "AI"
-        ],
-        "recommendedActions": [
-          "Perform control impact assessment against current policy and standards library.",
-          "Assign accountable owners for any control uplift and target completion dates.",
-          "Brief risk committee and executive leadership on residual risk and funding needs."
-        ],
-        "priority": "P3",
-        "boardSummary": "May impact risk appetite, resilience objectives, and technology investment priorities."
-      },
-      "ranking": {
-        "credibility": 0.89,
-        "executiveRelevance": 0.85,
-        "businessImpact": 0.5,
-        "regulatoryImportance": 0.6,
-        "overall": 0.739
-      },
-      "filters": {
-        "identity": false,
-        "cloud": false,
-        "ai": true,
-        "operationalResilience": false,
-        "privacy": false,
-        "criticalInfrastructure": false
-      },
-      "smartImpactAnalysis": {
-        "whatChanged": "New or revised regulatory and control guidance identified.",
-        "whyItMatters": "Potential compliance, resilience, and operational risk implications for regulated institutions.",
-        "organisationsAffected": [
-          "Financial Services"
-        ],
-        "businessUnitsAffected": [
-          "Risk & Compliance",
-          "Technology",
-          "Data & AI"
-        ],
-        "securityTeamsAffected": [
-          "Security Architecture",
-          "Security Operations",
-          "AI Security"
-        ],
-        "iamControlsAffected": [
-          "Identity governance review required"
-        ],
-        "apraCpsControlsAffected": [],
-        "nistControlsAffected": [],
-        "policiesToReview": [
-          "Information Security Policy",
-          "Third Party Risk Policy",
-          "Incident Response Policy"
-        ],
-        "standardsToUpdate": [
-          "MITRE ATT&CK"
-        ],
-        "cisoWeeklyActions": [
-          "Perform control impact assessment against current policy and standards library.",
-          "Assign accountable owners for any control uplift and target completion dates.",
-          "Brief risk committee and executive leadership on residual risk and funding needs."
-        ],
-        "cioKeyTakeaway": "Assess delivery and operational resilience implications for critical technology services.",
-        "boardKeyTakeaway": "May impact risk appetite, resilience objectives, and technology investment priorities."
-      }
-    },
-    {
       "title": "Someone infected a spyware probe overseer with spyware",
       "summary": "<p>Citizen Lab says the phone of a member of Europe\u2019s PEGA Committee was infected twice with Pegasus, the NSO Group spyware that gave the panel its name.</p>\n<p>The post <a href=\"https://cyberscoop.com/pegasus-spyware-pega-committee-member-targeted/\">Someone infected a spyware probe overseer with spyware</a> appeared first on <a href=\"https://cyberscoop.com\">CyberScoop</a>.</p>",
       "url": "https://cyberscoop.com/pegasus-spyware-pega-committee-member-targeted/",
@@ -9518,6 +9394,132 @@
           "Incident Response Policy"
         ],
         "standardsToUpdate": [],
+        "cisoWeeklyActions": [
+          "Perform control impact assessment against current policy and standards library.",
+          "Assign accountable owners for any control uplift and target completion dates.",
+          "Brief risk committee and executive leadership on residual risk and funding needs."
+        ],
+        "cioKeyTakeaway": "Assess delivery and operational resilience implications for critical technology services.",
+        "boardKeyTakeaway": "May impact risk appetite, resilience objectives, and technology investment priorities."
+      }
+    },
+    {
+      "title": "New ClamAV security patch closes seven scanner bugs dating back two decades",
+      "summary": "<p>Open source antivirus scanning sits inside mail gateways, file upload checks, and endpoint tooling at organizations of every size. Much of that work runs through ClamAV, the scanning engine maintained by Cisco&#8217;s Talos group. The project released two patch versions, 1.5.3 and 1.4.5, carrying fixes for seven security flaws along with smaller hardening changes. Packer and PE parsing flaws Most of the patched bugs sit in the code that unpacks and parses executable formats, the &#8230; <a href=\"https://www.helpnetsecurity.com/2026/07/06/clamav-security-patch-versions/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/07/06/clamav-security-patch-versions/\">New ClamAV security patch closes seven scanner bugs dating back two decades</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+      "url": "https://www.helpnetsecurity.com/2026/07/06/clamav-security-patch-versions/",
+      "publishedAt": "Sun, 05 Jul 2026 22:30:13 +0000",
+      "country": "Global",
+      "regulator": "Help Net Security",
+      "framework": [
+        "MITRE ATT&CK"
+      ],
+      "control": [
+        "Vulnerability Management"
+      ],
+      "riskLevel": "medium",
+      "securityDomains": [
+        "AI"
+      ],
+      "affectedIndustries": [
+        "Financial Services"
+      ],
+      "affectedTechnologies": [
+        "AI/ML Systems",
+        "Endpoint and Network"
+      ],
+      "controlMapping": {
+        "frameworks": [
+          "MITRE ATT&CK"
+        ],
+        "controls": [
+          "Vulnerability Management"
+        ],
+        "introducesNewControl": false,
+        "changesExistingGuidance": true,
+        "impactsRegulatedFinancialInstitutions": false,
+        "impactsIAM": false,
+        "impactsAIGovernance": false,
+        "impactsCloudSecurity": false,
+        "impactsOperationalResilience": false,
+        "impactsThirdPartyRisk": false
+      },
+      "controlCrossReference": [
+        "MITRE ATT&CK"
+      ],
+      "changeSummary": "New or revised regulatory and control guidance identified.",
+      "executiveAnalysis": {
+        "executiveSummary": "Vulnerability: <p>Open source antivirus scanning sits inside mail gateways, file upload checks, and endpoint tooling at organizations of every size. Much of that work runs through ClamAV, the scanning engine maintained by Cisco&#8217;s Talos group. The project released two patch versions, 1.5.3",
+        "technicalSummary": "<p>Open source antivirus scanning sits inside mail gateways, file upload checks, and endpoint tooling at organizations of every size. Much of that work runs through ClamAV, the scanning engine maintained by Cisco&#8217;s Talos group. The project released two patch versions, 1.5.3 and 1.4.5, carrying fixes for seven security flaws along with smaller hardening changes. Packer and PE parsing flaws Most of the patched bugs sit in the code that unpacks and parses executable formats, the &#8230; <a href=\"https://www.helpnetsecurity.com/2026/07/06/clamav-security-patch-versions/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/07/06/clamav-security-patch-versions/\">New ClamAV security patch closes seven scanner bugs dating back two decades</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+        "businessImpact": "Potential compliance, resilience, and operational risk implications for regulated institutions.",
+        "operationalImpact": "Control owners may need to update operating procedures, assurance cadence, and evidence collection.",
+        "riskRating": "medium",
+        "likelihood": "medium",
+        "potentialFinancialImpact": "Limited direct financial impact unless exposure intersects critical business services.",
+        "affectedIndustries": [
+          "Financial Services"
+        ],
+        "affectedTechnologies": [
+          "AI/ML Systems",
+          "Endpoint and Network"
+        ],
+        "affectedControls": [
+          "Vulnerability Management"
+        ],
+        "affectedSecurityDomains": [
+          "AI"
+        ],
+        "recommendedActions": [
+          "Perform control impact assessment against current policy and standards library.",
+          "Assign accountable owners for any control uplift and target completion dates.",
+          "Brief risk committee and executive leadership on residual risk and funding needs."
+        ],
+        "priority": "P4",
+        "boardSummary": "May impact risk appetite, resilience objectives, and technology investment priorities."
+      },
+      "ranking": {
+        "credibility": 0.89,
+        "executiveRelevance": 0.7,
+        "businessImpact": 0.5,
+        "regulatoryImportance": 0.4,
+        "overall": 0.671
+      },
+      "filters": {
+        "identity": false,
+        "cloud": false,
+        "ai": true,
+        "operationalResilience": false,
+        "privacy": false,
+        "criticalInfrastructure": false
+      },
+      "smartImpactAnalysis": {
+        "whatChanged": "New or revised regulatory and control guidance identified.",
+        "whyItMatters": "Potential compliance, resilience, and operational risk implications for regulated institutions.",
+        "organisationsAffected": [
+          "Financial Services"
+        ],
+        "businessUnitsAffected": [
+          "Risk & Compliance",
+          "Technology",
+          "Data & AI"
+        ],
+        "securityTeamsAffected": [
+          "Security Architecture",
+          "Security Operations",
+          "AI Security"
+        ],
+        "iamControlsAffected": [
+          "Identity governance review required"
+        ],
+        "apraCpsControlsAffected": [],
+        "nistControlsAffected": [],
+        "policiesToReview": [
+          "Information Security Policy",
+          "Third Party Risk Policy",
+          "Incident Response Policy"
+        ],
+        "standardsToUpdate": [
+          "MITRE ATT&CK"
+        ],
         "cisoWeeklyActions": [
           "Perform control impact assessment against current policy and standards library.",
           "Assign accountable owners for any control uplift and target completion dates.",

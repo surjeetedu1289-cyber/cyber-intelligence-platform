@@ -57,6 +57,56 @@
     }
   },
   {
+    "title": "New ClamAV security patch closes seven scanner bugs dating back two decades",
+    "author": "Unknown",
+    "published_at": "Sun, 05 Jul 2026 22:30:13 +0000",
+    "published_date": "Sun, 05 Jul 2026 22:30:13 +0000",
+    "published": "Sun, 05 Jul 2026 22:30:13 +0000",
+    "url": "https://www.helpnetsecurity.com/2026/07/06/clamav-security-patch-versions/",
+    "details_url": "https://www.helpnetsecurity.com/2026/07/06/clamav-security-patch-versions/",
+    "summary": "<p>Open source antivirus scanning sits inside mail gateways, file upload checks, and endpoint tooling at organizations of every size. Much of that work runs through ClamAV, the scanning engine maintained by Cisco&#8217;s Talos group. The project released two patch versions, 1.5.3 and 1.4.5, carrying fixes for seven security flaws along with smaller hardening changes. Packer and PE parsing flaws Most of the patched bugs sit in the code that unpacks and parses executable formats, the &#8230; <a href=\"https://www.helpnetsecurity.com/2026/07/06/clamav-security-patch-versions/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/07/06/clamav-security-patch-versions/\">New ClamAV security patch closes seven scanner bugs dating back two decades</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "category": "Vendor",
+    "subcategory": "Independent Journalism",
+    "source": "Help Net Security",
+    "vendor": "Help Net Security",
+    "source_group": "Independent Security Journalism",
+    "monitors": [
+      "Industry reporting",
+      "Research coverage"
+    ],
+    "official_url": "https://www.helpnetsecurity.com",
+    "severity": "medium",
+    "tags": [],
+    "executive_summary": "Vulnerability: <p>Open source antivirus scanning sits inside mail gateways, file upload checks, and endpoint tooling at organizations of every size. Much of that work runs through ClamAV, the scanning engine maintained by Cisco&#8217;s Talos group. The project released two patch versions, 1.5.3",
+    "affected_industries": [
+      "Technology"
+    ],
+    "affected_iam_domains": [
+      "General"
+    ],
+    "control_mappings": [
+      "MITRE ATT&CK"
+    ],
+    "recommended_actions": [
+      "Assess enterprise exposure and affected business processes.",
+      "Update risk register and assign accountable owner.",
+      "Track remediation completion against policy deadlines."
+    ],
+    "board_impact": "May impact risk appetite, resilience objectives, and technology investment priorities.",
+    "ciso_action_items": [
+      "Confirm detection, response, and reporting ownership.",
+      "Validate compensating controls and policy exceptions.",
+      "Publish an executive status update with next milestones."
+    ],
+    "rankings": {
+      "credibility": 0.89,
+      "executive_relevance": 0.7,
+      "business_impact": 0.5,
+      "regulatory_importance": 0.4,
+      "overall": 0.671
+    }
+  },
+  {
     "title": "Citrix patches a new NetScaler flaw with echoes of CitrixBleed",
     "author": "Unknown",
     "published_at": "Tue, 30 Jun 2026 21:46:38 +0000",
