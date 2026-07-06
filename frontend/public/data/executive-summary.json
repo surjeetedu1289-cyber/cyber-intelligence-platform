@@ -1,15 +1,1 @@
-{
-  "headline": "Daily cyber intelligence summary",
-  "summary": "AI research is unavailable; the pipeline used heuristic analysis for the daily brief.",
-  "key_risks": [
-    "CISA warns of active exploitation against enterprise VPN appliances",
-    "New NIST guidance strengthens identity governance controls",
-    "AI agents expand into privileged workflow automation"
-  ],
-  "top_priorities": [
-    "Validate critical patches",
-    "Review identity controls",
-    "Monitor emerging AI agent risks"
-  ],
-  "confidence": "high"
-}
+{}

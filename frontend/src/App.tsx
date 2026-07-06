@@ -112,6 +112,7 @@ export default function App() {
   const [refreshing, setRefreshing] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [complianceError, setComplianceError] = useState<string | null>(null);
+  const [dashboardFetchedAt, setDashboardFetchedAt] = useState<string | null>(null);
   const currentDayRef = useRef(getLocalDayKey());
 
   const items = dashboard.articles;
@@ -133,6 +134,7 @@ export default function App() {
     try {
       const payload = await fetchDashboard();
       setDashboard(payload);
+      setDashboardFetchedAt(new Date().toISOString());
     } catch (fetchError) {
       const message = fetchError instanceof Error ? fetchError.message : UPDATE_MESSAGE;
       setError(message.includes(UPDATE_MESSAGE) ? UPDATE_MESSAGE : `${UPDATE_MESSAGE}.`);
@@ -294,17 +296,20 @@ export default function App() {
   }, [dashboard.widgets]);
 
   const lastUpdatedLabel = useMemo(() => {
-    if (!dashboard.lastUpdated) {
+    const payloadTime = dashboard.lastUpdated ? Date.parse(dashboard.lastUpdated) : Number.NaN;
+    const fetchedTime = dashboardFetchedAt ? Date.parse(dashboardFetchedAt) : Number.NaN;
+
+    const latestTime = Math.max(
+      Number.isNaN(payloadTime) ? -Infinity : payloadTime,
+      Number.isNaN(fetchedTime) ? -Infinity : fetchedTime,
+    );
+
+    if (!Number.isFinite(latestTime)) {
       return 'Not available';
     }
 
-    const parsed = new Date(dashboard.lastUpdated);
-    if (Number.isNaN(parsed.getTime())) {
-      return dashboard.lastUpdated;
-    }
-
-    return parsed.toLocaleString();
-  }, [dashboard.lastUpdated]);
+    return new Date(latestTime).toLocaleString();
+  }, [dashboard.lastUpdated, dashboardFetchedAt]);
 
   return (
     <div className={darkMode ? 'min-h-screen bg-slate-950 text-slate-100' : 'min-h-screen bg-slate-50 text-slate-900'}>

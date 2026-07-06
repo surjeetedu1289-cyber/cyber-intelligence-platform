@@ -1303,7 +1303,11 @@ def _aggregate_today_dashboard() -> Dict[str, Any]:
     categories = [{"name": k, "count": v} for k, v in category_counter.most_common(50)]
     sources = [{"name": k, "count": v} for k, v in source_counter.most_common(50)]
     trend_data = [{"name": entry["name"], "value": entry["count"]} for entry in categories[:20]]
-    last_updated = enrichment.get("generated_at") if isinstance(enrichment, dict) else None
+    last_updated = None
+    if isinstance(enrichment, dict):
+        last_updated = enrichment.get("generated_at") or enrichment.get("generatedAt")
+    if not last_updated:
+        last_updated = datetime.now(timezone.utc).isoformat()
 
     def _count_items(predicate):
         return sum(1 for item in all_items if predicate(item))

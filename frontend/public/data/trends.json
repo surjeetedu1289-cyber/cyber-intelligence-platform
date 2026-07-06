@@ -1,39 +1,23 @@
 {
-  "generatedAt": "2026-07-05T05:14:35.201200+00:00",
+  "generatedAt": "2026-07-06T02:39:00.667239+00:00",
   "trendData": [
     {
-      "name": "Threat",
-      "value": 36
-    },
-    {
       "name": "Regulation",
-      "value": 20
+      "value": 83
     },
     {
       "name": "Vulnerability",
-      "value": 16
+      "value": 17
     },
     {
-      "name": "Research",
-      "value": 9
-    },
-    {
-      "name": "Identity",
-      "value": 4
+      "name": "Global Authorities",
+      "value": 1
     }
   ],
   "sourceGroups": [
     {
-      "name": "Independent Security Journalism",
-      "count": 50
-    },
-    {
-      "name": "Threat Intelligence",
-      "count": 25
-    },
-    {
-      "name": "Australian Regulators",
-      "count": 10
+      "name": "Global Authorities",
+      "count": 101
     }
   ]
 }
