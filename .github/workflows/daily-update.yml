@@ -37,7 +37,8 @@ jobs:
           set -euo pipefail
           SYDNEY_TIME="$(TZ=Australia/Sydney date +'%H:%M')"
           echo "Current Sydney time: $SYDNEY_TIME"
-          if [[ "$SYDNEY_TIME" == "06:00" || "${{ github.event_name }}" == "workflow_dispatch" ]]; then
+          # Run immediately for push/manual events. Keep the 06:00 guard for scheduled runs.
+          if [[ "${{ github.event_name }}" != "schedule" || "$SYDNEY_TIME" == "06:00" ]]; then
             echo "should_run=true" >> "$GITHUB_OUTPUT"
           else
             echo "should_run=false" >> "$GITHUB_OUTPUT"
